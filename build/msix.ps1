@@ -30,12 +30,6 @@ foreach ($key in $values.Keys) { $manifest = $manifest.Replace($key, [System.Sec
 if ($manifest -match '@[A-Z_]+@') { throw "Unreplaced placeholder: $($Matches[0])" }
 [System.IO.File]::WriteAllText((Join-Path $stage 'AppxManifest.xml'), $manifest, (New-Object System.Text.UTF8Encoding($false)))
 
-$priConfig = Join-Path $root 'publish/priconfig.xml'
-& "$bin\makepri.exe" createconfig /cf $priConfig /dq zh-TW_en-US /pv 10.0.0 /o
-if ($LASTEXITCODE -ne 0) { throw 'makepri createconfig failed' }
-& "$bin\makepri.exe" new /pr $stage /cf $priConfig /mn (Join-Path $stage 'AppxManifest.xml') /of (Join-Path $stage 'resources.pri') /o
-if ($LASTEXITCODE -ne 0) { throw 'makepri new failed' }
-
 New-Item -ItemType Directory -Force -Path (Split-Path $OutFile) | Out-Null
 & "$bin\makeappx.exe" pack /d $stage /p $OutFile /o
 if ($LASTEXITCODE -ne 0) { throw 'makeappx pack failed' }
