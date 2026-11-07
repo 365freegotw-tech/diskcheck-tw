@@ -85,6 +85,10 @@ dotnet test tests/DiskCheckTW.Tests
 - `tests/DiskCheckTW.Tests` — xUnit 測試。
 - `build/` — 打包腳本與 NSIS 定義。
 
+## 程式碼簽章政策（Code signing policy）
+
+Free code signing provided by SignPath.io, certificate by SignPath Foundation（申請中；v0.1.3 以前的版本未簽章）。簽章範圍、建置方式、團隊角色與隱私政策請見 [Code signing policy](CODE_SIGNING_POLICY.md)。安全問題回報請見 [SECURITY.md](SECURITY.md)。
+
 ## 授權
 
 MIT。詳見 [LICENSE](LICENSE)。第三方條款列於 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)，包含 CrystalDiskInfo（MIT，其 SMART 屬性資料用於命名各廠商專屬屬性）與 .NET。

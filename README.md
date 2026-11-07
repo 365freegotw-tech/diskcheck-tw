@@ -85,6 +85,10 @@ dotnet test tests/DiskCheckTW.Tests
 - `tests/DiskCheckTW.Tests` — xUnit tests.
 - `build/` — packaging scripts and NSIS definitions.
 
+## Code signing policy
+
+Free code signing provided by SignPath.io, certificate by SignPath Foundation (application in progress; releases up to v0.1.3 are unsigned). See the [Code signing policy](CODE_SIGNING_POLICY.md) for what is signed, how releases are built, team roles and the privacy policy. Security issues: [SECURITY.md](SECURITY.md).
+
 ## License
 
 MIT. See [LICENSE](LICENSE). Third-party terms are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), including CrystalDiskInfo (MIT), whose SMART attribute data is used to name vendor-specific attributes, and .NET.

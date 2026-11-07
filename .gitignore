@@ -5,3 +5,6 @@ publish/
 c-*-last.md
 .vs/
 *.user
+.checkpoints/
+SAVEPOINT.md
+HANDOFF.json

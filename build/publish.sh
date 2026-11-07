@@ -33,6 +33,9 @@ lines += [f'  Delete "$INSTDIR\\{nsis_path(path)}"' for path in files]
 lines += [f'  RMDir "$INSTDIR\\{nsis_path(path)}"' for path in dirs]
 Path('build/uninstall-files.nsh').write_text('\n'.join(lines) + '\n', encoding='utf-8')
 PY
+if [[ "${1:-}" == "--publish-only" ]]; then
+  exit 0
+fi
 rm -f publish/DiskCheckTW-0.1.3-win-x64-portable.zip publish/DiskCheckTW-0.1.3-setup.zip
 if command -v zip >/dev/null 2>&1; then
   (cd publish && zip -qr DiskCheckTW-0.1.3-win-x64-portable.zip DiskCheckTW)

@@ -1,0 +1,138 @@
+# Draft only: do not enable before SignPath Foundation approves this project and its policies.
+name: Signed release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+
+jobs:
+  release:
+    if: vars.SIGNPATH_ENABLED == 'true' && (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v'))
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup .NET 10
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Build
+        run: dotnet build -c Release
+
+      - name: Test
+        run: dotnet test tests/DiskCheckTW.Tests -c Release --no-build
+
+      - name: Ensure python3 exists
+        shell: bash
+        run: |
+          if ! command -v python3 >/dev/null 2>&1; then
+            mkdir -p "$RUNNER_TEMP/bin"
+            printf '#!/bin/sh\npython "$@"\n' > "$RUNNER_TEMP/bin/python3"
+            chmod +x "$RUNNER_TEMP/bin/python3"
+            echo "$RUNNER_TEMP/bin" >> "$GITHUB_PATH"
+          fi
+
+      - name: Publish unsigned application
+        shell: bash
+        run: bash build/publish.sh --publish-only
+
+      - name: Upload unsigned application
+        id: upload-app
+        uses: actions/upload-artifact@v5
+        with:
+          name: unsigned-app
+          path: publish/DiskCheckTW/
+          if-no-files-found: error
+
+      - name: Sign application files
+        uses: signpath/github-action-submit-signing-request@v3
+        with:
+          api-token: ${{ secrets.SIGNPATH_API_TOKEN }}
+          organization-id: ${{ vars.SIGNPATH_ORGANIZATION_ID }}
+          project-slug: ${{ vars.SIGNPATH_PROJECT_SLUG }}
+          signing-policy-slug: ${{ vars.SIGNPATH_SIGNING_POLICY_SLUG }}
+          artifact-configuration-slug: ${{ vars.SIGNPATH_APP_ARTIFACT_CONFIGURATION_SLUG }}
+          github-artifact-id: ${{ steps.upload-app.outputs.artifact-id }}
+          wait-for-completion: true
+          wait-for-completion-timeout-in-seconds: 3600
+          output-artifact-directory: signed-app
+
+      - name: Install NSIS
+        run: choco install nsis -y
+
+      - name: Add NSIS to PATH
+        shell: pwsh
+        run: echo "C:\Program Files (x86)\NSIS" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+
+      - name: Build installer from signed application
+        shell: bash
+        run: |
+          test -f signed-app/DiskCheckTW.App.exe
+          test -f signed-app/DiskCheckTW.Core.dll
+          rm -rf publish/DiskCheckTW
+          mkdir -p publish/DiskCheckTW
+          cp -a signed-app/. publish/DiskCheckTW/
+          version="${GITHUB_REF_NAME#v}"
+          echo "RELEASE_VERSION=$version" >> "$GITHUB_ENV"
+          if command -v cygpath >/dev/null 2>&1; then
+            payload="$(cygpath -w "$PWD/publish/DiskCheckTW")\*"
+            outexe="$(cygpath -w "$PWD/publish/DiskCheckTW-$version-setup.exe")"
+          else
+            payload="$PWD/publish/DiskCheckTW/*"
+            outexe="$PWD/publish/DiskCheckTW-$version-setup.exe"
+          fi
+          makensis "-DPAYLOAD=$payload" "-DOUTEXE=$outexe" build/installer.nsi
+
+      - name: Upload unsigned installer
+        id: upload-installer
+        uses: actions/upload-artifact@v5
+        with:
+          name: unsigned-installer
+          path: publish/DiskCheckTW-${{ env.RELEASE_VERSION }}-setup.exe
+          if-no-files-found: error
+
+      - name: Sign installer
+        uses: signpath/github-action-submit-signing-request@v3
+        with:
+          api-token: ${{ secrets.SIGNPATH_API_TOKEN }}
+          organization-id: ${{ vars.SIGNPATH_ORGANIZATION_ID }}
+          project-slug: ${{ vars.SIGNPATH_PROJECT_SLUG }}
+          signing-policy-slug: ${{ vars.SIGNPATH_SIGNING_POLICY_SLUG }}
+          artifact-configuration-slug: ${{ vars.SIGNPATH_INSTALLER_ARTIFACT_CONFIGURATION_SLUG }}
+          github-artifact-id: ${{ steps.upload-installer.outputs.artifact-id }}
+          wait-for-completion: true
+          wait-for-completion-timeout-in-seconds: 3600
+          output-artifact-directory: signed-installer
+
+      - name: Package signed downloads
+        if: startsWith(github.ref, 'refs/tags/v')
+        shell: bash
+        run: |
+          setup="DiskCheckTW-$RELEASE_VERSION-setup.exe"
+          test -f "signed-installer/$setup"
+          cp "signed-installer/$setup" publish/
+          if command -v zip >/dev/null 2>&1; then
+            (cd publish && zip -qr "DiskCheckTW-$RELEASE_VERSION-win-x64-portable.zip" DiskCheckTW)
+            (cd publish && zip -q "DiskCheckTW-$RELEASE_VERSION-setup.zip" "$setup")
+          else
+            (cd publish && python3 -m zipfile -c "DiskCheckTW-$RELEASE_VERSION-win-x64-portable.zip" DiskCheckTW)
+            (cd publish && python3 -m zipfile -c "DiskCheckTW-$RELEASE_VERSION-setup.zip" "$setup")
+          fi
+
+      - name: Create GitHub release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            publish/DiskCheckTW-${{ env.RELEASE_VERSION }}-win-x64-portable.zip
+            publish/DiskCheckTW-${{ env.RELEASE_VERSION }}-setup.zip
+          fail_on_unmatched_files: true
+          generate_release_notes: true
