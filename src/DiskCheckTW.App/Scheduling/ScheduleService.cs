@@ -16,8 +16,23 @@ internal static class ScheduleService
     internal static readonly string FilePath = Path.Combine(Folder, "schedule.json");
     private static readonly JsonSerializerOptions JsonOptions = new() { WriteIndented = true };
 
+    [System.Runtime.InteropServices.DllImport("kernel32.dll", CharSet = System.Runtime.InteropServices.CharSet.Unicode)]
+    private static extern int GetCurrentPackageFullName(ref int packageFullNameLength, StringBuilder? packageFullName);
+
+    // Microsoft Store（MSIX）版：沒有安裝版的登錄機碼，排程功能停用並顯示 Store 版說明。
+    internal static bool IsPackaged()
+    {
+        try
+        {
+            var length = 0;
+            return GetCurrentPackageFullName(ref length, null) != 15700; // APPMODEL_ERROR_NO_PACKAGE
+        }
+        catch (EntryPointNotFoundException) { return false; }
+    }
+
     internal static bool IsInstalled()
     {
+        if (IsPackaged()) return false;
         using var key = Registry.LocalMachine.OpenSubKey(@"Software\DiskCheck TW");
         var dir = key?.GetValue("InstallDir") as string;
         return !string.IsNullOrWhiteSpace(dir) &&

@@ -646,4 +646,7 @@ Start the scan?</value>
   <data name="X076" xml:space="preserve">
     <value>Language</value>
   </data>
+  <data name="X077" xml:space="preserve">
+    <value>Scheduled checks are not available in the Microsoft Store version</value>
+  </data>
 </root>

@@ -646,4 +646,7 @@
   <data name="X076" xml:space="preserve">
     <value>語言</value>
   </data>
+  <data name="X077" xml:space="preserve">
+    <value>Microsoft Store 版不提供排程檢測</value>
+  </data>
 </root>

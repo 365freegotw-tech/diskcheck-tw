@@ -148,6 +148,7 @@ public partial class MainWindow : Window
         ScheduleLast.Text = L.T("U087");
         ScheduleControls.IsEnabled = ScheduleService.IsInstalled();
         ScheduleInstallNotice.Visibility = ScheduleControls.IsEnabled ? Visibility.Collapsed : Visibility.Visible;
+        if (ScheduleService.IsPackaged()) ScheduleInstallNotice.Text = L.T("X077");
         if (!ScheduleControls.IsEnabled) return;
         try
         {
