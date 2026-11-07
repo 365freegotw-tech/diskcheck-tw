@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="A001" xml:space="preserve">
+    <value>Back up important files now</value>
+  </data>
+  <data name="A002" xml:space="preserve">
+    <value>Copy the photos, documents, and work files on {0} to another drive, USB storage, or the cloud. Save the most important files first in case this drive fails during backup.</value>
+  </data>
+  <data name="A003" xml:space="preserve">
+    <value>Avoid heavy disk activity until the backup is complete</value>
+  </data>
+  <data name="A004" xml:space="preserve">
+    <value>Full scans, defragmentation, and large installations put extra load on a failing drive and may make damage worse.</value>
+  </data>
+  <data name="A005" xml:space="preserve">
+    <value>Prepare a replacement drive</value>
+  </data>
+  <data name="A006" xml:space="preserve">
+    <value>Choose a new drive with {0}.</value>
+  </data>
+  <data name="A007" xml:space="preserve">
+    <value> For a Windows system drive, an SSD will also make startup and everyday use faster.</value>
+  </data>
+  <data name="A008" xml:space="preserve">
+    <value>This is the Windows drive; move or reinstall the system</value>
+  </data>
+  <data name="A009" xml:space="preserve">
+    <value>You will need to reinstall Windows or clone it to the new drive. Ask a repair professional if you are unsure how.</value>
+  </data>
+  <data name="A010" xml:space="preserve">
+    <value>Check that important files still open</value>
+  </data>
+  <data name="A011" xml:space="preserve">
+    <value>{0} blocks could not be read. Some files may be damaged, so open important files after backing them up.</value>
+  </data>
+  <data name="A012" xml:space="preserve">
+    <value>The drive is read-only</value>
+  </data>
+  <data name="A013" xml:space="preserve">
+    <value>New data cannot be saved. Copy existing files off the drive as soon as possible.</value>
+  </data>
+  <data name="A014" xml:space="preserve">
+    <value>Act now</value>
+  </data>
+  <data name="A015" xml:space="preserve">
+    <value>This drive may fail. Back up your data first and prepare to replace it.</value>
+  </data>
+  <data name="A016" xml:space="preserve">
+    <value>Back up important files this week</value>
+  </data>
+  <data name="A017" xml:space="preserve">
+    <value>Copy important files from {0} to another drive, USB storage, or the cloud before investigating further.</value>
+  </data>
+  <data name="A018" xml:space="preserve">
+    <value>Improve cooling</value>
+  </data>
+  <data name="A019" xml:space="preserve">
+    <value>Remove dust and check the fans. Keep laptop vents clear of bedding and soft surfaces.</value>
+  </data>
+  <data name="A020" xml:space="preserve">
+    <value>Plan a replacement within three months</value>
+  </data>
+  <data name="A021" xml:space="preserve">
+    <value>This SSD is near its write endurance limit. It may become read-only or fail to boot. Replace it within three months.</value>
+  </data>
+  <data name="A022" xml:space="preserve">
+    <value>Prepare a replacement drive</value>
+  </data>
+  <data name="A023" xml:space="preserve">
+    <value>Bad sectors have appeared and may increase. Choose a replacement with {0}.</value>
+  </data>
+  <data name="A024" xml:space="preserve">
+    <value>Check again in one month</value>
+  </data>
+  <data name="A025" xml:space="preserve">
+    <value>Compare the readings. Replace the drive sooner if warnings increase or a scan finds read errors.</value>
+  </data>
+  <data name="A026" xml:space="preserve">
+    <value>Act soon</value>
+  </data>
+  <data name="A027" xml:space="preserve">
+    <value>Early warning signs were found. Back up soon and keep an eye on the drive.</value>
+  </data>
+  <data name="A028" xml:space="preserve">
+    <value>Back up regularly</value>
+  </data>
+  <data name="A029" xml:space="preserve">
+    <value>Keep at least two copies of important files, with one on another device or in the cloud.</value>
+  </data>
+  <data name="A030" xml:space="preserve">
+    <value>Run regular full checks</value>
+  </data>
+  <data name="A031" xml:space="preserve">
+    <value>Every {0} months, check SMART data and run a full read-only scan. Save each report to compare changes.</value>
+  </data>
+  <data name="A032" xml:space="preserve">
+    <value>Check the SATA cable</value>
+  </data>
+  <data name="A033" xml:space="preserve">
+    <value>CRC errors usually come from a cable or connector. Replace the cable or try another SATA port if the count keeps rising.</value>
+  </data>
+  <data name="A034" xml:space="preserve">
+    <value>Start planning a replacement</value>
+  </data>
+  <data name="A035" xml:space="preserve">
+    <value>This hard drive has been powered on for about four years. Even with normal readings, failure risk increases with age.</value>
+  </data>
+  <data name="A036" xml:space="preserve">
+    <value>Watch SSD life remaining</value>
+  </data>
+  <data name="A037" xml:space="preserve">
+    <value>{0}% remains. Start planning when to replace the drive.</value>
+  </data>
+  <data name="A038" xml:space="preserve">
+    <value>Finish a full scan when convenient</value>
+  </data>
+  <data name="A039" xml:space="preserve">
+    <value>This scan did not finish, so it covers only part of the drive.</value>
+  </data>
+  <data name="A040" xml:space="preserve">
+    <value>Routine care</value>
+  </data>
+  <data name="A041" xml:space="preserve">
+    <value>The drive looks good. Keep backing up regularly.</value>
+  </data>
+  <data name="A042" xml:space="preserve">
+    <value>Run as administrator</value>
+  </data>
+  <data name="A043" xml:space="preserve">
+    <value>Reading health data may require administrator access. Right click the app and choose Run as administrator, then check again.</value>
+  </data>
+  <data name="A044" xml:space="preserve">
+    <value>Connect the drive directly or change the enclosure</value>
+  </data>
+  <data name="A045" xml:space="preserve">
+    <value>Many USB enclosures do not pass through health data. Connect the drive to SATA or M.2, or use an enclosure that supports SMART.</value>
+  </data>
+  <data name="A046" xml:space="preserve">
+    <value>Use the RAID controller's management tool</value>
+  </data>
+  <data name="A047" xml:space="preserve">
+    <value>RAID can hide individual drives. Use the motherboard or controller vendor's tool to check each drive.</value>
+  </data>
+  <data name="A048" xml:space="preserve">
+    <value>Back up important files anyway</value>
+  </data>
+  <data name="A049" xml:space="preserve">
+    <value>Unknown health does not mean the drive is healthy. Keep another copy of important files.</value>
+  </data>
+  <data name="A050" xml:space="preserve">
+    <value>The read-only scan found no read errors</value>
+  </data>
+  <data name="A051" xml:space="preserve">
+    <value>No blocks failed to read in this scan. This is useful, but it does not replace health data.</value>
+  </data>
+  <data name="A052" xml:space="preserve">
+    <value>Check connection first</value>
+  </data>
+  <data name="A053" xml:space="preserve">
+    <value>The drive's health cannot be assessed yet. Check how it is connected.</value>
+  </data>
+  <data name="A054" xml:space="preserve">
+    <value>this drive</value>
+  </data>
+  <data name="A055" xml:space="preserve">
+    <value>at least the same capacity as the original</value>
+  </data>
+  <data name="A056" xml:space="preserve">
+    <value>at least {0} GB of capacity</value>
+  </data>
+  <data name="A057" xml:space="preserve">
+    <value>at least the current capacity (about {0:0.#} GB)</value>
+  </data>
+  <data name="H001" xml:space="preserve">
+    <value>Unable to read health data</value>
+  </data>
+  <data name="H002" xml:space="preserve">
+    <value>This drive returned neither ATA SMART attributes nor an NVMe health log.</value>
+  </data>
+  <data name="H003" xml:space="preserve">
+    <value>Unable to read health data: {0}</value>
+  </data>
+  <data name="H004" xml:space="preserve">
+    <value>Without SMART or NVMe health data, deterioration and existing faults may go undetected.</value>
+  </data>
+  <data name="H005" xml:space="preserve">
+    <value>Connect the drive directly through SATA or NVMe, or use an enclosure that passes through SMART data, then scan again. Running as administrator may also resolve access issues.</value>
+  </data>
+  <data name="H006" xml:space="preserve">
+    <value>Drive type and health data do not match</value>
+  </data>
+  <data name="H007" xml:space="preserve">
+    <value>The drive is reported as {0}, but its ATA SMART or NVMe health data does not match that type. No reliable interpretation is available.</value>
+  </data>
+  <data name="H008" xml:space="preserve">
+    <value>The data may come through a RAID controller, virtual drive, or enclosure and could lead to misleading or missing warnings.</value>
+  </data>
+  <data name="H009" xml:space="preserve">
+    <value>Confirm the drive type and connection. Try a direct SATA or NVMe connection and scan again.</value>
+  </data>
+  <data name="H010" xml:space="preserve">
+    <value>SMART attribute {0:X2} crossed its vendor threshold</value>
+  </data>
+  <data name="H011" xml:space="preserve">
+    <value>Attribute {0:X2} ({1}) has a current value of {2}, at or below the vendor threshold of {3}.</value>
+  </data>
+  <data name="H012" xml:space="preserve">
+    <value>This attribute is outside the vendor's acceptable range and may indicate an imminent failure.</value>
+  </data>
+  <data name="H013" xml:space="preserve">
+    <value>Back up all data immediately and arrange a replacement. If the drive is under warranty, contact the manufacturer.</value>
+  </data>
+  <data name="H014" xml:space="preserve">
+    <value>SMART return status is FAILING_NOW</value>
+  </data>
+  <data name="H015" xml:space="preserve">
+    <value>The drive's SMART RETURN STATUS reports FAILING_NOW.</value>
+  </data>
+  <data name="H016" xml:space="preserve">
+    <value>The drive itself predicts failure and may stop reading or writing at any time.</value>
+  </data>
+  <data name="H017" xml:space="preserve">
+    <value>Back up your data immediately and replace the drive. Do not store important files on it.</value>
+  </data>
+  <data name="H018" xml:space="preserve">
+    <value>Reallocated sectors</value>
+  </data>
+  <data name="H019" xml:space="preserve">
+    <value>SMART attribute 05 (Reallocated Sectors Count) reports {0} damaged sectors replaced with spare sectors.</value>
+  </data>
+  <data name="H020" xml:space="preserve">
+    <value>Damaged sectors have appeared. Spare sectors are limited, and the problem may spread.</value>
+  </data>
+  <data name="H021" xml:space="preserve">
+    <value>Back up your data soon. Run a full surface scan to watch for growth and plan a replacement.</value>
+  </data>
+  <data name="H022" xml:space="preserve">
+    <value>Pending sectors</value>
+  </data>
+  <data name="H023" xml:space="preserve">
+    <value>SMART attribute C5 (Current Pending Sector Count) reports {0} unreadable sectors awaiting reallocation.</value>
+  </data>
+  <data name="H024" xml:space="preserve">
+    <value>Data in these sectors may already be inaccessible. Read failures can cause freezes, crashes, or file corruption.</value>
+  </data>
+  <data name="H025" xml:space="preserve">
+    <value>Back up files that are still readable, then run a full surface scan to let the drive retry or reallocate the sectors.</value>
+  </data>
+  <data name="H026" xml:space="preserve">
+    <value>Uncorrectable sectors</value>
+  </data>
+  <data name="H027" xml:space="preserve">
+    <value>SMART attribute C6 (Offline Uncorrectable) reports {0} sectors that could not be corrected during offline testing.</value>
+  </data>
+  <data name="H028" xml:space="preserve">
+    <value>The drive cannot recover data in these sectors, and more sectors may fail.</value>
+  </data>
+  <data name="H029" xml:space="preserve">
+    <value>Back up the remaining data immediately. Consider professional recovery for lost files and replace the drive.</value>
+  </data>
+  <data name="H030" xml:space="preserve">
+    <value>UltraDMA CRC errors (C7): {0}</value>
+  </data>
+  <data name="H031" xml:space="preserve">
+    <value>SMART attribute C7 (UltraDMA CRC Error Count) reports {0} transmission checksum errors.</value>
+  </data>
+  <data name="H032" xml:space="preserve">
+    <value>These errors usually point to a cable or connector issue rather than a failing drive, but they can interrupt reads and writes.</value>
+  </data>
+  <data name="H033" xml:space="preserve">
+    <value>Replace the SATA cable, try another motherboard port, or clean the connector. Scan again to see whether the count rises.</value>
+  </data>
+  <data name="H034" xml:space="preserve">
+    <value>High temperature ({0}°C)</value>
+  </data>
+  <data name="H035" xml:space="preserve">
+    <value>The current temperature is {0}°C, reaching the {1}°C warning threshold.</value>
+  </data>
+  <data name="H036" xml:space="preserve">
+    <value>Prolonged heat accelerates wear and can cause throttling, timeouts, or crashes.</value>
+  </data>
+  <data name="H037" xml:space="preserve">
+    <value>Remove dust, improve airflow, and check the heatsink and fans. Keep external drives well ventilated.</value>
+  </data>
+  <data name="H038" xml:space="preserve">
+    <value>Low SSD life remaining ({0}%)</value>
+  </data>
+  <data name="H039" xml:space="preserve">
+    <value>The vendor's SMART life indicator reports only {0}% remaining.</value>
+  </data>
+  <data name="H040" xml:space="preserve">
+    <value>Flash write endurance is nearly exhausted. The drive may become read-only, reject writes, or fail to boot.</value>
+  </data>
+  <data name="H041" xml:space="preserve">
+    <value>Back up the drive soon and plan a replacement. Avoid sustained heavy writes in the meantime.</value>
+  </data>
+  <data name="H042" xml:space="preserve">
+    <value>Available spare is below the vendor threshold</value>
+  </data>
+  <data name="H043" xml:space="preserve">
+    <value>Temperature is outside the operating range</value>
+  </data>
+  <data name="H044" xml:space="preserve">
+    <value>Media reliability has degraded</value>
+  </data>
+  <data name="H045" xml:space="preserve">
+    <value>The drive is in read-only mode</value>
+  </data>
+  <data name="H046" xml:space="preserve">
+    <value>Volatile write cache backup has failed</value>
+  </data>
+  <data name="H047" xml:space="preserve">
+    <value>NVMe critical warning: {0}</value>
+  </data>
+  <data name="H048" xml:space="preserve">
+    <value>The NVMe Critical Warning value is 0x{0:X2}; bit {1} is set: {2}.</value>
+  </data>
+  <data name="H049" xml:space="preserve">
+    <value>The drive may no longer replace damaged flash blocks effectively, increasing the risk of data loss.</value>
+  </data>
+  <data name="H050" xml:space="preserve">
+    <value>The controller may throttle or protect itself. Prolonged heat can permanently damage the flash.</value>
+  </data>
+  <data name="H051" xml:space="preserve">
+    <value>The controller has detected uncorrectable errors. Read data may be incorrect.</value>
+  </data>
+  <data name="H052" xml:space="preserve">
+    <value>The drive no longer accepts writes, so Windows and apps may be unable to save data.</value>
+  </data>
+  <data name="H053" xml:space="preserve">
+    <value>Data still in the write cache may be lost or corrupted if power fails.</value>
+  </data>
+  <data name="H054" xml:space="preserve">
+    <value>Back up all data immediately and arrange service or replacement under the warranty if available.</value>
+  </data>
+  <data name="H055" xml:space="preserve">
+    <value>NVMe critical warning: unknown bit (0x{0:X2})</value>
+  </data>
+  <data name="H056" xml:space="preserve">
+    <value>The Critical Warning field contains bits outside the defined range. The firmware is reporting an unrecognized serious condition.</value>
+  </data>
+  <data name="H057" xml:space="preserve">
+    <value>The exact cause is unknown, but the drive firmware indicates a condition that needs attention.</value>
+  </data>
+  <data name="H058" xml:space="preserve">
+    <value>Back up your data, check for a firmware update, and contact the manufacturer if needed.</value>
+  </data>
+  <data name="H059" xml:space="preserve">
+    <value>Available spare {0}% is below the {1}% threshold</value>
+  </data>
+  <data name="H060" xml:space="preserve">
+    <value>The NVMe health log reports {0}% Available Spare, below the {1}% threshold.</value>
+  </data>
+  <data name="H061" xml:space="preserve">
+    <value>Too few spare flash blocks remain. New failures may not be remapped and data reliability may deteriorate quickly.</value>
+  </data>
+  <data name="H062" xml:space="preserve">
+    <value>Back up your data immediately and plan to replace the drive.</value>
+  </data>
+  <data name="H063" xml:space="preserve">
+    <value>NVMe media and data integrity errors: {0}</value>
+  </data>
+  <data name="H064" xml:space="preserve">
+    <value>Media and Data Integrity Errors: {0}.</value>
+  </data>
+  <data name="H065" xml:space="preserve">
+    <value>The controller found uncorrectable data errors. Affected files may already be damaged.</value>
+  </data>
+  <data name="H066" xml:space="preserve">
+    <value>Back up your data, verify important files, and arrange a replacement drive.</value>
+  </data>
+  <data name="H067" xml:space="preserve">
+    <value>NVMe life used: {0}%</value>
+  </data>
+  <data name="H068" xml:space="preserve">
+    <value>Percentage Used is {0}%, reaching the {1}% warning threshold.</value>
+  </data>
+  <data name="H069" xml:space="preserve">
+    <value>Flash endurance is approaching its design limit. Performance or write failures may follow.</value>
+  </data>
+  <data name="H070" xml:space="preserve">
+    <value>Back up your data and prepare a replacement. Avoid sustained heavy writes.</value>
+  </data>
+  <data name="H071" xml:space="preserve">
+    <value>High temperature ({0}°C)</value>
+  </data>
+  <data name="H072" xml:space="preserve">
+    <value>The current temperature is {0}°C, reaching the {1}°C warning threshold.</value>
+  </data>
+  <data name="H073" xml:space="preserve">
+    <value>NVMe overheating can trigger throttling and shorten flash life.</value>
+  </data>
+  <data name="H074" xml:space="preserve">
+    <value>Add a heatsink or improve airflow, and check that the thermal pad makes good contact.</value>
+  </data>
+  <data name="H075" xml:space="preserve">
+    <value>Scan found {0} unreadable blocks</value>
+  </data>
+  <data name="H076" xml:space="preserve">
+    <value>The surface scan could not read {0} blocks.</value>
+  </data>
+  <data name="H077" xml:space="preserve">
+    <value>Data in these blocks could not be read and may already have caused file corruption or system errors.</value>
+  </data>
+  <data name="H078" xml:space="preserve">
+    <value>Back up the remaining data immediately, replace affected files from another copy, and replace this drive.</value>
+  </data>
+  <data name="H079" xml:space="preserve">
+    <value>Too many slow blocks ({0:0.0}%)</value>
+  </data>
+  <data name="H080" xml:space="preserve">
+    <value>Of {0} tested blocks, {1} were unusually slow ({2:0.0}%).</value>
+  </data>
+  <data name="H081" xml:space="preserve">
+    <value>Slow reads can precede bad sectors and may cause freezes, timeouts, or file corruption.</value>
+  </data>
+  <data name="H082" xml:space="preserve">
+    <value>Back up your data, then scan regularly to see whether slow or unreadable blocks increase.</value>
+  </data>
+  <data name="H083" xml:space="preserve">
+    <value>Scan incomplete</value>
+  </data>
+  <data name="H084" xml:space="preserve">
+    <value>The surface scan stopped early, so the results cover only part of the drive.</value>
+  </data>
+  <data name="H085" xml:space="preserve">
+    <value>The surface scan stopped early ({0}), so the results cover only part of the drive.</value>
+  </data>
+  <data name="H086" xml:space="preserve">
+    <value>Unread areas cannot be assessed, so this diagnosis may be incomplete.</value>
+  </data>
+  <data name="H087" xml:space="preserve">
+    <value>Once the device and power supply are stable, run a full scan as administrator.</value>
+  </data>
+  <data name="H088" xml:space="preserve">
+    <value>{0} ({1:X2}): {2}</value>
+  </data>
+  <data name="H089" xml:space="preserve">
+    <value>Good</value>
+  </data>
+  <data name="H090" xml:space="preserve">
+    <value>Caution</value>
+  </data>
+  <data name="H091" xml:space="preserve">
+    <value>Danger</value>
+  </data>
+  <data name="H092" xml:space="preserve">
+    <value>Insufficient data</value>
+  </data>
+  <data name="H093" xml:space="preserve">
+    <value>No clear issues were found in the available data, but this does not guarantee the drive is fault free.</value>
+  </data>
+  <data name="H094" xml:space="preserve">
+    <value>Some health indicators need attention. Back up important files and investigate further.</value>
+  </data>
+  <data name="H095" xml:space="preserve">
+    <value>Serious health warnings or read errors were found. Back up your data first and consider replacing the drive.</value>
+  </data>
+  <data name="H096" xml:space="preserve">
+    <value>There is not enough data to assess this drive's health.</value>
+  </data>
+  <data name="R001" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="R002" xml:space="preserve">
+    <value>&lt;title&gt;DiskCheck TW Report&lt;/title&gt;
+</value>
+  </data>
+  <data name="R003" xml:space="preserve">
+    <value>&lt;p class="footer"&gt;This report is based on the drive's SMART data and this read-only scan.</value>
+  </data>
+  <data name="R004" xml:space="preserve">
+    <value>Normal SMART readings do not guarantee a fault free drive. This report is not uploaded automatically.&lt;br&gt;DiskCheck TW official website: &lt;a href="</value>
+  </data>
+  <data name="R005" xml:space="preserve">
+    <value>&lt;h1&gt;DiskCheck TW Report&lt;/h1&gt;
+</value>
+  </data>
+  <data name="R006" xml:space="preserve">
+    <value>Check time</value>
+  </data>
+  <data name="R007" xml:space="preserve">
+    <value>Operating system</value>
+  </data>
+  <data name="R008" xml:space="preserve">
+    <value>App version</value>
+  </data>
+  <data name="R009" xml:space="preserve">
+    <value>&lt;h2&gt;Drive information&lt;/h2&gt;
+&lt;table&gt;
+</value>
+  </data>
+  <data name="R010" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="R011" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="R012" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="R013" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="R014" xml:space="preserve">
+    <value>Interface</value>
+  </data>
+  <data name="R015" xml:space="preserve">
+    <value>Serial number</value>
+  </data>
+  <data name="R016" xml:space="preserve">
+    <value>Firmware</value>
+  </data>
+  <data name="R017" xml:space="preserve">
+    <value>Drive letters</value>
+  </data>
+  <data name="R018" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="R019" xml:space="preserve">
+    <value>System drive</value>
+  </data>
+  <data name="R020" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="R021" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="R022" xml:space="preserve">
+    <value>&lt;h2&gt;Health assessment&lt;/h2&gt;
+</value>
+  </data>
+  <data name="R023" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="R024" xml:space="preserve">
+    <value>Power on time</value>
+  </data>
+  <data name="R025" xml:space="preserve">
+    <value>{0} hours</value>
+  </data>
+  <data name="R026" xml:space="preserve">
+    <value>Power cycles</value>
+  </data>
+  <data name="R027" xml:space="preserve">
+    <value>Life remaining</value>
+  </data>
+  <data name="R028" xml:space="preserve">
+    <value>&lt;p&gt;Unable to read health data: </value>
+  </data>
+  <data name="R029" xml:space="preserve">
+    <value>&lt;h2&gt;Findings and advice&lt;/h2&gt;
+</value>
+  </data>
+  <data name="R030" xml:space="preserve">
+    <value>&lt;p&gt;No issues found&lt;/p&gt;
+</value>
+  </data>
+  <data name="R031" xml:space="preserve">
+    <value>Finding: </value>
+  </data>
+  <data name="R032" xml:space="preserve">
+    <value>Impact: </value>
+  </data>
+  <data name="R033" xml:space="preserve">
+    <value>Advice: </value>
+  </data>
+  <data name="R034" xml:space="preserve">
+    <value>&lt;h2&gt;What to do next&lt;/h2&gt;
+</value>
+  </data>
+  <data name="R035" xml:space="preserve">
+    <value>&lt;p class="next-check"&gt;Suggested next check: </value>
+  </data>
+  <data name="R036" xml:space="preserve">
+    <value>&lt;h2&gt;Key SMART data&lt;/h2&gt;
+</value>
+  </data>
+  <data name="R037" xml:space="preserve">
+    <value>&lt;p&gt;No SMART data available&lt;/p&gt;
+</value>
+  </data>
+  <data name="R038" xml:space="preserve">
+    <value>&lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Current&lt;/th&gt;&lt;th&gt;Worst&lt;/th&gt;&lt;th&gt;Threshold&lt;/th&gt;&lt;th&gt;Raw value&lt;/th&gt;&lt;/tr&gt;
+</value>
+  </data>
+  <data name="R039" xml:space="preserve">
+    <value>&lt;h3&gt;NVMe health data&lt;/h3&gt;
+&lt;table&gt;
+</value>
+  </data>
+  <data name="R040" xml:space="preserve">
+    <value>Critical warning</value>
+  </data>
+  <data name="R041" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="R042" xml:space="preserve">
+    <value>Available spare</value>
+  </data>
+  <data name="R043" xml:space="preserve">
+    <value>Spare threshold</value>
+  </data>
+  <data name="R044" xml:space="preserve">
+    <value>Percentage used</value>
+  </data>
+  <data name="R045" xml:space="preserve">
+    <value>Media errors</value>
+  </data>
+  <data name="R046" xml:space="preserve">
+    <value>Error log entries</value>
+  </data>
+  <data name="R047" xml:space="preserve">
+    <value>Power on time</value>
+  </data>
+  <data name="R048" xml:space="preserve">
+    <value>{0} hours</value>
+  </data>
+  <data name="R049" xml:space="preserve">
+    <value>Power cycles</value>
+  </data>
+  <data name="R050" xml:space="preserve">
+    <value>Unsafe shutdowns</value>
+  </data>
+  <data name="R051" xml:space="preserve">
+    <value>Data read</value>
+  </data>
+  <data name="R052" xml:space="preserve">
+    <value>Data written</value>
+  </data>
+  <data name="R053" xml:space="preserve">
+    <value>&lt;h2&gt;Scan results&lt;/h2&gt;
+</value>
+  </data>
+  <data name="R054" xml:space="preserve">
+    <value>&lt;p&gt;No read-only scan was run&lt;/p&gt;
+</value>
+  </data>
+  <data name="R055" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="R056" xml:space="preserve">
+    <value>Full scan</value>
+  </data>
+  <data name="R057" xml:space="preserve">
+    <value>Quick sample</value>
+  </data>
+  <data name="R058" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="R059" xml:space="preserve">
+    <value>Elapsed time</value>
+  </data>
+  <data name="R060" xml:space="preserve">
+    <value>Capacity scanned</value>
+  </data>
+  <data name="R061" xml:space="preserve">
+    <value>Total blocks</value>
+  </data>
+  <data name="R062" xml:space="preserve">
+    <value>Good blocks</value>
+  </data>
+  <data name="R063" xml:space="preserve">
+    <value>Slow blocks</value>
+  </data>
+  <data name="R064" xml:space="preserve">
+    <value>Unreadable blocks</value>
+  </data>
+  <data name="R065" xml:space="preserve">
+    <value>Average latency</value>
+  </data>
+  <data name="R066" xml:space="preserve">
+    <value>Maximum latency</value>
+  </data>
+  <data name="R067" xml:space="preserve">
+    <value>Stopped early</value>
+  </data>
+  <data name="R068" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="R069" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="R070" xml:space="preserve">
+    <value>Reason for stopping</value>
+  </data>
+  <data name="R071" xml:space="preserve">
+    <value>Stopped by user</value>
+  </data>
+  <data name="R072" xml:space="preserve">
+    <value>&lt;p&gt;Unreadable block offsets (bytes, first </value>
+  </data>
+  <data name="R073" xml:space="preserve">
+    <value> entries): </value>
+  </data>
+  <data name="R074" xml:space="preserve">
+    <value>HDD</value>
+  </data>
+  <data name="R075" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+</root>

@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="A001" xml:space="preserve">
+    <value>立刻備份重要資料</value>
+  </data>
+  <data name="A002" xml:space="preserve">
+    <value>先把 {0} 上的照片、文件、工作檔複製到另一顆硬碟、隨身碟或雲端。先備份最重要的檔案，避免硬碟在備份途中完全故障。</value>
+  </data>
+  <data name="A003" xml:space="preserve">
+    <value>備份完成前，先不要大量讀寫</value>
+  </data>
+  <data name="A004" xml:space="preserve">
+    <value>完整掃描、磁碟重組、安裝大型軟體或遊戲，都會增加故障硬碟的負擔，可能讓損壞快速擴大。</value>
+  </data>
+  <data name="A005" xml:space="preserve">
+    <value>準備更換新硬碟</value>
+  </data>
+  <data name="A006" xml:space="preserve">
+    <value>新硬碟建議選{0}。</value>
+  </data>
+  <data name="A007" xml:space="preserve">
+    <value>系統碟建議換成 SSD，開機和操作速度都會明顯變快。</value>
+  </data>
+  <data name="A008" xml:space="preserve">
+    <value>這是系統碟，需要搬移或重灌 Windows</value>
+  </data>
+  <data name="A009" xml:space="preserve">
+    <value>更換時需要重新安裝 Windows，或用硬碟複製軟體把系統搬到新硬碟；不熟悉的話，建議交給電腦維修人員處理。</value>
+  </data>
+  <data name="A010" xml:space="preserve">
+    <value>確認重要檔案能正常開啟</value>
+  </data>
+  <data name="A011" xml:space="preserve">
+    <value>已經有 {0} 個讀不到的區塊，部分檔案可能已損壞，備份後請打開重要檔案確認。</value>
+  </data>
+  <data name="A012" xml:space="preserve">
+    <value>硬碟已進入唯讀模式</value>
+  </data>
+  <data name="A013" xml:space="preserve">
+    <value>已經無法寫入新資料，請盡快把資料複製出來。</value>
+  </data>
+  <data name="A014" xml:space="preserve">
+    <value>立即處理</value>
+  </data>
+  <data name="A015" xml:space="preserve">
+    <value>這顆硬碟有故障風險，請先備份資料，並準備更換硬碟。</value>
+  </data>
+  <data name="A016" xml:space="preserve">
+    <value>這週內備份重要資料</value>
+  </data>
+  <data name="A017" xml:space="preserve">
+    <value>把 {0} 裡的重要檔案複製到另一顆硬碟、隨身碟或雲端，先完成備份再處理其他問題。</value>
+  </data>
+  <data name="A018" xml:space="preserve">
+    <value>改善散熱</value>
+  </data>
+  <data name="A019" xml:space="preserve">
+    <value>清除灰塵、確認風扇有轉；筆電不要放在床上或棉被上使用。</value>
+  </data>
+  <data name="A020" xml:space="preserve">
+    <value>3 個月內規劃更換</value>
+  </data>
+  <data name="A021" xml:space="preserve">
+    <value>SSD 的寫入壽命快用完了，用完後可能變成唯讀或無法開機，請在 3 個月內換掉。</value>
+  </data>
+  <data name="A022" xml:space="preserve">
+    <value>準備更換硬碟</value>
+  </data>
+  <data name="A023" xml:space="preserve">
+    <value>已經出現壞軌，數量通常會越來越多。新硬碟建議選{0}。</value>
+  </data>
+  <data name="A024" xml:space="preserve">
+    <value>一個月後再檢測一次</value>
+  </data>
+  <data name="A025" xml:space="preserve">
+    <value>比較數值有沒有增加；如果警訊變多或出現掃描錯誤，就盡快更換硬碟。</value>
+  </data>
+  <data name="A026" xml:space="preserve">
+    <value>近期處理</value>
+  </data>
+  <data name="A027" xml:space="preserve">
+    <value>發現早期警訊，建議盡快備份，並持續觀察。</value>
+  </data>
+  <data name="A028" xml:space="preserve">
+    <value>定期備份</value>
+  </data>
+  <data name="A029" xml:space="preserve">
+    <value>重要檔案至少存兩份，其中一份放在另一個裝置或雲端。</value>
+  </data>
+  <data name="A030" xml:space="preserve">
+    <value>定期做一次完整檢測</value>
+  </data>
+  <data name="A031" xml:space="preserve">
+    <value>建議每 {0} 個月執行一次 SMART 檢查加完整唯讀掃描，並把報告存起來，下次比較數值有沒有變化。</value>
+  </data>
+  <data name="A032" xml:space="preserve">
+    <value>檢查 SATA 傳輸線</value>
+  </data>
+  <data name="A033" xml:space="preserve">
+    <value>CRC 錯誤多半是線材或接頭問題；如果數字持續增加，請更換傳輸線或改插其他 SATA 埠。</value>
+  </data>
+  <data name="A034" xml:space="preserve">
+    <value>開始規劃更換</value>
+  </data>
+  <data name="A035" xml:space="preserve">
+    <value>這顆硬碟已經通電超過約 4 年，雖然目前正常，傳統硬碟的故障率會隨使用年數上升。</value>
+  </data>
+  <data name="A036" xml:space="preserve">
+    <value>留意 SSD 剩餘壽命</value>
+  </data>
+  <data name="A037" xml:space="preserve">
+    <value>剩下 {0}%，建議開始規劃更換時間。</value>
+  </data>
+  <data name="A038" xml:space="preserve">
+    <value>有空時跑完完整掃描</value>
+  </data>
+  <data name="A039" xml:space="preserve">
+    <value>這次的掃描沒有完成，結果只涵蓋部分區塊。</value>
+  </data>
+  <data name="A040" xml:space="preserve">
+    <value>定期保養</value>
+  </data>
+  <data name="A041" xml:space="preserve">
+    <value>目前狀態良好，維持定期備份即可。</value>
+  </data>
+  <data name="A042" xml:space="preserve">
+    <value>以系統管理員身分執行</value>
+  </data>
+  <data name="A043" xml:space="preserve">
+    <value>健康資料需要較高的權限才讀得到，請右鍵選單選擇「以系統管理員身分執行」後重新檢測。</value>
+  </data>
+  <data name="A044" xml:space="preserve">
+    <value>改接電腦內部，或更換外接盒</value>
+  </data>
+  <data name="A045" xml:space="preserve">
+    <value>很多 USB 外接盒不會轉送健康資料；可以接到主機板的 SATA 或 M.2 插槽，或換成支援 SMART 的外接盒。</value>
+  </data>
+  <data name="A046" xml:space="preserve">
+    <value>使用 RAID 控制器的管理工具</value>
+  </data>
+  <data name="A047" xml:space="preserve">
+    <value>RAID 會把個別硬碟藏在後面，請用主機板或 RAID 卡廠商提供的工具檢查每一顆硬碟。</value>
+  </data>
+  <data name="A048" xml:space="preserve">
+    <value>仍然建議備份重要資料</value>
+  </data>
+  <data name="A049" xml:space="preserve">
+    <value>無法判斷不代表硬碟沒問題，重要檔案還是先複製一份到別的地方。</value>
+  </data>
+  <data name="A050" xml:space="preserve">
+    <value>唯讀掃描未發現讀取錯誤</value>
+  </data>
+  <data name="A051" xml:space="preserve">
+    <value>這次掃描沒有讀取失敗的區塊，可以當作參考，但不能取代健康資料。</value>
+  </data>
+  <data name="A052" xml:space="preserve">
+    <value>先確認連接方式</value>
+  </data>
+  <data name="A053" xml:space="preserve">
+    <value>目前無法判斷硬碟健康，請先確認連接方式。</value>
+  </data>
+  <data name="A054" xml:space="preserve">
+    <value>這顆硬碟</value>
+  </data>
+  <data name="A055" xml:space="preserve">
+    <value>與原本相同或更大的容量</value>
+  </data>
+  <data name="A056" xml:space="preserve">
+    <value>至少 {0} GB</value>
+  </data>
+  <data name="A057" xml:space="preserve">
+    <value>至少與目前容量相同（約 {0:0.#} GB）</value>
+  </data>
+  <data name="H001" xml:space="preserve">
+    <value>無法取得健康資料</value>
+  </data>
+  <data name="H002" xml:space="preserve">
+    <value>此硬碟沒有回傳 ATA SMART 屬性表，也沒有 NVMe 健康資訊日誌。</value>
+  </data>
+  <data name="H003" xml:space="preserve">
+    <value>無法取得健康資料：{0}</value>
+  </data>
+  <data name="H004" xml:space="preserve">
+    <value>缺少 SMART 或 NVMe 健康日誌，無法判斷硬碟是否正在劣化，也可能掩蓋已經發生的故障。</value>
+  </data>
+  <data name="H005" xml:space="preserve">
+    <value>請改用內接 SATA／NVMe 介面或支援 SMART 透傳的外接盒後重新掃描；以系統管理員權限執行也能排除權限造成的取不到。</value>
+  </data>
+  <data name="H006" xml:space="preserve">
+    <value>硬碟類型與健康資料格式不符，無法判讀</value>
+  </data>
+  <data name="H007" xml:space="preserve">
+    <value>磁碟類型為 {0}，但取得的健康資料（ATA SMART 或 NVMe 健康資訊日誌）與此類型不符，沒有可套用的判讀規則。</value>
+  </data>
+  <data name="H008" xml:space="preserve">
+    <value>健康資料可能來自錯誤的來源或介面（RAID、虛擬磁碟、外接盒），判讀結果會不正確甚至完全遺漏警告。</value>
+  </data>
+  <data name="H009" xml:space="preserve">
+    <value>請確認硬碟的實際介面與類型，改用內接 SATA／NVMe 重新掃描，或更新偵測層後再執行一次。</value>
+  </data>
+  <data name="H010" xml:space="preserve">
+    <value>SMART 屬性 {0:X2} 已低於廠商門檻</value>
+  </data>
+  <data name="H011" xml:space="preserve">
+    <value>屬性 {0:X2}（{1}）的現值 {2} 已低於或等於廠商門檻 {3}。</value>
+  </data>
+  <data name="H012" xml:space="preserve">
+    <value>該屬性已超出廠商可接受的範圍，代表硬碟很可能已經損壞或即將故障。</value>
+  </data>
+  <data name="H013" xml:space="preserve">
+    <value>請立即完整備份資料並安排更換硬碟；仍在保固內可直接送廠檢測。</value>
+  </data>
+  <data name="H014" xml:space="preserve">
+    <value>SMART 回傳狀態為 FAILING_NOW</value>
+  </data>
+  <data name="H015" xml:space="preserve">
+    <value>硬碟自身的 SMART RETURN STATUS 判斷為失敗（FAILING_NOW）。</value>
+  </data>
+  <data name="H016" xml:space="preserve">
+    <value>硬碟已自行判定即將故障，隨時可能完全無法讀寫。</value>
+  </data>
+  <data name="H017" xml:space="preserve">
+    <value>請立刻備份資料並更換硬碟，不要再把重要資料存放在這顆裝置上。</value>
+  </data>
+  <data name="H018" xml:space="preserve">
+    <value>重新分配磁區</value>
+  </data>
+  <data name="H019" xml:space="preserve">
+    <value>SMART 屬性 05（Reallocated Sectors Count）記錄到 {0} 個已經損壞並改由備用磁區取代的磁區。</value>
+  </data>
+  <data name="H020" xml:space="preserve">
+    <value>磁面已經出現壞軌，備用磁區數量有限，壞軌也可能持續擴大。</value>
+  </data>
+  <data name="H021" xml:space="preserve">
+    <value>請盡早備份資料，並用完整表面掃描觀察壞軌是否繼續增加，同時準備更換硬碟。</value>
+  </data>
+  <data name="H022" xml:space="preserve">
+    <value>待處理磁區</value>
+  </data>
+  <data name="H023" xml:space="preserve">
+    <value>SMART 屬性 C5（Current Pending Sector Count）有 {0} 個讀取失敗、正在等待重新分配的磁區。</value>
+  </data>
+  <data name="H024" xml:space="preserve">
+    <value>這些位置的資料可能已經讀不到，讀取失敗會造成系統卡頓、當機或檔案損壞。</value>
+  </data>
+  <data name="H025" xml:space="preserve">
+    <value>請先備份還能讀取的檔案，再執行完整表面掃描讓硬碟嘗試修復或重新分配。</value>
+  </data>
+  <data name="H026" xml:space="preserve">
+    <value>無法修正磁區</value>
+  </data>
+  <data name="H027" xml:space="preserve">
+    <value>SMART 屬性 C6（Offline Uncorrectable）有 {0} 個在離線掃描時無法修正的磁區。</value>
+  </data>
+  <data name="H028" xml:space="preserve">
+    <value>對應區塊的資料已無法由硬碟本身救回，而且故障範圍可能繼續擴大。</value>
+  </data>
+  <data name="H029" xml:space="preserve">
+    <value>請立即備份其他資料，遺失的檔案可考慮專業資料救援，並評估更換硬碟。</value>
+  </data>
+  <data name="H030" xml:space="preserve">
+    <value>UltraDMA CRC 錯誤 (C7) 有 {0} 次</value>
+  </data>
+  <data name="H031" xml:space="preserve">
+    <value>SMART 屬性 C7（UltraDMA CRC Error Count）記錄到 {0} 次傳輸過程中的線路檢查碼錯誤。</value>
+  </data>
+  <data name="H032" xml:space="preserve">
+    <value>這類錯誤多半來自線材或接頭接觸不良，通常不代表硬碟本體損壞，但可能造成偶發的讀寫錯誤。</value>
+  </data>
+  <data name="H033" xml:space="preserve">
+    <value>建議更換 SATA 傳輸線、改插主機板其他 SATA 埠，或清潔接頭後重新掃描，觀察此數值是否持續增加。</value>
+  </data>
+  <data name="H034" xml:space="preserve">
+    <value>溫度過高（{0}°C）</value>
+  </data>
+  <data name="H035" xml:space="preserve">
+    <value>目前溫度為 {0}°C，已達到門檻 {1}°C。</value>
+  </data>
+  <data name="H036" xml:space="preserve">
+    <value>長期高溫會加速電子元件與磁碟元件老化，也可能造成降速、讀寫逾時或當機。</value>
+  </data>
+  <data name="H037" xml:space="preserve">
+    <value>請清理灰塵、改善機殼風道，並確認硬碟散熱片與風扇運作正常；外接裝置請避免悶熱環境。</value>
+  </data>
+  <data name="H038" xml:space="preserve">
+    <value>SSD 剩餘壽命偏低（{0}%）</value>
+  </data>
+  <data name="H039" xml:space="preserve">
+    <value>廠牌 SMART 壽命屬性顯示剩餘壽命只剩 {0}%。</value>
+  </data>
+  <data name="H040" xml:space="preserve">
+    <value>快閃記憶體的寫入壽命接近耗盡，之後可能變成唯讀、寫入失敗或無法開機。</value>
+  </data>
+  <data name="H041" xml:space="preserve">
+    <value>請盡快完整備份並規劃更換，同時避免持續大量寫入（例如下載、備份、影片暫存）。</value>
+  </data>
+  <data name="H042" xml:space="preserve">
+    <value>剩餘備用空間已低於廠商門檻</value>
+  </data>
+  <data name="H043" xml:space="preserve">
+    <value>溫度已經超出可用的運作範圍</value>
+  </data>
+  <data name="H044" xml:space="preserve">
+    <value>媒體的可靠度已下降（內部錯誤計數超過門檻）</value>
+  </data>
+  <data name="H045" xml:space="preserve">
+    <value>硬碟已進入唯讀模式</value>
+  </data>
+  <data name="H046" xml:space="preserve">
+    <value>揮發性記憶體（寫入快取）的備份機制已失效</value>
+  </data>
+  <data name="H047" xml:space="preserve">
+    <value>NVMe 嚴重警告：{0}</value>
+  </data>
+  <data name="H048" xml:space="preserve">
+    <value>健康日誌的 Critical Warning 欄位為 0x{0:X2}，其中第 {1} 位元被設定：{2}。</value>
+  </data>
+  <data name="H049" xml:space="preserve">
+    <value>硬碟已無法有效取代損壞的快閃區塊，資料遺失的風險明顯提高。</value>
+  </data>
+  <data name="H050" xml:space="preserve">
+    <value>控制器可能啟動降速或保護機制，長時間高溫也會永久損壞顆粒。</value>
+  </data>
+  <data name="H051" xml:space="preserve">
+    <value>已經出現控制器無法修正的錯誤，讀取到的資料可能不正確。</value>
+  </data>
+  <data name="H052" xml:space="preserve">
+    <value>硬碟不再接受任何寫入，系統與應用程式可能無法儲存資料。</value>
+  </data>
+  <data name="H053" xml:space="preserve">
+    <value>突然斷電時，還在寫入快取中的資料可能遺失或損壞。</value>
+  </data>
+  <data name="H054" xml:space="preserve">
+    <value>請立即完整備份資料，並依保固狀態安排送修或更換。</value>
+  </data>
+  <data name="H055" xml:space="preserve">
+    <value>NVMe 嚴重警告：未定義的警告位元（0x{0:X2}）</value>
+  </data>
+  <data name="H056" xml:space="preserve">
+    <value>Critical Warning 欄位出現了規格外被設定的位元，代表韌體回報了無法辨識的嚴重狀態。</value>
+  </data>
+  <data name="H057" xml:space="preserve">
+    <value>無法判斷確切原因，但韌體已認為硬碟處於需要警戒的狀態。</value>
+  </data>
+  <data name="H058" xml:space="preserve">
+    <value>請先備份資料，再更新或確認韌體版本，必要時送廠檢測。</value>
+  </data>
+  <data name="H059" xml:space="preserve">
+    <value>可用備用空間 {0}% 已低於門檻 {1}%</value>
+  </data>
+  <data name="H060" xml:space="preserve">
+    <value>NVMe 健康日誌的 Available Spare 為 {0}%，低於 Available Spare Threshold 的 {1}%。</value>
+  </data>
+  <data name="H061" xml:space="preserve">
+    <value>剩餘的備用快閃區塊不足，新的壞塊將無法被取代，資料可靠性會快速惡化。</value>
+  </data>
+  <data name="H062" xml:space="preserve">
+    <value>請立即備份資料並規劃更換硬碟。</value>
+  </data>
+  <data name="H063" xml:space="preserve">
+    <value>NVMe 媒體與資料完整性錯誤 {0} 次</value>
+  </data>
+  <data name="H064" xml:space="preserve">
+    <value>Media and Data Integrity Errors 計數為 {0}。</value>
+  </data>
+  <data name="H065" xml:space="preserve">
+    <value>控制器偵測到無法修正的資料錯誤，相關檔案的內容可能已經損壞。</value>
+  </data>
+  <data name="H066" xml:space="preserve">
+    <value>請立即備份並重新驗證重要檔案（雜湊或重新開啟），並安排更換硬碟。</value>
+  </data>
+  <data name="H067" xml:space="preserve">
+    <value>NVMe 已使用壽命達 {0}%</value>
+  </data>
+  <data name="H068" xml:space="preserve">
+    <value>Percentage Used 為 {0}%，已達到門檻 {1}%。</value>
+  </data>
+  <data name="H069" xml:space="preserve">
+    <value>顆粒的寫入壽命已接近設計上限，後期可能出現降速或無法寫入。</value>
+  </data>
+  <data name="H070" xml:space="preserve">
+    <value>請完整備份資料並準備更換，避免持續大量寫入。</value>
+  </data>
+  <data name="H071" xml:space="preserve">
+    <value>溫度過高（{0}°C）</value>
+  </data>
+  <data name="H072" xml:space="preserve">
+    <value>目前溫度為 {0}°C，已達到門檻 {1}°C。</value>
+  </data>
+  <data name="H073" xml:space="preserve">
+    <value>NVMe 過熱會觸發降速，長期高溫也會縮短顆粒壽命。</value>
+  </data>
+  <data name="H074" xml:space="preserve">
+    <value>請加裝散熱片或改善機殼風道，並確認散熱墊接觸良好。</value>
+  </data>
+  <data name="H075" xml:space="preserve">
+    <value>掃描發現 {0} 個錯誤區塊</value>
+  </data>
+  <data name="H076" xml:space="preserve">
+    <value>表面掃描有 {0} 個區塊完全無法讀取。</value>
+  </data>
+  <data name="H077" xml:space="preserve">
+    <value>對應區塊的資料已經讀取失敗，可能已造成檔案損壞或系統讀取錯誤。</value>
+  </data>
+  <data name="H078" xml:space="preserve">
+    <value>請立即備份其餘資料，重新取得受影響的檔案；這顆硬碟建議更換。</value>
+  </data>
+  <data name="H079" xml:space="preserve">
+    <value>讀取緩慢區塊比例過高（{0:0.0}%）</value>
+  </data>
+  <data name="H080" xml:space="preserve">
+    <value>測過的 {0} 個區塊中有 {1} 個讀取明顯變慢，比例約 {2:0.0}%。</value>
+  </data>
+  <data name="H081" xml:space="preserve">
+    <value>讀取變慢常是壞軌出現前的徵兆，會造成系統卡頓、讀取逾時與檔案損壞。</value>
+  </data>
+  <data name="H082" xml:space="preserve">
+    <value>請先備份資料，之後定期重新掃描，觀察變慢與錯誤區塊是否持續增加。</value>
+  </data>
+  <data name="H083" xml:space="preserve">
+    <value>掃描未完成</value>
+  </data>
+  <data name="H084" xml:space="preserve">
+    <value>表面掃描被中止，結果只涵蓋部分區塊。</value>
+  </data>
+  <data name="H085" xml:space="preserve">
+    <value>表面掃描被中止（{0}），結果只涵蓋部分區塊。</value>
+  </data>
+  <data name="H086" xml:space="preserve">
+    <value>沒有掃描到的區塊無法判斷是否有讀取問題，目前的結論可能不完整。</value>
+  </data>
+  <data name="H087" xml:space="preserve">
+    <value>請在裝置穩定、供電正常且以系統管理員權限的情況下重新執行完整掃描。</value>
+  </data>
+  <data name="H088" xml:space="preserve">
+    <value>{0} ({1:X2}) 有 {2} 個</value>
+  </data>
+  <data name="H089" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="H090" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="H091" xml:space="preserve">
+    <value>危險</value>
+  </data>
+  <data name="H092" xml:space="preserve">
+    <value>資料不足</value>
+  </data>
+  <data name="H093" xml:space="preserve">
+    <value>目前取得的資料未發現明顯異常，但不保證硬碟無故障。</value>
+  </data>
+  <data name="H094" xml:space="preserve">
+    <value>發現部分健康指標異常，建議備份重要資料並進一步檢查。</value>
+  </data>
+  <data name="H095" xml:space="preserve">
+    <value>存在重要健康警告或明確讀取錯誤，建議優先備份並評估更換硬碟。</value>
+  </data>
+  <data name="H096" xml:space="preserve">
+    <value>目前無法取得足夠資料判斷健康狀態。</value>
+  </data>
+  <data name="R001" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="R002" xml:space="preserve">
+    <value>&lt;title&gt;DiskCheck TW 檢測報告&lt;/title&gt;
+</value>
+  </data>
+  <data name="R003" xml:space="preserve">
+    <value>&lt;p class="footer"&gt;本報告依據裝置回報的 SMART 資料及本次唯讀掃描結果產生，</value>
+  </data>
+  <data name="R004" xml:space="preserve">
+    <value>SMART 正常不代表硬碟絕對沒有故障。報告不會自動上傳。&lt;br&gt;DiskCheck TW 官方網站：&lt;a href="</value>
+  </data>
+  <data name="R005" xml:space="preserve">
+    <value>&lt;h1&gt;DiskCheck TW 檢測報告&lt;/h1&gt;
+</value>
+  </data>
+  <data name="R006" xml:space="preserve">
+    <value>檢測時間</value>
+  </data>
+  <data name="R007" xml:space="preserve">
+    <value>作業系統</value>
+  </data>
+  <data name="R008" xml:space="preserve">
+    <value>程式版本</value>
+  </data>
+  <data name="R009" xml:space="preserve">
+    <value>&lt;h2&gt;硬碟資訊&lt;/h2&gt;
+&lt;table&gt;
+</value>
+  </data>
+  <data name="R010" xml:space="preserve">
+    <value>型號</value>
+  </data>
+  <data name="R011" xml:space="preserve">
+    <value>廠牌</value>
+  </data>
+  <data name="R012" xml:space="preserve">
+    <value>容量</value>
+  </data>
+  <data name="R013" xml:space="preserve">
+    <value>類型</value>
+  </data>
+  <data name="R014" xml:space="preserve">
+    <value>介面</value>
+  </data>
+  <data name="R015" xml:space="preserve">
+    <value>序號</value>
+  </data>
+  <data name="R016" xml:space="preserve">
+    <value>韌體</value>
+  </data>
+  <data name="R017" xml:space="preserve">
+    <value>磁碟機代號</value>
+  </data>
+  <data name="R018" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="R019" xml:space="preserve">
+    <value>系統碟</value>
+  </data>
+  <data name="R020" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="R021" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="R022" xml:space="preserve">
+    <value>&lt;h2&gt;健康判斷&lt;/h2&gt;
+</value>
+  </data>
+  <data name="R023" xml:space="preserve">
+    <value>溫度</value>
+  </data>
+  <data name="R024" xml:space="preserve">
+    <value>通電時間</value>
+  </data>
+  <data name="R025" xml:space="preserve">
+    <value>{0} 小時</value>
+  </data>
+  <data name="R026" xml:space="preserve">
+    <value>開機次數</value>
+  </data>
+  <data name="R027" xml:space="preserve">
+    <value>剩餘壽命</value>
+  </data>
+  <data name="R028" xml:space="preserve">
+    <value>&lt;p&gt;無法取得健康資料：</value>
+  </data>
+  <data name="R029" xml:space="preserve">
+    <value>&lt;h2&gt;異常項目與建議&lt;/h2&gt;
+</value>
+  </data>
+  <data name="R030" xml:space="preserve">
+    <value>&lt;p&gt;未發現異常項目&lt;/p&gt;
+</value>
+  </data>
+  <data name="R031" xml:space="preserve">
+    <value>&lt;p&gt;發現：</value>
+  </data>
+  <data name="R032" xml:space="preserve">
+    <value>&lt;p&gt;影響：</value>
+  </data>
+  <data name="R033" xml:space="preserve">
+    <value>&lt;p&gt;建議：</value>
+  </data>
+  <data name="R034" xml:space="preserve">
+    <value>&lt;h2&gt;建議您接下來這樣做&lt;/h2&gt;
+</value>
+  </data>
+  <data name="R035" xml:space="preserve">
+    <value>&lt;p class="next-check"&gt;下次建議檢測日：</value>
+  </data>
+  <data name="R036" xml:space="preserve">
+    <value>&lt;h2&gt;SMART 重要資料&lt;/h2&gt;
+</value>
+  </data>
+  <data name="R037" xml:space="preserve">
+    <value>&lt;p&gt;無 SMART 資料&lt;/p&gt;
+</value>
+  </data>
+  <data name="R038" xml:space="preserve">
+    <value>&lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;&lt;th&gt;名稱&lt;/th&gt;&lt;th&gt;目前值&lt;/th&gt;&lt;th&gt;最差值&lt;/th&gt;&lt;th&gt;門檻&lt;/th&gt;&lt;th&gt;原始值&lt;/th&gt;&lt;/tr&gt;
+</value>
+  </data>
+  <data name="R039" xml:space="preserve">
+    <value>&lt;h3&gt;NVMe 健康資訊&lt;/h3&gt;
+&lt;table&gt;
+</value>
+  </data>
+  <data name="R040" xml:space="preserve">
+    <value>嚴重警告</value>
+  </data>
+  <data name="R041" xml:space="preserve">
+    <value>溫度</value>
+  </data>
+  <data name="R042" xml:space="preserve">
+    <value>可用備用空間</value>
+  </data>
+  <data name="R043" xml:space="preserve">
+    <value>備用空間門檻</value>
+  </data>
+  <data name="R044" xml:space="preserve">
+    <value>已使用百分比</value>
+  </data>
+  <data name="R045" xml:space="preserve">
+    <value>媒體錯誤</value>
+  </data>
+  <data name="R046" xml:space="preserve">
+    <value>錯誤記錄數</value>
+  </data>
+  <data name="R047" xml:space="preserve">
+    <value>通電時間</value>
+  </data>
+  <data name="R048" xml:space="preserve">
+    <value>{0} 小時</value>
+  </data>
+  <data name="R049" xml:space="preserve">
+    <value>開機次數</value>
+  </data>
+  <data name="R050" xml:space="preserve">
+    <value>不安全關機次數</value>
+  </data>
+  <data name="R051" xml:space="preserve">
+    <value>讀取量</value>
+  </data>
+  <data name="R052" xml:space="preserve">
+    <value>寫入量</value>
+  </data>
+  <data name="R053" xml:space="preserve">
+    <value>&lt;h2&gt;掃描結果&lt;/h2&gt;
+</value>
+  </data>
+  <data name="R054" xml:space="preserve">
+    <value>&lt;p&gt;本次未執行唯讀掃描&lt;/p&gt;
+</value>
+  </data>
+  <data name="R055" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="R056" xml:space="preserve">
+    <value>完整掃描</value>
+  </data>
+  <data name="R057" xml:space="preserve">
+    <value>快速抽樣</value>
+  </data>
+  <data name="R058" xml:space="preserve">
+    <value>開始時間</value>
+  </data>
+  <data name="R059" xml:space="preserve">
+    <value>經過時間</value>
+  </data>
+  <data name="R060" xml:space="preserve">
+    <value>已掃描容量</value>
+  </data>
+  <data name="R061" xml:space="preserve">
+    <value>總區塊數</value>
+  </data>
+  <data name="R062" xml:space="preserve">
+    <value>正常區塊</value>
+  </data>
+  <data name="R063" xml:space="preserve">
+    <value>緩慢區塊</value>
+  </data>
+  <data name="R064" xml:space="preserve">
+    <value>錯誤區塊</value>
+  </data>
+  <data name="R065" xml:space="preserve">
+    <value>平均延遲</value>
+  </data>
+  <data name="R066" xml:space="preserve">
+    <value>最大延遲</value>
+  </data>
+  <data name="R067" xml:space="preserve">
+    <value>是否中途停止</value>
+  </data>
+  <data name="R068" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="R069" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="R070" xml:space="preserve">
+    <value>中止原因</value>
+  </data>
+  <data name="R071" xml:space="preserve">
+    <value>使用者手動停止</value>
+  </data>
+  <data name="R072" xml:space="preserve">
+    <value>&lt;p&gt;錯誤區塊位移（byte，前 </value>
+  </data>
+  <data name="R073" xml:space="preserve">
+    <value> 筆）：</value>
+  </data>
+  <data name="R074" xml:space="preserve">
+    <value>HDD 傳統硬碟</value>
+  </data>
+  <data name="R075" xml:space="preserve">
+    <value>未知</value>
+  </data>
+</root>

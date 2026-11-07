@@ -1,0 +1,1300 @@
+# CrystalDiskInfo 99f885efb57bd98ccce8c2c24188f93c81383cec; Language/English.lang + Language/Traditional Chinese.lang
+Smart	01	底層資料讀取錯誤率	Read Error Rate
+Smart	02	讀寫通量效能	Throughput Performance
+Smart	03	碟片啟動時間	Spin-Up Time
+Smart	04	馬達啟動關閉次數	Start/Stop Count
+Smart	05	重新配置磁區數量（壞軌數）	Reallocated Sectors Count
+Smart	06	信道讀取餘量	Read Channel Margin
+Smart	07	尋道錯誤率	Seek Error Rate
+Smart	08	尋道效能	Seek Time Performance
+Smart	09	累積通電時間	Power-On Hours
+Smart	0A	啟動重試次數	Spin Retry Count
+Smart	0B	磁頭校準重試	Recalibration Retries
+Smart	0C	開機次數	Power Cycle Count
+Smart	0D	軟性讀取錯誤率評估	Soft Read Error Rate stab
+Smart	16	目前氦氣等級	Current Helium Level
+Smart	B8	終端校驗出錯	End-to-End Error
+Smart	BB	報告不可修正錯誤	Reported Uncorrectable Errors
+Smart	BC	通訊超時	Command Timeout
+Smart	BD	磁頭寫入高度	High Fly Writes
+Smart	BE	氣流溫度	Airflow Temperature
+Smart	BF	加速度錯誤率	G-Sense Error Rate
+Smart	C0	電源關閉磁頭收回計數	Power-off Retract Count
+Smart	C1	載入/卸載循環計數	Load/Unload Cycle Count
+Smart	C2	硬碟溫度	Temperature
+Smart	C3	硬體錯誤修正編碼復原	Hardware ECC recovered
+Smart	C4	重新配置事件	Reallocation Event Count
+Smart	C5	等待重新配置的磁區	Current Pending Sector Count
+Smart	C6	無法修正的磁區	Uncorrectable Sector Count
+Smart	C7	UltraDMA 高速傳輸模式錯誤次數	UltraDMA CRC Error Count
+Smart	C8	寫入錯誤率	Write Error Rate
+Smart	C9	邏輯讀取錯誤率	Soft Read Error Rate
+Smart	CA	資料位址標記錯誤	Data Address Mark Error
+Smart	CB	用完取消	Run Out Cancel
+Smart	CC	邏輯 ECC 修正	Soft ECC Correction
+Smart	CD	過溫率	Thermal Asperity Rate
+Smart	CE	磁頭飛行高度	Flying Height
+Smart	CF	主軸電機浪涌電流計數	Spin High Current
+Smart	D0	旋轉蜂鳴	Spin Buzz
+Smart	D1	離線定址效能	Offline Seek Performance
+Smart	D3	寫入時的震動	Vibration During Write
+Smart	D4	寫入時的衝擊	Shock During Write
+Smart	DC	盤體偏移	Disk Shift
+Smart	DD	加速計出錯率	G-Sense Error Rate
+Smart	DE	資料載入時間	Loaded Hours
+Smart	DF	載入/卸載重試次數	Load/Unload Retry Count
+Smart	E0	負載摩擦	Load Friction
+Smart	E1	載入/卸載循環計數	Load/Unload Cycle Count
+Smart	E2	磁頭載入時間	Load 'In'-time
+Smart	E3	扭矩放大計數	Torque Amplification Count
+Smart	E4	斷電縮回周期	Power-Off Retract Cycle
+Smart	E6	巨磁阻式磁頭振幅	GMR Head Amplitude
+Smart	E7	硬碟溫度	Temperature
+Smart	F0	磁頭飛行時間	Head Flying Hours
+Smart	FA	讀取錯誤重試率	Read Error Retry Rate
+Smart	FE	自由跌落保護	Free Fall Protection
+Smart	F1	SSD 總寫入量	Total Host Writes
+Smart	F2	SSD 總讀取量	Total Host Reads
+Smart	17	氦氣狀態下限	Helium Condition Lower
+Smart	18	氦氣狀態上限	Helium Condition Upper
+Smart	1B	MAMR 健康監控	MAMR Health Monitor
+SmartSsd	01	底層資料讀取錯誤率	Read Error Rate
+SmartSsd	02	讀寫通量效能	Throughput Performance
+SmartSsd	03	碟片啟動時間	Spin-Up Time
+SmartSsd	04	馬達啟動關閉次數	Start/Stop Count
+SmartSsd	05	重新配置磁區數量（壞軌數）	Reallocated Sectors Count
+SmartSsd	06	信道讀取餘量	Read Channel Margin
+SmartSsd	07	尋道錯誤率	Seek Error Rate
+SmartSsd	08	尋道效能	Seek Time Performance
+SmartSsd	09	累積通電時間	Power-On Hours
+SmartSsd	0A	啟動重試次數	Spin Retry Count
+SmartSsd	0B	磁頭校準重試	Recalibration Retries
+SmartSsd	0C	關閉電源次數	Power Cycle Count
+SmartSsd	0D	軟性讀取錯誤率評估	Soft Read Error Rate stab
+SmartSsd	C0	不安全關機次數	Unsafe Shutdown Count
+SmartSsd	C2	硬碟溫度	Temperature
+SmartSsd	C4	重新配置事件	Reallocation Event Count
+SmartSsd	C5	等待重新配置的磁區	Current Pending Sector Count
+SmartSsd	C6	無法修正的磁區	Uncorrectable Sector Count
+SmartSsd	FF	剩餘壽命	Remaining Life
+SmartSsd	F1	SSD 總寫入量	Total Host Writes
+SmartSsd	F2	SSD 總讀取量	Total Host Reads
+SmartMtron	BB	抹除次數總計	Total Erase Count
+SmartIndilinx	01	底層資料讀取錯誤率	Read Error Rate
+SmartIndilinx	09	累積通電時間	Power-On Hours
+SmartIndilinx	0C	關閉電源次數	Power Cycle Count
+SmartIndilinx	B8	初始損壞磁區數	Initial Bad Block Count
+SmartIndilinx	C2	硬碟溫度	Temperature
+SmartIndilinx	C3	程式失敗磁區數	Program Failure Block Count
+SmartIndilinx	C4	抹除失敗磁區數	Erase Failure Block Count
+SmartIndilinx	C5	讀取失敗磁區數	Read Failure Block Count
+SmartIndilinx	C6	讀取磁區總數	Total Count of Read Sectors
+SmartIndilinx	C7	寫入磁區總數	Total Count of Write Sectors
+SmartIndilinx	C8	讀取命令總數	Total Count of Read Commands
+SmartIndilinx	C9	寫入命令總數	Total Count of Write Commands
+SmartIndilinx	CA	來自 Flash 的錯誤位元總數	Total Count of Error bits from flash
+SmartIndilinx	CB	包含可校正位元錯誤的讀取磁區總數	Total Count of Read Sectors with Correctable Bit Errors
+SmartIndilinx	CC	損壞磁區完整旗標	Bad Block Full Flag
+SmartIndilinx	CD	最大 PE 次數規格	Maximum PE Count Specification
+SmartIndilinx	CE	最小抹除次數	Minimum Erase Count
+SmartIndilinx	CF	最大抹除次數	Maximum Erase Count
+SmartIndilinx	D0	平均抹除次數	Average Erase Count
+SmartIndilinx	D1	磁碟剩餘壽命	Remaining Drive Life
+SmartJMicron60x	09	累積通電時間	Power-On Hours
+SmartJMicron60x	0C	關閉電源次數	Power Cycle Count
+SmartJMicron60x	C2	硬碟溫度	Temperature
+SmartJMicron60x	E5	停止系統 ID, Flash ID	Halt System ID, Flash ID
+SmartJMicron60x	E8	韌體版本資訊	Firmware Version Information
+SmartJMicron60x	E9	ECC 失敗記錄	ECC Fail Record
+SmartJMicron60x	EA	平均抹除次數，最大抹除次數	Average Erase Count, Max Erase Count
+SmartJMicron60x	EB	良好磁區數，系統磁區數	Good Block Count, System Block Count
+SmartIntel	03	碟片啟動時間	Spin Up Time
+SmartIntel	04	馬達啟動關閉次數	Start/Stop Count
+SmartIntel	05	重新配置磁區數量（壞軌數）	Re-Allocated Sector Count
+SmartIntel	09	累積通電時間	Power-On Hours Count
+SmartIntel	0C	關閉電源次數	Power Cycle Count
+SmartIntel	AA	可用的保留空間	Available Reserved Space
+SmartIntel	AB	程式失敗次數	Program Fail Count
+SmartIntel	AC	抹除失敗次數	Erase Fail Count
+SmartIntel	AE	意外電源中斷	Unexpected Power Loss
+SmartIntel	AF	電源中斷保護故障	Power Loss Protection Failure
+SmartIntel	B7	SATA 降級執行計數	SATA Downshift Count
+SmartIntel	B8	終端校驗出錯偵測次數	End to End Error Detection Count
+SmartIntel	BB	無法校正的錯誤次數	Uncorrectable Error Count
+SmartIntel	BE	硬碟溫度	Temperature
+SmartIntel	C0	不安全關機次數	Unsafe Shutdown Count
+SmartIntel	C2	硬碟溫度	Temperature
+SmartIntel	C5	等待重新配置的磁區	Pending Sector Count
+SmartIntel	C7	高速傳輸模式錯誤次數	CRC Error Count
+SmartIntel	E1	SSD 寫入量	Host Writes
+SmartIntel	E2	一定時間內的磨損比例	Timed Workload Media Wear
+SmartIntel	E3	讀寫比例	Timed Workload Host Read/Write Ratio
+SmartIntel	E4	單次測試時間	Timed Workload Timer
+SmartIntel	E8	可用的保留空間	Available Reserved Space
+SmartIntel	E9	媒體耗損指標	Media Wearout Indicator
+SmartIntel	EA	動態熱能管理機制狀態	Thermal Throttle Status
+SmartIntel	F1	SSD 總寫入量	Total LBAs Written
+SmartIntel	F2	SSD 總讀取量	Total LBAs Read
+SmartIntel	F3	NAND 總寫入量	Total NAND Writes
+SmartIntel	F9	NAND 總寫入量	Total NAND Writes
+SmartSamsung	05	重新配置磁區數量（壞軌數）	Reallocated Sector Count
+SmartSamsung	09	累積通電時間	Power-on Hours
+SmartSamsung	0C	通電次數	Power-on Count
+SmartSamsung	AF	程式失敗次數(晶片)	Program Fail Count (Chip)
+SmartSamsung	B0	抹除失敗次數(晶片)	Erase Fail Count (Chip)
+SmartSamsung	B1	平均抹寫次數	Wear Leveling Count
+SmartSamsung	B2	已使用的保留空間數(晶片)	Used Reserved Block Count (Chip)
+SmartSamsung	B3	已使用的保留空間數(總計)	Used Reserved Block Count (Total)
+SmartSamsung	B4	未使用的保留空間數(總計)	Unused Reserved Block Count (Total)
+SmartSamsung	B5	程式失敗次數(總計)	Program Fail Count (Total)
+SmartSamsung	B6	抹除失敗次數(總計)	Erase Fail Count (Total)
+SmartSamsung	B7	執行階段損壞磁區(總計)	Runtime Bad Block (Total)
+SmartSamsung	BB	無法校正的錯誤次數	Uncorrectable Error Count
+SmartSamsung	BE	氣流溫度	Airflow Temperature
+SmartSamsung	C2	硬碟溫度	Temperature
+SmartSamsung	C3	ECC 錯誤率	ECC Error Rate
+SmartSamsung	C6	離線無法校正錯誤次數	Off-Line Uncorrectable Error Count
+SmartSamsung	C7	高速傳輸模式錯誤次數	CRC Error Count
+SmartSamsung	C9	超級電容狀態	Super cap Status
+SmartSamsung	CA	SSD 模式狀態	SSD Mode Status
+SmartSamsung	EB	POR 復原次數	POR Recovery Count
+SmartSamsung	F1	SSD 總寫入量	Total LBAs Written
+SmartSamsung	F2	SSD 總讀取量	Total LBAs Read
+SmartSamsung	AA	未使用的保留空間數(晶片)	Unused Reserved Block Count (Chip)
+SmartSamsung	AB	程式失敗次數(晶片)	Program Fail Count (Chip)
+SmartSamsung	AC	抹除失敗次數(晶片)	Erase Fail Count (Chip)
+SmartSamsung	AD	平均抹寫次數	Wear Leveling Count
+SmartSamsung	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartSamsung	B8	出錯偵測	Error Detection
+SmartSamsung	E9	正常媒體耗損	Normalized Media Wear-out
+SmartSandForce	01	原始讀取錯誤率	Raw Read Error Rate
+SmartSandForce	05	已淘汰區塊數	Retired Block Count
+SmartSandForce	09	累積通電時間	Power-On Hours
+SmartSandForce	0C	開機次數	Power Cycle Count
+SmartSandForce	0D	軟性讀取錯誤率	Soft Read Error Rate
+SmartSandForce	64	GB 已抹除	Gigabytes Erased
+SmartSandForce	AA	保留區塊數量	Reserve Block Count
+SmartSandForce	AB	程式失敗次數	Program Fail Count
+SmartSandForce	AC	抹除失敗次數	Erase Fail Count
+SmartSandForce	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartSandForce	B1	耗損範圍差異	Wear Range Delta
+SmartSandForce	B5	程式失敗次數	Program Fail Count
+SmartSandForce	B6	抹除失敗次數	Erase Fail Count
+SmartSandForce	B8	報告 I/O 錯誤檢測代碼錯誤	Reported I/O Error Detection Code Errors
+SmartSandForce	BB	報告不可修正錯誤	Reported Uncorrectable Errors
+SmartSandForce	C2	硬碟溫度	Temperature
+SmartSandForce	C3	ECC 運作中不可修正錯誤次數	On-the-Fly ECC Uncorrectable Error Count
+SmartSandForce	C4	重新配置事件	Reallocation Event Count
+SmartSandForce	C6	無法校正的磁區總數	Uncorrectable Sector Count
+SmartSandForce	C7	SATA R-Errors 錯誤次數	SATA R-Errors Error Count
+SmartSandForce	C9	無法校正的軟性讀取錯誤率	Uncorrectable Soft Read Error Rate
+SmartSandForce	CC	邏輯 ECC 校正率	Soft ECC Correction Rate
+SmartSandForce	E6	壽命曲線狀態	Drive Life Protection Status
+SmartSandForce	E7	SSD 壽命剩下	SSD Life Left
+SmartSandForce	E8	可用的保留空間	Available Reserved Space
+SmartSandForce	EB	SuperCap 健康情況	Power Fail Backup Health
+SmartSandForce	F1	寫入壽命	Lifetime Writes from Host
+SmartSandForce	F2	讀取壽命	Lifetime Reads from Host
+SmartJMicron61x	01	底層資料讀取錯誤率	Read Error Rate
+SmartJMicron61x	02	讀寫通量效能	Throughput Performance
+SmartJMicron61x	03	碟片啟動時間	Spin-Up Time
+SmartJMicron61x	05	重新配置磁區數量（壞軌數）	Reallocated Sectors Count
+SmartJMicron61x	07	尋道錯誤率	Seek Error Rate
+SmartJMicron61x	08	尋道效能	Seek Time Performance
+SmartJMicron61x	09	累積通電時間	Power-On Hours
+SmartJMicron61x	0A	啟動重試次數	Spin Retry Count
+SmartJMicron61x	0C	開機次數	Power Cycle Count
+SmartJMicron61x	A8	SATA PHY 錯誤次數	SATA PHY Error Count
+SmartJMicron61x	AF	損壞叢集表數(錯誤自動檢查與更正(ECC)失敗次數)	Bad Cluster Table Count (ECC Fail Count)
+SmartJMicron61x	C0	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartJMicron61x	C2	硬碟溫度	Temperature
+SmartJMicron61x	C5	等待重新配置的磁區	Current Pending Sector Count
+SmartJMicron61x	AA	損壞區塊數	Bad Block Count
+SmartJMicron61x	AD	抹除次數	Erase Count
+SmartMicron	01	原始讀取錯誤率	Raw Read Error Rate
+SmartMicron	05	重新配置磁區數量（壞軌數）	Reallocated NAND Blocks
+SmartMicron	09	累積通電時間	Power On Hours
+SmartMicron	0C	開機次數	Power Cycle Count
+SmartMicron	0D	軟性錯誤率	Soft Error Rate
+SmartMicron	0E	裝置容量(NAND)	Device Capacity (NAND)
+SmartMicron	0F	使用者容量	User Capacity
+SmartMicron	10	可用的備用區塊	Spare Blocks Available
+SmartMicron	11	剩餘的備用區塊	Remaining Spare Blocks
+SmartMicron	64	總計抹除計數	Total Erase Count
+SmartMicron	AA	保留區塊數	Reserved Block Count
+SmartMicron	AB	程式失敗次數	Program Fail Count
+SmartMicron	AC	抹除失敗次數	Erase Fail Count
+SmartMicron	AD	區塊平均抹除次數	Average Block-Erase Count
+SmartMicron	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartMicron	B4	未使用的保留 NAND 區塊	Unused Reserve NAND Blocks
+SmartMicron	B5	非實體對齊頁面存取次數	Unaligned Access Count
+SmartMicron	B7	SATA 介面降級	SATA Interface Downshift
+SmartMicron	B8	錯誤校正次數	Error Correction Count
+SmartMicron	BB	報告不可修正錯誤	Reported Uncorrectable Errors
+SmartMicron	BC	通訊超時次數	Command Timeout Count
+SmartMicron	BD	出廠時的壞區塊數	Factory Bad Block Count
+SmartMicron	C2	硬碟溫度	Temperature
+SmartMicron	C3	累計校正過的 ECC	Cumulative ECC Bit Correction Count
+SmartMicron	C4	重新配置事件	Reallocation Event Count
+SmartMicron	C5	等待重新配置的磁區	Current Pending Sector Count
+SmartMicron	C6	Smart 離線掃瞄無法校正的錯誤次數	Smart Off-line Scan Uncorrectable Error Count
+SmartMicron	C7	UltraDMA 高速傳輸模式錯誤率	Ultra DMA CRC Error Rate
+SmartMicron	CA	已使用的壽命百分比	Percent Lifetime Used
+SmartMicron	CE	寫入錯誤率	Write Error Rate
+SmartMicron	D2	成功 RAIN 復原次數	Successful RAIN Recovery Count
+SmartMicron	EA	已讀取的位元組總數	Total Bytes Read
+SmartMicron	F2	防寫保護進度	Write Protect Progress
+SmartMicron	F3	ECC 位元校正	ECC Bits Corrected
+SmartMicron	F4	ECC 累計臨界值事件	ECC Cumulative Threshold Events
+SmartMicron	F5	累計程式 NAND 頁	Cumulative Program NAND Pages
+SmartMicron	F6	總計主機磁區寫入	Total Host Sector Writes
+SmartMicron	F7	主機程式頁面計數	Host Program Page Count
+SmartMicron	F8	FTL 程式頁面計數	Background Program Page Count
+SmartMicron	F9	總重新整理 ISP 計數	Total Refresh ISP Count
+SmartMicron	FA	總 Do RefCal 計數	Total Do RefCal Count
+SmartMicron	FB	總 NAND 讀取平面計數 (低 4 位元組)	Total NAND Read Plane Count (Low 4Bytes)
+SmartMicron	FC	總 NAND 讀取平面計數 (高 4 位元組)	Total NAND Read Plane Count (High 4Bytes)
+SmartMicron	FD	總區塊重新對應成功計數	Total Block ReMap Pass Count
+SmartMicron	FE	總背景掃描超過限制計數	Total Background Scan Over Limit Count
+SmartMicron	DF	總背景掃描	Total Background Scan
+SmartMicronMU02	01	原始讀取錯誤率	Raw Read Error Rate
+SmartMicronMU02	05	重新配置磁區數量（壞軌數）	Reallocated Sectors Count
+SmartMicronMU02	09	累積通電時間	Power-On Hours
+SmartMicronMU02	0C	開機次數	Power Cycle Count
+SmartMicronMU02	0D	軟性錯誤率	Soft Error Rate
+SmartMicronMU02	0E	裝置容量(NAND)	Device Capacity (NAND)
+SmartMicronMU02	0F	使用者容量	User Capacity
+SmartMicronMU02	10	可用的備用區塊	Spare Blocks Available
+SmartMicronMU02	11	剩餘的備用區塊	Remaining Spare Blocks
+SmartMicronMU02	64	總計抹除計數	Total Erase Count
+SmartMicronMU02	AA	保留區塊數	Reserved Block Count
+SmartMicronMU02	AB	程式失敗次數	Program Fail Count
+SmartMicronMU02	AC	抹除失敗次數	Erase Fail Count
+SmartMicronMU02	AD	區塊平均抹除次數	Average Block-Erase Count
+SmartMicronMU02	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartMicronMU02	B4	未使用的保留 NAND 區塊	Unused Reserve NAND Blocks
+SmartMicronMU02	B7	SATA 介面降級	SATA Interface Downshift
+SmartMicronMU02	B8	錯誤校正次數	Error Correction Count
+SmartMicronMU02	BB	報告不可修正錯誤	Reported Uncorrectable Errors
+SmartMicronMU02	BC	通訊超時次數	Command Timeout Count
+SmartMicronMU02	BD	出廠時的壞區塊數	Factory Bad Block Count
+SmartMicronMU02	C2	硬碟溫度	Temperature
+SmartMicronMU02	C3	累計校正過的 ECC	Cumulative ECC Bit Correction Count
+SmartMicronMU02	C4	重新配置事件	Reallocation Event Count
+SmartMicronMU02	C5	等待重新配置的磁區	Current Pending Sector Count
+SmartMicronMU02	C6	Smart 離線掃瞄無法校正的錯誤次數	Smart Off-line Scan Uncorrectable Error Count
+SmartMicronMU02	C7	UltraDMA 高速傳輸模式錯誤率	Ultra DMA CRC Error Rate
+SmartMicronMU02	CA	已使用的壽命百分比	Percent Lifetime Used
+SmartMicronMU02	CE	寫入錯誤率	Write Error Rate
+SmartMicronMU02	D2	成功 RAIN 復原次數	Successful RAIN Recovery Count
+SmartMicronMU02	EA	已讀取的位元組總數	Total Bytes Read
+SmartMicronMU02	F3	ECC 位元校正	ECC Bits Corrected
+SmartMicronMU02	F4	ECC 累計臨界值事件	ECC Cumulative Threshold Events
+SmartMicronMU02	F5	總計 TLC 寫入次數	Total NAND Write Count
+SmartMicronMU02	F6	總計 SLC 寫入次數	Total SLC Write Count
+SmartMicronMU02	F7	RAID 復原次數	RAID Recovery Count
+SmartMicronMU02	F8	背景程式頁面計數	Background Program Page Count
+SmartMicronMU02	A0	無法修正的磁區	Uncorrectable Sector Count
+SmartMicronMU02	A1	有效的備用區塊	Valid Spare Blocks
+SmartMicronMU02	A3	初始無效區塊	Initial Invalid Blocks
+SmartMicronMU02	94	總計 SLC 抹除次數	Total SLC Erase Count
+SmartMicronMU02	95	最大 SLC 抹除次數	Maximum SLC Erase Count
+SmartMicronMU02	96	最小 SLC 抹除次數	Minimum SLC Erase Count
+SmartMicronMU02	97	平均 SLC 抹除次數	Average SLC Erase Count
+SmartMicronMU02	A4	總計 TLC 抹除次數	Total NAND Erase Count
+SmartMicronMU02	A5	最大 TLC 抹除次數	Maximum NAND Erase Count
+SmartMicronMU02	A6	最小 TLC 抹除次數	Minimum NAND Erase Count
+SmartMicronMU02	A7	平均 TLC 抹除次數	Average NAND Erase Count
+SmartMicronMU02	A9	剩餘壽命百分比	Percentage Lifetime Remaining
+SmartMicronMU02	B5	程式失敗次數	Program Fail Count
+SmartMicronMU02	B6	抹除失敗次數	Erase Fail Count
+SmartMicronMU02	C0	電源關閉磁頭收回計數	Power-off Retract Count
+SmartMicronMU02	E8	可用的保留空間	Available Reserved Space
+SmartMicronMU02	F1	總計 LBA 寫入	Total LBA Write
+SmartMicronMU02	F2	總計 LBA 讀取	Total LBA Read
+SmartMicronMU02	F9	總重新整理 ISP 計數	Total Refresh ISP Count
+SmartMicronMU02	FA	總 Do RefCal 計數	Total Do RefCal Count
+SmartMicronMU02	FB	總 NAND 讀取平面計數 (低 4 位元組)	Total NAND Read Plane Count (Low 4Bytes)
+SmartMicronMU02	FC	總 NAND 讀取平面計數 (高 4 位元組)	Total NAND Read Plane Count (High 4Bytes)
+SmartMicronMU02	FD	總區塊重新對應成功計數	Total Block ReMap Pass Count
+SmartMicronMU02	FE	總背景掃描超過限制計數	Total Background Scan Over Limit Count
+SmartMicronMU02	DF	總背景掃描	Total Background Scan
+SmartOcz	01	原始讀取錯誤率	Raw Read Error Rate
+SmartOcz	03	碟片啟動時間	Spin Up Time
+SmartOcz	04	馬達啟動關閉次數	Start Stop Count
+SmartOcz	05	重新配置磁區數量（壞軌數）	Reallocated Sectors Count
+SmartOcz	09	累積通電時間	Power-On Hours
+SmartOcz	0C	開機次數	Power Cycle Count
+SmartOcz	C2	外殼溫度	Temperature
+SmartOcz	E8	寫入磁區總數	Total Count of Write Sectors
+SmartOcz	E9	剩餘壽命	Remaining Life
+SmartOcz	64	總計區塊已抹除	Total Blocks Erased
+SmartOcz	A7	SSD 保護模式	SSD Protect Mode
+SmartOcz	A8	SATA PHY 錯誤計數	SATA PHY Error Count
+SmartOcz	A9	損壞區塊數	Bad Block Count
+SmartOcz	AD	抹除次數	Erase Count
+SmartOcz	B8	工廠損壞區塊數	Factory Bad Block Count
+SmartOcz	C0	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartOcz	CA	修正位元總數	Total Number of Corrected Bits
+SmartOcz	CD	最大額定 PE 計數	Max Rated PE Counts
+SmartOcz	CE	最小抹除次數	Minimum Erase Counts
+SmartOcz	CF	最大抹除次數	Maximum Erase Counts
+SmartOcz	D3	SATA 無法校正的錯誤次數	SATA Uncorrectable Error Count
+SmartOcz	D4	重試期間的 NAND 頁讀取	NAND Page Reads During Retry
+SmartOcz	D5	簡單讀取重試次數	Simple Read Retry Attempts
+SmartOcz	D6	自我調整讀取重試次數	Adaptive Read Retry Attempts
+SmartOcz	DD	內部資料路徑無法校正的錯誤	Internal Data Path Uncorrectable Errors
+SmartOcz	DE	RAID 復原次數	RAID Recovery Count
+SmartOcz	E6	電源中斷保護	Power Loss Protection
+SmartOcz	FB	NAND 讀取次數	NAND Read Count
+SmartOcz	F1	SSD 總寫入量	Total Host Writes
+SmartOcz	F2	SSD 總讀取量	Total Host Reads
+SmartOcz	F9	NAND 總寫入量	Total NAND Writes
+SmartPlextor	01	底層資料讀取錯誤率	Read Error Rate
+SmartPlextor	05	重新配置磁區數量（壞軌數）	Reallocated Sectors Count
+SmartPlextor	09	累積通電時間	Power-On Hours
+SmartPlextor	0C	開機次數	Power Cycle Count
+SmartPlextor	AA	增長的損壞區塊	Grown Bad Blocks
+SmartPlextor	AB	程式失敗次數	Program Fail Count
+SmartPlextor	AC	抹除失敗次數	Erase Fail Count
+SmartPlextor	AD	平均程式/抹除次數	Average Program/Erase Count
+SmartPlextor	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartPlextor	AF	程式失敗次數(最糟狀況)	Program Fail Count (Worst Case)
+SmartPlextor	B0	抹除失敗次數(最糟狀況)	Erase Fail Count (Worst Case)
+SmartPlextor	B1	平均抹寫次數	Wear Leveling Count
+SmartPlextor	B2	已使用的保留區塊數(最遭狀況)	Used Reserved Block Count (Worst Case)
+SmartPlextor	B3	已使用的保留區塊數	Used Reserved Block Count
+SmartPlextor	B4	未使用的保留區塊數(總計)	UnUsed Reserved Block Count (Total)
+SmartPlextor	B5	程式失敗次數	Program Fail Count
+SmartPlextor	B6	抹除失敗次數	Erase Fail Count
+SmartPlextor	B7	SATA 介面降級	SATA Interface Down Shift
+SmartPlextor	B8	終端校驗資料出錯已校正	End-to-End Data Errors Corrected
+SmartPlextor	BB	無法校正的錯誤次數	Uncorrectable Error Count
+SmartPlextor	BC	通訊超時	Command Time out
+SmartPlextor	C0	不安全關機次數	Unsafe Shutdown Count
+SmartPlextor	C3	ECC 錯誤率	ECC rate
+SmartPlextor	C4	重新配置事件	Reallocation Event Count
+SmartPlextor	C6	無法校正的磁區總數	Uncorrectable Sector Count
+SmartPlextor	C7	Ultra 高速傳輸模式錯誤次數	Ultra CRC Error Count
+SmartPlextor	E8	可用的保留空間	Available Reserved Space
+SmartPlextor	E9	NAND GB 已寫入	NAND GB written
+SmartPlextor	F1	SSD 總寫入量	Total Host Writes
+SmartPlextor	F2	SSD 總讀取量	Total Host Reads
+SmartSanDisk	05	已淘汰區塊數	Reassigned Block Count
+SmartSanDisk	09	累積通電時間	Power On Hours
+SmartSanDisk	0C	開機次數	Power Cycle Count
+SmartSanDisk	AA	保留區塊數量	Reserve Block Count
+SmartSanDisk	AB	程式失敗次數	Program Fail Count
+SmartSanDisk	AC	抹除失敗次數	Erase Fail Count
+SmartSanDisk	AD	平均寫入/抹除次數	Average Write/Erase Count
+SmartSanDisk	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartSanDisk	BB	報告不可修正錯誤	Reported Uncorrectable Errors
+SmartSanDisk	C2	外殼溫度	Temperature
+SmartSanDisk	E6	寫入/抹除次數總計百分比	Percent of Total Write/Erase Count
+SmartSanDisk	E8	剩餘壽命	Spare Blocks Remaining
+SmartSanDisk	EA	寫入/抹除次數總計百分比 (BC 區塊)	Percent of Total Write/Erase Count (BC blocks)
+SmartSanDisk	F1	SSD 總寫入量	Total Host Writes
+SmartSanDisk	F2	SSD 總讀取量	Total Host Reads
+SmartOczVector	05	累計執行階段損壞磁區	Accumulated Runtime Bad Blocks
+SmartOczVector	09	累積通電時間	Power-On Hours Count
+SmartOczVector	0C	開機次數	Power Cycle Count
+SmartOczVector	AB	可用超額提供的區塊數	Available Over-Provisioned Block Count
+SmartOczVector	AE	開機次數(尚未計畫)	Power Cycle Count (Unplanned)
+SmartOczVector	BB	無法校正的 NAND 讀取累計	Total Uncorrectable NAND Reads
+SmartOczVector	C2	外殼溫度	Temperature
+SmartOczVector	C3	規劃失敗累計	Total Programming Failures
+SmartOczVector	C4	抹除失敗累計	Total Erase Failures
+SmartOczVector	C5	讀取失敗累計(無法校正)	Total Read Failures (Uncorrectable)
+SmartOczVector	C6	SSD 讀取量	Host Reads
+SmartOczVector	C7	SSD 寫入量	Host Writes
+SmartOczVector	D0	平均抹除次數	Average Erase Count
+SmartOczVector	D2	SATA 高速傳輸模式錯誤次數	SATA CRC Error Count
+SmartOczVector	E9	剩餘壽命	Remaining Life
+SmartOczVector	F9	NAND 規劃次數累計(頁)	Total NAND Programming Count (pages)
+SmartOczVector	F1	SSD 總寫入量	Total Host Writes
+SmartOczVector	F2	SSD 總讀取量	Total Host Reads
+SmartOczVector	64	總計區塊已抹除	Total Blocks Erased
+SmartOczVector	B8	工廠損壞區塊數總計	Factory Bad Block Count Total
+SmartOczVector	CA	讀取位元修正總數	Total Number Of Read Bits Corrected
+SmartOczVector	CD	最大額定 PE 計數	Max Rated PE Count
+SmartOczVector	CE	最小抹除次數	Min Erase Count
+SmartOczVector	CF	最大抹除次數	Max Erase Count
+SmartOczVector	D4	需要讀取重試的 NAND 頁讀取總次數	Total Count NAND Pages Reads Requiring Read Retry
+SmartOczVector	D5	簡單讀取重試次數總次數	Total Count of Simple Read Retry Attempts
+SmartOczVector	D6	自我調整讀取重試次數總次數	Total Count of Adaptive Read Retry Attempts
+SmartOczVector	DD	內部資料路徑保護無法校正的錯誤	Internal Data Path Protection Uncorrectable Errors
+SmartOczVector	DE	RAID 復原次數	RAID Recovery Count
+SmartOczVector	E0	在保修期內	In Warranty
+SmartOczVector	E1	DAS 極性	DAS Polarity
+SmartOczVector	E2	部份 Pfail	Partial Pfail
+SmartOczVector	E6	寫入限制啟用標誌	Write Throttling Activation Flag
+SmartOczVector	FB	NAND 讀取次數總計	Total NAND Read Count
+SmartCorsair	01	原始讀取錯誤率	Raw Read Error Rate
+SmartCorsair	05	已淘汰區塊數	Retired Block Count
+SmartCorsair	09	累積通電時間	Power On Hours
+SmartCorsair	0C	開機次數	Power Cycle Count
+SmartCorsair	AA	保留區塊數量	Reserve Block Count
+SmartCorsair	AC	抹除失敗次數	Erase Fail Count
+SmartCorsair	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartCorsair	B5	程式失敗次數	Program Fail Count
+SmartCorsair	BB	無法校正的錯誤報告	Reported Uncorrectable Errors
+SmartCorsair	C2	外殼溫度	Temperature
+SmartCorsair	C4	重新配置事件	Reallocation Event Count
+SmartCorsair	E7	SSD 壽命剩下	SSD Life Left
+SmartCorsair	F1	壽命 GB 寫入	Lifetime Written
+SmartCorsair	F2	壽命 GB 讀取	Lifetime Read
+SmartToshiba	01	底層資料讀取錯誤率	Read Error Rate
+SmartToshiba	02	讀寫通量效能	Throughput Performance
+SmartToshiba	03	碟片啟動時間	Spin-Up Time
+SmartToshiba	04	馬達啟動關閉次數	Start/Stop Count
+SmartToshiba	05	重新配置磁區數量（壞軌數）	Reallocated Sectors Count
+SmartToshiba	07	尋道錯誤率	Seek Error Rate
+SmartToshiba	08	尋道效能	Seek Time Performance
+SmartToshiba	09	累積通電時間	Power-On Hours
+SmartToshiba	0A	啟動重試次數	Spin Retry Count
+SmartToshiba	0B	磁頭校準重試	Recalibration Retries
+SmartToshiba	0C	關閉電源次數	Power Cycle Count
+SmartToshiba	A7	SSD 保護模式	SSD Protect Mode
+SmartToshiba	A8	SATA PHY 錯誤次數	SATA PHY Error Count
+SmartToshiba	A9	損壞區塊數總計	Total Bad Block Count
+SmartToshiba	AD	抹除次數	Erase Count
+SmartToshiba	C0	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartToshiba	C2	硬碟溫度	Temperature
+SmartToshiba	C4	重新配置事件	Reallocation Event Count
+SmartToshiba	C5	等待重新配置的磁區	Current Pending Sector Count
+SmartToshiba	C6	無法修正的磁區	Uncorrectable Sector Count
+SmartToshiba	F1	SSD 總寫入量	Total Host Writes
+SmartToshiba	F2	SSD 總讀取量	Total Host Reads
+SmartSanDiskGb	01	底層資料讀取錯誤率	Read Error Rate
+SmartSanDiskGb	05	重定位區塊計數	Reassigned Block Count
+SmartSanDiskGb	09	累積通電時間	Power On Hours
+SmartSanDiskGb	0C	關閉電源次數	Power Cycle Count
+SmartSanDiskGb	A5	區塊抹除次數 (SLC)	Block Erase Count (SLC)
+SmartSanDiskGb	A6	最小 P/E 週期	Minimum P/E Cycles
+SmartSanDiskGb	A7	最大損壞區塊/晶粒	Maximum Bad Blocks per die
+SmartSanDiskGb	A8	最大 P/E 週期	Maximum P/E Cycles
+SmartSanDiskGb	A9	損壞區塊總計	Total Bad Block
+SmartSanDiskGb	AA	成長的損壞區塊	Grown Bad Blocks
+SmartSanDiskGb	AB	程式失敗次數	Program Fail Count
+SmartSanDiskGb	AC	抹除失敗次數	Erase Fail Count
+SmartSanDiskGb	AD	平均抹除週期	Average P/E Cycles
+SmartSanDiskGb	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartSanDiskGb	B8	終端校驗出錯偵測/校正次數	End-to-End Error Detection/Correction Count
+SmartSanDiskGb	BB	報告不可修正錯誤	Reported Uncorrectable Errors
+SmartSanDiskGb	BC	通訊超時次數	Command Timeout Count
+SmartSanDiskGb	C2	硬碟溫度	Temperature
+SmartSanDiskGb	C7	高速傳輸模式錯誤次數	CRC Error Count
+SmartSanDiskGb	D4	SATA PHY 錯誤	SATA PHY Error
+SmartSanDiskGb	E6	媒體耗損指標	Media Wearout Indicator
+SmartSanDiskGb	E7	SSD 壽命剩下	SSD Life Left
+SmartSanDiskGb	E8	備用區塊剩餘	Available Reserve Space
+SmartSanDiskGb	E9	總計 GB 寫入 NAND	NAND GB Written
+SmartSanDiskGb	EA	總計 GB 寫入 NAND (SLC)	NAND GB Written (SLC)
+SmartSanDiskGb	EE	媒體耗損指標 (剩餘週期)	Media Wearout Indicator (Cycles Remaining)
+SmartSanDiskGb	F1	總計 GB 寫入	Total GB Written
+SmartSanDiskGb	F2	總計 GB 讀取	Total GB Read
+SmartSanDiskGb	F4	溫度節流狀態	Temperature Throttle Status
+SmartSanDiskGb	F9	NAND GB 已寫入	NAND GB Written
+SmartKingston	01	底層資料讀取錯誤率	Read Error Rate
+SmartKingston	02	讀寫通量效能	Throughput Performance
+SmartKingston	03	碟片啟動時間	Spin Up Time
+SmartKingston	05	重新配置磁區數量（壞軌數）	Reallocated Sectors Count
+SmartKingston	07	尋道錯誤率	Seek Error Rate
+SmartKingston	08	尋道效能	Seek Time Performance
+SmartKingston	09	累積通電時間	Power-On Hours
+SmartKingston	0A	啟動重試次數	Spin Retry Count
+SmartKingston	0C	關閉電源次數	Power Cycle Count
+SmartKingston	A8	SATA PHY 錯誤次數	SATA PHY Error Count
+SmartKingston	AA	損壞區塊數	Bad Block Count
+SmartKingston	AD	抹除次數	Erase count
+SmartKingston	AF	損壞叢集表數	Bad Cluster Table Count
+SmartKingston	BB	不可修正錯誤	Uncorrectable Errors
+SmartKingston	C0	不安全關機次數	Unsafe Shutdown Count
+SmartKingston	C2	硬碟溫度	Temperature
+SmartKingston	C4	後來損壞區塊計數	Later Bad Block Count
+SmartKingston	C5	等待重新配置的磁區	Current Pending Sector Count
+SmartKingston	C7	CRC 錯誤（傳輸錯誤）次數	CRC Error Count
+SmartKingston	DA	CRC 錯誤（傳輸錯誤）次數	CRC Error Count
+SmartKingston	E7	SSD 壽命剩下	SSD Life Left
+SmartKingston	E9	寫入快閃記憶體的壽命	Lifetime Writes to Flash
+SmartKingston	F0	磁性寫頭	Write Head
+SmartKingston	F1	主機寫入	Host Writes
+SmartKingston	F2	主機讀取	Host Reads
+SmartKingston	F4	平均抹除次數	Average Erase Count
+SmartKingston	F5	最大抹除次數	Max Erase Count
+SmartKingston	F6	總計抹除次數	Total Erase Count
+SmartRealtek	01	原始值錯誤率	Raw data error rate
+SmartRealtek	05	重新配置磁區數量（壞軌數）	Reallocated sector count
+SmartRealtek	09	累積通電時間計數	Power on hour count
+SmartRealtek	0C	關閉電源計數	Power cycle count
+SmartRealtek	A1	GDN	GDN
+SmartRealtek	A2	總抹除次數	Total erase count
+SmartRealtek	A3	最大 PE 循環	Max PE cycle
+SmartRealtek	A4	平均抹除次數	Average erase count
+SmartRealtek	A5	初始化壞塊計數	Initial bad block count
+SmartRealtek	A6	總壞塊計數	Total bad block count
+SmartRealtek	A7	SSD 保護模式	SSD protect mode
+SmartRealtek	A8	SATA Phy 錯誤計數	SATA Phy error count
+SmartRealtek	A9	健康狀態	Health
+SmartRealtek	AB	程式失敗次數	Program fail count
+SmartRealtek	AC	抹除失敗次數	Erase fail count
+SmartRealtek	AE	未預期的電源中斷次數	Unexpected power loss count
+SmartRealtek	AF	ECC 失敗次數	ECC fail count
+SmartRealtek	B5	非實體對齊頁面存取次數	Unaligned access count
+SmartRealtek	BB	報告不可修正錯誤	Reported uncorrectable error
+SmartRealtek	C2	外殼溫度	Enclosure temperature
+SmartRealtek	C3	累積校正 ecc	Cumulative corrected ecc
+SmartRealtek	C4	重定位事件計數	Reallocation event count
+SmartRealtek	C7	Ultra DMA CRC 錯誤（傳輸錯誤）次數	Ultra DMA CRC error count
+SmartRealtek	CE	最小抹除次數	Min. erase count
+SmartRealtek	CF	最大抹除次數	Max erase count
+SmartRealtek	E7	剩餘壽命	Lifetime left
+SmartRealtek	E8	可用的保留空間	Available reserved space
+SmartRealtek	F1	寫入壽命時間	Write life time
+SmartRealtek	F2	讀取壽命時間	Read life time
+SmartRealtek	F9	寫入 NAND 的總 GB	Total GB written to NAND
+SmartRealtek	FA	寫入 NAND 的總 GB (SLC)	Total GB written to NAND (SLC)
+SmartSKhynix	01	底層資料讀取錯誤率	Read Error Rate
+SmartSKhynix	05	重新分配的磁區計數	Re-Assigned Sector Count
+SmartSKhynix	09	累積通電時間	Power-On Hours
+SmartSKhynix	0C	開機次數	Power Cycle Count
+SmartSKhynix	64	抹除次數總計	Total Erase Count
+SmartSKhynix	A8	最小抹除次數	Min. Erase Count
+SmartSKhynix	A9	最大抹除次數	Max. Erase Count
+SmartSKhynix	AA	保留區塊數量	Reserve Block Count
+SmartSKhynix	AB	程式失敗次數	Program Fail Count
+SmartSKhynix	AC	抹除失敗次數	Erase Fail Count
+SmartSKhynix	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartSKhynix	AF	程式失敗次數(最遭狀況)	Program Fail Count(Worst Case)
+SmartSKhynix	B0	抹除失敗次數(最遭狀況)	Erase Fail Count(Worst Case)
+SmartSKhynix	B1	平均抹寫次數	Wear Leveling Count
+SmartSKhynix	B2	已使用的保留空間數(最遭狀況)	Used Reseved Block Count(Worst Case)
+SmartSKhynix	B3	已使用的保留空間數(SSD 總計)	Used Reseved Block Count(SSD Total)
+SmartSKhynix	B4	未使用的保留空間數(SSD 總計)	UnUsed Reseved Block Count(SSD Total)
+SmartSKhynix	B5	程式失敗次數(SSD 總計)	Program Fail Count(SSD Total)
+SmartSKhynix	B6	抹除失敗次數(SSD 總計)	Erase Fail Count(SSD Total)
+SmartSKhynix	B7	SATA 降級執行計數	SATA Downshift Count
+SmartSKhynix	B8	終端校驗出錯偵測次數	End-to-End Error Detection Count
+SmartSKhynix	BB	無法校正的錯誤次數	Uncorrectable Error Count
+SmartSKhynix	BC	通訊超時次數	Command Timeout Count
+SmartSKhynix	BF	操作衝擊事件計數	Op Shock Event Count
+SmartSKhynix	C2	硬碟溫度	Temperature
+SmartSKhynix	C3	ECC 錯誤率	ECC Rate
+SmartSKhynix	C4	重新配置事件	Reallocation Event Count
+SmartSKhynix	C6	無法修正的磁區	Uncorrectable Sector Count
+SmartSKhynix	C7	高速傳輸模式錯誤次數	CRC Error Count
+SmartSKhynix	C9	無法校正的軟性讀取錯誤率	Uncorrectable Soft Read Error Rate
+SmartSKhynix	CC	邏輯 ECC 校正率	Soft ECC Correction Rate
+SmartSKhynix	D4	Phy 錯誤次數	Phy Error Count
+SmartSKhynix	E7	SSD 壽命剩下	SSD Life Left
+SmartSKhynix	E9	SSD 壽命剩下	SSD Life Left
+SmartSKhynix	EA	NAND 已寫入	NAND Written
+SmartSKhynix	F1	SSD 總寫入量	Total LBA Written
+SmartSKhynix	F2	SSD 總讀取量	Total LBA Read
+SmartSKhynix	FA	NAND 讀取重試次數總數	Total Number of NAND Read Retries
+SmartKioxia	09	累積通電時間	Power-On Hours Count
+SmartKioxia	0C	裝置開機次數	Power Cycle Count
+SmartKioxia	A7	SSD 保護模式	SSD Protect Mode
+SmartKioxia	A8	SATA Phy 錯誤次數	SATA PHY Error Count
+SmartKioxia	A9	損壞區塊數	Bad Block Count
+SmartKioxia	AD	抹除次數 (使用者資料)	Erase Count (User Data)
+SmartKioxia	C0	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartKioxia	C2	硬碟溫度	Temperature
+SmartKioxia	F1	SSD 寫入量	Host Writes
+SmartWdc	01	底層資料讀取錯誤率	Read Error Rate
+SmartWdc	05	已淘汰區塊數	Reassigned Block Count
+SmartWdc	09	累積通電時間	Power On Hours
+SmartWdc	0C	開機次數	Power Cycle Count
+SmartWdc	A5	區塊抹除次數 (SLC)	Block Erase Count (SLC)
+SmartWdc	A6	最小 P/E 週期	Minimum P/E Cycles
+SmartWdc	A7	最大損壞區塊/晶粒	Maximum Bad Blocks per die
+SmartWdc	A8	最大 P/E 週期	Maximum P/E Cycles
+SmartWdc	A9	損壞區塊總計	Total Bad Block
+SmartWdc	AA	增長的損壞區塊	Grown Bad Blocks
+SmartWdc	AB	程式失敗次數	Program Fail Count
+SmartWdc	AC	抹除失敗次數	Erase Fail Count
+SmartWdc	AD	平均 P/E 週期	Average P/E Cycles
+SmartWdc	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartWdc	B8	終端校驗出錯偵測/校正次數	End-to-End Error Detection/Correction Count
+SmartWdc	BB	報告不可修正錯誤	Reported Uncorrectable Errors
+SmartWdc	BC	通訊超時次數	Command Timeout Count
+SmartWdc	C2	硬碟溫度	Temperature
+SmartWdc	C7	高速傳輸模式錯誤次數	CRC Error Count
+SmartWdc	D4	SATA PHY 錯誤	SATA PHY Error
+SmartWdc	E6	媒體耗損指標	Media Wearout Indicator
+SmartWdc	E8	可用保留空間	Available Reserve Space
+SmartWdc	E9	總計 GB 寫入 NAND	NAND GB Written
+SmartWdc	EA	總計 GB 寫入 NAND (SLC)	NAND GB Written (SLC)
+SmartWdc	EE	媒體耗損指標 (剩餘週期)	Media Wearout Indicator (Cycles Remaining)
+SmartWdc	F1	總計 GB 寫入	Total GB Written
+SmartWdc	F2	總計 GB 讀取	Total GB Read
+SmartWdc	F3	NAND 總寫入量	Total NAND Writes
+SmartWdc	F4	硬碟溫度節流狀態	Temperature Throttle Status
+SmartWdc	F9	NAND GB 已寫入	NAND GB Written
+SmartKingstonSuv	01	底層資料讀取錯誤率	Read Error Rate
+SmartKingstonSuv	05	重新配置磁區數量（壞軌數）	Reallocated Sector Count
+SmartKingstonSuv	09	累積通電時間	Power On Hours
+SmartKingstonSuv	0C	開機次數	Power Cycle Count
+SmartKingstonSuv	AA	已使用的保留空間數	Used Reserved Block Count
+SmartKingstonSuv	AB	程式失敗次數	Program Fail Count
+SmartKingstonSuv	AC	抹除失敗次數	Erase Fail Count
+SmartKingstonSuv	AE	意外電源關閉次數	Unexpected Power Off Count
+SmartKingstonSuv	AF	程式失敗次數最差晶粒	Program Fail Count Worst Die
+SmartKingstonSuv	B0	抹除失敗次數最差晶粒	Erase Fail Count Worst Die
+SmartKingstonSuv	B1	平均抹寫次數	Wear Leveling Count
+SmartKingstonSuv	B2	已使用的保留空間數最差晶粒	Used Reserved Block Count worst Die
+SmartKingstonSuv	B4	未使用的保留空間數 (SSD 總計)	Unused Reserved Block Count (SSD Total)
+SmartKingstonSuv	BB	報告不可修正錯誤	Reported Uncorrectable Errors
+SmartKingstonSuv	C2	硬碟溫度	Temperature
+SmartKingstonSuv	C3	ECC 運作中錯誤次數	On-the-Fly ECC Error Count
+SmartKingstonSuv	C4	重新配置事件	Reallocation Event Count
+SmartKingstonSuv	C5	等待重新配置的磁區	Pending Sector Count
+SmartKingstonSuv	C7	UDMA 高速傳輸模式錯誤次數	UDMA CRC Error Count
+SmartKingstonSuv	C9	不可修正底層資料讀取錯誤率	Uncorrectable Read Error Rate
+SmartKingstonSuv	CC	邏輯 ECC 校正率	Soft ECC Correction Rate
+SmartKingstonSuv	E7	SSD 壽命剩下	SSD Life Left
+SmartKingstonSuv	EA	Nand 寫入壽命	Lifetime Nand Writes
+SmartKingstonSuv	F1	主機寫入壽命	Lifetime Host Writes
+SmartKingstonSuv	F2	主機讀取壽命	Lifetime Host Reads
+SmartKingstonSuv	FA	NAND 讀取重試總數	Total Number of NAND Read Retries
+SmartKingstonKC600	01	底層資料讀取錯誤率	Read Error Rate
+SmartKingstonKC600	05	重定位 NAND 區塊計數	Re-Allocated NAND Block Count
+SmartKingstonKC600	09	累積通電時間	Power-On Hours
+SmartKingstonKC600	0C	開機次數	Power Cycle Count
+SmartKingstonKC600	94	保留	Reserved
+SmartKingstonKC600	95	保留	Reserved
+SmartKingstonKC600	96	保留	Reserved
+SmartKingstonKC600	97	SLC 平均抹除次數	SLC Average Erase Count
+SmartKingstonKC600	9F	DRAM 1 位元錯誤次數	DRAM 1 bit Error Count
+SmartKingstonKC600	A0	報告 UECC (不可修正) 錯誤	Reported UECC (UnCorrectable) Errors
+SmartKingstonKC600	A1	可用的保留空間	Available Reserved Space
+SmartKingstonKC600	A4	保留	Reserved
+SmartKingstonKC600	A5	保留	Reserved
+SmartKingstonKC600	A6	保留	Reserved
+SmartKingstonKC600	A7	平均抹除次數	Average Erase Count
+SmartKingstonKC600	A8	保留	Reserved
+SmartKingstonKC600	A9	額定剩餘壽命的百分比	Percentage Of Rated Lifetime Remaining
+SmartKingstonKC600	B1	保留	Reserved
+SmartKingstonKC600	B5	程式失敗次數	Program Fail Count
+SmartKingstonKC600	B6	抹除失敗次數	Erase Fail Count
+SmartKingstonKC600	C0	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartKingstonKC600	C2	裝置硬碟溫度	Device Temperature
+SmartKingstonKC600	C3	硬體錯誤修正編碼復原	Hardware ECC Recovered
+SmartKingstonKC600	C4	重新配置事件	Reallocation Event Count
+SmartKingstonKC600	C7	UDMA 高速傳輸模式錯誤次數	UDMA CRC Error Count
+SmartKingstonKC600	E7	額定剩餘壽命的百分比	Percentage of Rated Lifetime Remaining
+SmartKingstonKC600	E8	Un已使用的保留空間數	Unused Reserved Block Count
+SmartKingstonKC600	F1	SSD 總寫入量	Total LBAs Written
+SmartKingstonKC600	F2	SSD 總讀取量	Total LBAs Read
+SmartKingstonKC600	F5	媒體寫入總數	Total Media Writes
+SmartKingstonDC500	01	主機 UNC 錯誤次數	Host UNC Error Count
+SmartKingstonDC500	09	累積通電時間	Power on Hours
+SmartKingstonDC500	0C	電源開/關週期	Power On / Off Cycle
+SmartKingstonDC500	A7	保護模式	Protect mode
+SmartKingstonDC500	A8	SATA Phy 錯誤次數	SATA PHY Error Count
+SmartKingstonDC500	A9	損壞磁區率	Bad Block Rate
+SmartKingstonDC500	AA	損壞磁區資訊	Bad Block Information
+SmartKingstonDC500	AC	抹除失敗次數	Erase Failure Count
+SmartKingstonDC500	AD	抹除次數	Erase Count
+SmartKingstonDC500	B5	程式失敗次數	Program Fail Count
+SmartKingstonDC500	B6	抹除失敗次數	Erase Failure Count
+SmartKingstonDC500	BB	主機 UNC 錯誤次數	Host UNC Error Count
+SmartKingstonDC500	C0	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartKingstonDC500	C2	硬碟溫度	Temperature
+SmartKingstonDC500	C4	以後損壞區塊數總計	Total Later Bad Block Count
+SmartKingstonDC500	C7	高速傳輸模式錯誤次數	CRC Error Count
+SmartKingstonDC500	CF	熱節流計數	Thermal Throttling Count
+SmartKingstonDC500	DA	高速傳輸模式錯誤次數	CRC Error Count
+SmartKingstonDC500	E7	剩餘 SSD 使用壽命	SSD Life Remaining
+SmartKingstonDC500	E8	讀取失敗次數	Read Fail Count
+SmartKingstonDC500	E9	NAND 寫入	NAND Write
+SmartKingstonDC500	F1	主機寫入	Host Write
+SmartKingstonDC500	F2	主機讀取	Host Read
+SmartKingstonDC500	F4	平均抹除次數	Avg Erase Count
+SmartKingstonDC500	F5	最大抹除次數	Max Erase Count
+SmartKingstonDC500	F6	抹除次數總計	Total Erase Count
+SmartKingstonSA400	01	不可修正錯誤	Uncorrectable Errors
+SmartKingstonSA400	09	累積通電時間	Power On Hours
+SmartKingstonSA400	0C	關閉電源	Power Cycles
+SmartKingstonSA400	94	廠商特有	Vendor Unique
+SmartKingstonSA400	95	廠商特有	Vendor Unique
+SmartKingstonSA400	A7	廠商特有	Vendor Unique
+SmartKingstonSA400	A8	SATA Phy 錯誤次數	SATA PHY Error Count
+SmartKingstonSA400	A9	廠商特有	Vendor Unique
+SmartKingstonSA400	AA	損壞區塊數	Bad Block Count
+SmartKingstonSA400	AC	廠商特有	Vendor Unique
+SmartKingstonSA400	AD	抹除次數	Erase Count
+SmartKingstonSA400	B5	廠商特有	Vendor Unique
+SmartKingstonSA400	B6	廠商特有	Vendor Unique
+SmartKingstonSA400	BB	不可修正 ECC 錯誤	Uncorrectable ECC Errors
+SmartKingstonSA400	C2	硬碟溫度	Temperature
+SmartKingstonSA400	C4	重定位事件	Reallocation Events
+SmartKingstonSA400	C7	SATA CRC 錯誤（傳輸錯誤）	SATA CRC Error
+SmartKingstonSA400	DA	高速傳輸模式錯誤次數	CRC Error Count
+SmartKingstonSA400	E7	SSD 磨損指示器	SSD Wear Indicator
+SmartKingstonSA400	E9	Nand 寫入壽命	Lifetime Nand Writes
+SmartKingstonSA400	F1	寫入壽命	Lifetime Writes from Host
+SmartKingstonSA400	F2	讀取壽命	Lifetime Read from Host
+SmartKingstonSA400	F4	平均抹除次數	Average Erase Count
+SmartKingstonSA400	F5	最大抹除次數	Max Erase Count
+SmartKingstonSA400	F6	總計抹除次數	Total Erase Count
+SmartSsstc	01	Raw 底層資料讀取錯誤率	Raw Read Error Rate
+SmartSsstc	05	重新配置區塊數量	Reallocated Block Count
+SmartSsstc	09	累積通電時間	Power On Hours
+SmartSsstc	0C	開機次數	Power Cycle Count
+SmartSsstc	AA	可用的保留空間	Available Reserved Space
+SmartSsstc	AB	程式失敗次數(總計)	Program Fail Count (Total)
+SmartSsstc	AC	抹除失敗次數(總計)	Erase Fail Count (Total)
+SmartSsstc	AD	平均程式/抹除次數	Average Program/Erase Count
+SmartSsstc	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartSsstc	AF	程式失敗次數 (最遭狀況)	Program Fail count (Worst case)
+SmartSsstc	B0	抹除失敗次數 (最遭狀況)	Erase Fail Count (Worst case)
+SmartSsstc	B1	平均抹寫次數	Wear Leveling Count
+SmartSsstc	B2	已使用的保留空間數 (最遭狀況)	Used Reserved Block Count (Worst case)
+SmartSsstc	B3	已使用的保留空間數 (總計)	Used Reserved Block Count (Total)
+SmartSsstc	B4	Un已使用的保留空間數 (總計)	Unused Reserved Block Count (Total)
+SmartSsstc	B7	SATA 介面降級	SATA Interface Down shift
+SmartSsstc	B8	終端校驗資料出錯次數	End-to-End Data Errors Count
+SmartSsstc	BB	無法校正的錯誤次數	Uncorrectable Error Count
+SmartSsstc	BC	通訊超時	Command Time out
+SmartSsstc	C2	硬碟溫度	Drive Temperature
+SmartSsstc	C3	ECC 錯誤率	ECC rate
+SmartSsstc	C6	離線無法校正的錯誤次數	OffLine Uncorrectable Error Count
+SmartSsstc	C7	SATA 高速傳輸模式錯誤次數	SATA CRC Error Count
+SmartSsstc	E5	電源中斷保護故障	Power Loss Protection Failure
+SmartSsstc	E7	剩餘壽命百分比	Percentage Lifetime Remaining
+SmartSsstc	E8	可用的保留空間	Available Reserved Space
+SmartSsstc	E9	總計 GB 寫入 NAND	NAND GB Written
+SmartSsstc	F1	總計主機寫入	Total Host Write
+SmartSsstc	F2	總計主機讀取	Total Host Read
+SmartSsstc	F3	NAND GB 已寫入	NAND GB Written
+SmartIntelDc	01	原始讀取錯誤次數	Raw Read Error Count
+SmartIntelDc	05	重定位 Flash 區塊計數	Reallocated Flash Block Count
+SmartIntelDc	09	累積通電時間	Power-On Hours Count
+SmartIntelDc	0C	開機次數	Power Cycle Count
+SmartIntelDc	0E	裝置容量	Device Capacity
+SmartIntelDc	0F	使用者容量	User Capacity
+SmartIntelDc	10	可用的備用區塊	Spare Blocks Available
+SmartIntelDc	11	可用的剩餘備用	Remaining Spare Available
+SmartIntelDc	AC	區塊抹除失敗總計	Total Block Erase Failure
+SmartIntelDc	AD	每個區塊最大抹除次數	Per Block Max Erase Count
+SmartIntelDc	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartIntelDc	AF	平均抹除次數	Average Erase Count
+SmartIntelDc	B0	電源中斷保護錯誤	Power Loss Protection Error
+SmartIntelDc	B5	區塊程式失敗總計	Total Block Program Failure
+SmartIntelDc	B8	終端校驗出錯偵測次數	End-to-End Error Detection Count
+SmartIntelDc	BB	無法校正的錯誤次數	Uncorrectable Error Count
+SmartIntelDc	C2	硬碟溫度	Temperature
+SmartIntelDc	C5	等待重新配置的磁區	Pending Sector Count
+SmartIntelDc	C6	離線無法校正的錯誤次數	Offline Uncorrectable Error Count
+SmartIntelDc	C7	高速傳輸模式錯誤次數	CRC Error Count
+SmartIntelDc	CA	使用的磁碟壽命百分比	Percentage of Drive Life Used
+SmartIntelDc	E2	一定時間內的磨損比例	Timed Workload - Media Wear
+SmartIntelDc	E3	讀寫比例	Timed Workload - Host Read/Write Ratio
+SmartIntelDc	E4	單次測試時間	Timed Workload Timer
+SmartIntelDc	EA	動態熱能管理機制狀態	Thermal Throttle Status
+SmartIntelDc	EB	主機位元組/磁區寫入總數	Total Host Bytes/Sectors Written
+SmartIntelDc	F1	Nand 位元組/磁區寫入總數	Total Nand Bytes/Sectors Written
+SmartApacer	09	累積通電時間	Power on Hours
+SmartApacer	0C	開機次數	Power Cycle Count
+SmartApacer	A3	最大抹除次數	Maximum Erase Count
+SmartApacer	A4	平均抹除次數	Average Erase Count
+SmartApacer	A6	之後損壞區塊數總計	Total Later Bad Block Count
+SmartApacer	A7	SSD 保護模式	SSD Protect Mode
+SmartApacer	A8	SATA Phy 錯誤次數	SATA PHY Error Count
+SmartApacer	AB	程式失敗次數	Program Fail Count
+SmartApacer	AC	抹除失敗次數	Erase Fail Count
+SmartApacer	AF	損壞叢集表數	Bad Cluster Table Count
+SmartApacer	C0	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartApacer	C2	硬碟溫度	Temperature
+SmartApacer	E7	剩餘壽命	Lifetime Left
+SmartApacer	F1	總計磁區寫入	Total Sectors Write
+SmartSiliconMotion	01	底層資料讀取錯誤率	Read Error Rate
+SmartSiliconMotion	05	重新配置磁區數量（壞軌數）	Reallocated Sectors Count
+SmartSiliconMotion	09	累積通電時間	Power-On Hours
+SmartSiliconMotion	0C	開機次數	Power Cycle Count
+SmartSiliconMotion	94	SLC 總計抹除次數	SLC Total Erase Count
+SmartSiliconMotion	95	SLC 最大抹除次數	SLC Maximum Erase Count
+SmartSiliconMotion	96	SLC 最小抹除次數	SLC Minimum Erase Count
+SmartSiliconMotion	97	SLC 平均抹除次數	SLC Average Erase Count
+SmartSiliconMotion	9F	DRAM 1 位元錯誤次數	DRAM 1 bit Error Count
+SmartSiliconMotion	A0	讀取/寫入時的不可修正磁區計數	Uncorrectable sectors count when read/write
+SmartSiliconMotion	A1	有效的備用區塊數	Number of Valid Spare Blocks
+SmartSiliconMotion	A2	快取資料區塊數	Number of Cache Data Block
+SmartSiliconMotion	A3	初始無效區塊數	Number of Initial Invalid Blocks
+SmartSiliconMotion	A4	總計抹除次數	Total Erase Count
+SmartSiliconMotion	A5	最大抹除次數	Maximum Erase Count
+SmartSiliconMotion	A6	最小抹除次數	Minimum Erase Count
+SmartSiliconMotion	A7	平均抹除次數	Average Erase Count
+SmartSiliconMotion	A8	規格的最大抹除次數	Max Erase Count of Spec
+SmartSiliconMotion	A9	剩餘壽命	Remain Life
+SmartSiliconMotion	AF	最差晶粒中的程式失敗次數	Program fail count in worst die
+SmartSiliconMotion	B0	最差晶粒中的抹除失敗次數	Erase fail count in worst die
+SmartSiliconMotion	B1	平均抹寫次數總計	Total Wear Level Count
+SmartSiliconMotion	B2	執行階段無效區塊計數	Runtime Invalid Block Count
+SmartSiliconMotion	B5	程式失敗次數總計	Total Program Fail Count
+SmartSiliconMotion	B6	抹除失敗次數總計	Total Erase Fail Count
+SmartSiliconMotion	BB	無法校正的錯誤次數	Uncorrectable Error Count
+SmartSiliconMotion	C0	電源關閉磁頭收回計數	Power-Off Retract Count
+SmartSiliconMotion	C2	硬碟溫度	Temperature
+SmartSiliconMotion	C3	硬體錯誤修正編碼復原	Hardware ECC Recovered
+SmartSiliconMotion	C4	重新配置事件	Reallocation Event Count
+SmartSiliconMotion	C5	等待重新配置的磁區	Current Pending Sector Count
+SmartSiliconMotion	C6	無法校正的錯誤次數離線	Uncorrectable Error Count Off-line
+SmartSiliconMotion	C7	Ultra DMA 高速傳輸模式錯誤次數	Ultra DMA CRC Error Count
+SmartSiliconMotion	E8	可用的保留空間	Available Reserved Space
+SmartSiliconMotion	F1	SSD 總寫入量	Total LBA Written
+SmartSiliconMotion	F2	SSD 總讀取量	Total LBA Read
+SmartSiliconMotion	F5	Flash 寫入磁區計數	Flash Write Sector Count
+SmartJMicron66x	01	底層資料讀取錯誤率	Read Error Rate
+SmartJMicron66x	02	讀寫通量效能	Throughput Performance
+SmartJMicron66x	03	碟片啟動時間	Spin-Up Time
+SmartJMicron66x	05	重新配置磁區數量（壞軌數）	Reallocated Sectors Count
+SmartJMicron66x	07	尋道錯誤率	Seek Error Rate
+SmartJMicron66x	08	尋道效能	Seek Time Performance
+SmartJMicron66x	09	累積通電時間	Power-On Hours
+SmartJMicron66x	0A	啟動重試次數	Spin Retry Count
+SmartJMicron66x	0C	開機次數	Power Cycle Count
+SmartJMicron66x	A7	SSD 保護模式	SSD Protect Mode
+SmartJMicron66x	A8	SATA Phy 錯誤次數	SATA PHY Error Count
+SmartJMicron66x	AA	損壞區塊數	Bad Block Count
+SmartJMicron66x	AD	抹除次數	Erase Count
+SmartJMicron66x	AF	損壞叢集表數	Bad Cluster Table Count
+SmartJMicron66x	B4	備用區塊計數	Spare Block Count
+SmartJMicron66x	C0	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartJMicron66x	C2	硬碟溫度	Temperature
+SmartJMicron66x	C5	等待重新配置的磁區	Current Pending Sector Count
+SmartJMicron66x	E7	磁碟壽命	Drive Life
+SmartJMicron66x	E9	寫入磁區計數 (NAND)	Write Sector Count (NAND)
+SmartJMicron66x	F0	磁性寫頭	Write Head
+SmartJMicron66x	F1	SSD 總寫入量	Total LBA Written
+SmartJMicron66x	F2	SSD 總讀取量	Total LBA Read
+SmartPhison	01	底層資料讀取錯誤率	Read Error Rate
+SmartPhison	09	累積通電時間	Power on Hours
+SmartPhison	0C	開機次數	Power Cycle Count
+SmartPhison	A8	SATA Phy 錯誤次數	SATA PHY Error Count
+SmartPhison	AA	損壞區塊數	Bad Block Count
+SmartPhison	AD	抹除次數	Erase Count
+SmartPhison	C0	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartPhison	C2	硬碟溫度	Temperature
+SmartPhison	DA	CRC 錯誤（傳輸錯誤）數	Number of CRC Error
+SmartPhison	E7	SSD 壽命剩下	SSD Life Left
+SmartPhison	F1	SSD 寫入量	Host Writes
+SmartSeagate	01	底層資料讀取錯誤率	Read Error Rate
+SmartSeagate	05	已淘汰磁區數	Retired Sectors Count
+SmartSeagate	09	累積通電時間	Power On Hours
+SmartSeagate	0C	開機次數	Power Cycle Count
+SmartSeagate	10	可用的備用區塊	Spare Blocks Available
+SmartSeagate	11	剩餘的備用區塊	Remaining Spare Blocks
+SmartSeagate	A8	SATA Phy 錯誤次數	SATA PHY Error Count
+SmartSeagate	AA	損壞區塊數	Bad Block Count
+SmartSeagate	AB	程式失敗次數	Program Fail Count
+SmartSeagate	AC	抹除失敗次數	Erase Fail Count
+SmartSeagate	AD	抹除次數	Erase Count
+SmartSeagate	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartSeagate	B1	耗損範圍差異	Wear Range Delta
+SmartSeagate	B5	程式失敗次數	Program Fail Count
+SmartSeagate	B6	抹除失敗次數	Erase Fail Count
+SmartSeagate	C0	未預期的電源中斷次數	Unexpected Power loss Count
+SmartSeagate	C2	硬碟溫度	Temperature
+SmartSeagate	C9	軟性錯誤率	Soft Error Rate
+SmartSeagate	CC	邏輯 ECC 校正率	Soft ECC Correction Rate
+SmartSeagate	DA	高速傳輸模式錯誤次數	CRC Error Count
+SmartSeagate	E7	SSD 壽命剩下	SSD Life Left
+SmartSeagate	E8	讀取失敗磁區數	Read Failure Block Count
+SmartSeagate	E9	NAND GiB 已寫入	NAND GiB Written
+SmartSeagate	EA	寫入快閃記憶體的壽命	Lifetime Writes To Flash
+SmartSeagate	EB	NAND 磁區已寫入	NAND sectors Written
+SmartSeagate	F1	寫入壽命	Lifetime Writes From Host
+SmartSeagate	F2	讀取壽命	Lifetime Reads From Host
+SmartSeagate	FA	NAND 讀取重試壽命	Lifetime NAND Read Retries
+SmartSeagateIronWolf	01	Raw 底層資料讀取錯誤率	Raw Read Error Rate
+SmartSeagateIronWolf	05	重新配置磁區數量（壞軌數）	Reallocated Sector Count
+SmartSeagateIronWolf	09	累積通電時間	Power On Hours
+SmartSeagateIronWolf	0C	開機次數	Power Cycle Count
+SmartSeagateIronWolf	64	已抹除的快閃記憶體千兆位元組	Flash Gigabytes Erased
+SmartSeagateIronWolf	66	PS4 項目計數壽命	Lifetime PS4 Entry Count
+SmartSeagateIronWolf	67	PS3 結束計數壽命	Lifetime PS3 Entry Count
+SmartSeagateIronWolf	AA	增長的損壞區塊數	Grown Bad Block Count
+SmartSeagateIronWolf	AB	程式失敗次數	Program Fail Count
+SmartSeagateIronWolf	AC	抹除失敗次數	Erase Fail Count
+SmartSeagateIronWolf	AD	平均程式/抹除次數	Average Program/Erase Count
+SmartSeagateIronWolf	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartSeagateIronWolf	B1	耗損範圍差異	Wear Range Delta
+SmartSeagateIronWolf	B7	SATA/PCIe 介面降級執行計數	SATA/PCIe Interface Downshift Count
+SmartSeagateIronWolf	BB	不可修正的 ECC 計數	Uncorrectable ECC Count
+SmartSeagateIronWolf	C2	硬碟溫度	Temperature
+SmartSeagateIronWolf	C3	RAISE ECC 可修正計數	RAISE ECC Correctable Count
+SmartSeagateIronWolf	C6	不可修正的讀取錯誤計數	Uncorrectable Read Error Count
+SmartSeagateIronWolf	C7	SATA R-Error (CRC) 錯誤計數	SATA R-Error (CRC) Error Count
+SmartSeagateIronWolf	E6	磁碟壽命保護狀態	Drive Life Protection Status
+SmartSeagateIronWolf	E7	SSD 壽命剩下	SSD Life Left
+SmartSeagateIronWolf	E8	可用的保留空間	Available Reserved Space
+SmartSeagateIronWolf	E9	寫入快閃記憶體的壽命	Lifetime Writes to Flash
+SmartSeagateIronWolf	F1	寫入壽命	Lifetime Writes From Host
+SmartSeagateIronWolf	F2	讀取壽命	Lifetime Reads From Host
+SmartSeagateIronWolf	F3	可用空間	Free Space
+SmartMarvell	05	新的損壞區塊數	Number of New Bad Block
+SmartMarvell	09	累積通電時間	Power On Hours
+SmartMarvell	0C	開機次數	Power Cycle Count
+SmartMarvell	A4	抹除次數總計	Total Erase Count
+SmartMarvell	A5	最大抹除次數	Maximum Erase Count
+SmartMarvell	A6	最小抹除次數	Minimum Erase Count
+SmartMarvell	A7	平均抹除次數	Average Erase Count
+SmartMarvell	C0	關閉電源縮回計數	Power off Retract Count
+SmartMarvell	C2	硬碟溫度	Temperature
+SmartMarvell	C7	SATA 高速傳輸模式錯誤次數	SATA CRC Error Count
+SmartMarvell	F1	總計寫入	Total Written
+SmartMarvell	F2	總計讀取	Total Read
+SmartMaxiotek	05	重新配置磁區數量（壞軌數）	Reallocated Sector Count
+SmartMaxiotek	09	累積通電時間	Power-On Hours
+SmartMaxiotek	0C	磁碟開機次數	Power Cycle Count
+SmartMaxiotek	A7	SSD 保護模式	SSD Protect Mode
+SmartMaxiotek	A8	Phy 錯誤次數	PHY Error Count
+SmartMaxiotek	A9	損壞區塊數	Bad Block Count
+SmartMaxiotek	AB	程式失敗次數	Program Fail Count
+SmartMaxiotek	AC	抹除失敗次數	Erase Fail Count
+SmartMaxiotek	AD	抹除次數	Erase Count
+SmartMaxiotek	AF	損壞叢集表數	Bad Cluster Table Count
+SmartMaxiotek	B1	讀取重試次數	Read Retry Count
+SmartMaxiotek	B4	剩餘備用區塊數	Spare Block Count Left
+SmartMaxiotek	BB	報告的 UNC 錯誤	Reported UNC Errors
+SmartMaxiotek	C0	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartMaxiotek	C2	硬碟溫度	Temperature
+SmartMaxiotek	C4	重定位事件計數	Reallocated Event Count
+SmartMaxiotek	C7	UDMA 高速傳輸模式錯誤次數	UDMA CRC Error Count
+SmartMaxiotek	CE	最小抹除次數	Minimum Erase Count
+SmartMaxiotek	CF	最大抹除次數	Maximum Erase Count
+SmartMaxiotek	D0	平均抹除次數	Average Erase Count
+SmartMaxiotek	D1	SLC 區塊的最小抹除次數	Minimum Erase Count of SLC block
+SmartMaxiotek	D2	SLC 區塊的最大抹除次數	Maximum Erase Count of SLC block
+SmartMaxiotek	D3	SLC 區塊的平均抹除次數	Average Erase Count of SLC block
+SmartMaxiotek	E7	SSD 壽命剩下	SSD Life Left
+SmartMaxiotek	E9	將計數磁區寫入 Nand	Write Counts Sectors to Nand
+SmartMaxiotek	EA	從 Nand 讀取計數磁區	Read Counts Sectors from Nand
+SmartMaxiotek	F1	寫入磁區計數	Write Sector Count
+SmartMaxiotek	F2	讀取磁區計數	Read Sector Count
+SmartMaxiotek	F5	位元錯誤計數	Bit Error Count
+SmartSeagateBarraCuda	01	UECC 錯誤次數	UECC Error Count
+SmartSeagateBarraCuda	05	已淘汰磁區數	Retired Sectors Count
+SmartSeagateBarraCuda	09	累積通電時間	Power On Hours
+SmartSeagateBarraCuda	0C	開機次數	Power Cycle Count
+SmartSeagateBarraCuda	10	可用的備用區塊	Spare Blocks Available
+SmartSeagateBarraCuda	11	剩餘的備用區塊	Remaining Spare Blocks
+SmartSeagateBarraCuda	A8	SATA Phy 錯誤次數	SATA PHY Error Count
+SmartSeagateBarraCuda	AA	損壞區塊數	Bad Block Count
+SmartSeagateBarraCuda	AB	程式失敗次數	Program Fail Count
+SmartSeagateBarraCuda	AC	抹除失敗次數	Erase Fail Count
+SmartSeagateBarraCuda	AD	抹除次數	Erase Count
+SmartSeagateBarraCuda	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartSeagateBarraCuda	B1	耗損範圍差異	Wear Range Delta
+SmartSeagateBarraCuda	B5	程式失敗次數	Program Fail Count
+SmartSeagateBarraCuda	B6	抹除失敗次數	Erase Fail Count
+SmartSeagateBarraCuda	C0	未預期的電源中斷次數	Unexpected Power loss Count
+SmartSeagateBarraCuda	C2	硬碟溫度	Temperature
+SmartSeagateBarraCuda	C9	軟性錯誤率	Soft Error Rate
+SmartSeagateBarraCuda	CC	邏輯 ECC 校正率	Soft ECC Correction Rate
+SmartSeagateBarraCuda	DA	高速傳輸模式錯誤次數	CRC Error Count
+SmartSeagateBarraCuda	E7	SSD 壽命剩下	SSD Life Left
+SmartSeagateBarraCuda	E8	讀取失敗磁區數	Read Failure Block Count
+SmartSeagateBarraCuda	E9	NAND GiB 已寫入	NAND GiB Written
+SmartSeagateBarraCuda	EA	寫入快閃記憶體的壽命	Lifetime Writes To Flash
+SmartSeagateBarraCuda	EB	NAND 磁區已寫入	NAND sectors Written
+SmartSeagateBarraCuda	F1	寫入壽命	Lifetime Writes From Host
+SmartSeagateBarraCuda	F2	讀取壽命	Lifetime Reads From Host
+SmartSeagateBarraCuda	FA	NAND 讀取重試壽命	Lifetime NAND Read Retries
+SmartYmtc	05	新的損壞區塊數	New Bad Block Count
+SmartYmtc	09	累積通電時間	Power-On Hours Count
+SmartYmtc	0C	開機次數	Power Cycle Count
+SmartYmtc	AA	最大損壞區塊數	Max Bad Block Count
+SmartYmtc	A8	SATA PHY 錯誤次數	SATA PHY Error Count
+SmartYmtc	A9	損壞區塊數	Bad Block Count
+SmartYmtc	AB	程式失敗次數	Program Fail Count
+SmartYmtc	AC	抹除失敗次數	Erase Fail Count
+SmartYmtc	AD	抹除次數	Erase Count
+SmartYmtc	AF	損壞叢集計數	Bad Cluster Count
+SmartYmtc	B7	SATA 介面降級	SATA Interface Downshift
+SmartYmtc	B8	終端校驗出錯偵測/校正次數	End to End Error Detection/Correction Count
+SmartYmtc	BB	無法校正的錯誤次數	Uncorrectable Error Count
+SmartYmtc	BE	溫度	Temperature
+SmartYmtc	C0	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartYmtc	C4	重定位事件計數	Re-allocated Event Count
+SmartYmtc	C7	高速傳輸模式錯誤次數	CRC Error Count
+SmartYmtc	CE	最小抹除次數	Minimum Erase Count
+SmartYmtc	CF	最大抹除次數	Maximum Erase Count
+SmartYmtc	D0	平均抹除次數	Average Erase Count
+SmartYmtc	D1	SLC 最小抹除次數	SLC Minimum Erase Count
+SmartYmtc	D2	SLC 最大抹除次數	SLC Maximum Erase Count
+SmartYmtc	D3	SLC 平均抹除次數	SLC Average Erase Count
+SmartYmtc	E7	SSD 壽命剩下	SSD Life Left
+SmartYmtc	E9	將磁區計數寫入 NAND	Write sector count to NAND
+SmartYmtc	EA	讀取 NAND 磁區計數	Read sector count to NAND
+SmartYmtc	F1	SSD 總寫入量	Total LBA written
+SmartYmtc	F2	SSD 總讀取量	Total LBA Read
+SmartYmtc	F3	NAND 溫度	NAND Temperature
+SmartYmtc	F5	位元錯誤次數	Bit Error Count
+SmartScy	01	原始底層資料讀取錯誤率	Raw Read Error Rate
+SmartScy	05	重新配置磁區數量（壞軌數）	Reallocated Sector Count
+SmartScy	07	尋道錯誤率	Seek Error Rate
+SmartScy	09	累積通電時間	Power-On Hours
+SmartScy	0C	磁碟開機次數	Drive Power Cycle Count
+SmartScy	A7	平均抹除次數	Average Erase Count
+SmartScy	AB	程式失敗次數	Program Fail Count
+SmartScy	AC	抹除失敗次數	Erase Fail Count
+SmartScy	AD	抹除次數	Erase Count
+SmartScy	B1	讀取重試次數	Read Retry Count
+SmartScy	B4	剩餘備用區塊數	Spare Block Count Left
+SmartScy	B7	執行階段損壞磁區	Runtime Bad Block
+SmartScy	BB	報告的 UNC 錯誤	Reported UNC Errors
+SmartScy	C0	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartScy	C2	受控溫度	Controlled Temperature
+SmartScy	C3	累計校正過的 ECC	Cumulative ECC Bit Correction Count
+SmartScy	C4	重定位事件計數	Reallocated Event Count
+SmartScy	C5	等候重定的磁區	Current Pending Sector
+SmartScy	C7	UDMA 高速傳輸模式錯誤次數	UDMA CRC Error Count
+SmartScy	E7	SSD 壽命剩下	SSD Life Left
+SmartScy	F1	SSD 總寫入量	Total LBAs Written
+SmartScy	F2	SSD 總讀取量	Total LBAs Read
+SmartScy	F5	Nand Flash 累計寫入	Total Nand Flash Written
+SmartRecadata	07	尋道錯誤率	Seek Error Rate
+SmartRecadata	09	累積通電時間	Power-On Hours
+SmartRecadata	0C	磁碟開機次數	Drive Power Cycle Count
+SmartRecadata	A7	平均抹除次數	Average erase count
+SmartRecadata	AB	程式失敗次數	Program Fail Count
+SmartRecadata	AC	抹除失敗次數	Erase Fail Count
+SmartRecadata	AD	抹除次數	Erase Count
+SmartRecadata	B1	讀取重試次數	Read Retry Count
+SmartRecadata	B4	剩餘備用區塊數	Spare Block Count Left
+SmartRecadata	B7	執行階段損壞磁區	Runtime Bad Block
+SmartRecadata	BB	報告的 UNC 錯誤	Reported UNC Errors
+SmartRecadata	C0	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartRecadata	C2	受控溫度	Controlled temperature
+SmartRecadata	C3	累計校正過的 ECC	Cumulative ECC Bit Correction Count
+SmartRecadata	C4	重定位事件計數	Reallocated Event Count
+SmartRecadata	C5	等候重定的磁區	Current Pending Sector
+SmartRecadata	C7	UDMA 高速傳輸模式錯誤次數	UDMA CRC Error Count
+SmartRecadata	E7	SSD 壽命剩下	SSD Life Left
+SmartRecadata	F1	SSD 總寫入量	Total LBAs written
+SmartRecadata	F2	SSD 總讀取量	Total LBAs read
+SmartRecadata	F5	Nand Flash 累計寫入	Total Nand Flash Written
+SmartSanDiskHp	01	原始讀取錯誤率	Raw Read Error Rate
+SmartSanDiskHp	05	已淘汰區塊數	Reassigned Block Count
+SmartSanDiskHp	09	累積通電時間	Power On Hours
+SmartSanDiskHp	0C	磁碟開機次數	Drive Power Cycle Count
+SmartSanDiskHp	AA	保留區塊數量	Reserved Block Count
+SmartSanDiskHp	AB	程式失敗次數	Program Fail Count
+SmartSanDiskHp	AC	抹除失敗次數	Erase Fail Count
+SmartSanDiskHp	AD	平均抹寫次數	Wear Leveling Count
+SmartSanDiskHp	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartSanDiskHp	B0	未使用的保留空間數	Unused Reserved Block Count
+SmartSanDiskHp	B7	SATA 介面降級執行計數	SATA Interface Downshift Count
+SmartSanDiskHp	B8	終端校驗出錯偵測/校正次數	End to End Error Detection/Correction Count
+SmartSanDiskHp	BB	無法校正的錯誤次數	Uncorrectable Error Count
+SmartSanDiskHp	BC	命令逾時	Command Time Out
+SmartSanDiskHp	BE	氣流溫度	Airflow Temperature
+SmartSanDiskHp	C2	硬碟溫度	Temperature
+SmartSanDiskHp	C4	重定位事件計數	Reallocated Event Count
+SmartSanDiskHp	C7	高速傳輸模式錯誤次數	CRC Error Count
+SmartSanDiskHp	C9	SSD 壽命剩下	SSD Life Left
+SmartSanDiskHp	E6	媒體耗損指標	Media Wearout Indicator
+SmartSanDiskHp	F1	SSD 總寫入量	Total LBAs Written
+SmartSanDiskHp	F2	SSD 總讀取量	Total LBAs Read
+SmartSanDiskHp	F3	節流統計資料	Throttle Statistics
+SmartSanDiskHp	F4	溫度節流狀態	Temperature Throttle Status
+SmartSanDiskHp	F9	TLC NAND GB 寫入	TLC NAND GB Writes
+SmartSanDiskHpVenus	01	原始讀取錯誤率	Raw Read Error Rate
+SmartSanDiskHpVenus	05	已淘汰區塊數	Reassigned Block Count
+SmartSanDiskHpVenus	09	累積通電時間	Power On Hours
+SmartSanDiskHpVenus	0C	磁碟開機次數	Drive Power Cycle Count
+SmartSanDiskHpVenus	AA	保留區塊數量	Reserved Block Count
+SmartSanDiskHpVenus	AB	程式失敗次數	Program Fail Count
+SmartSanDiskHpVenus	AC	抹除失敗次數	Erase Fail Count
+SmartSanDiskHpVenus	AD	平均抹寫次數	Wear Leveling Count
+SmartSanDiskHpVenus	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartSanDiskHpVenus	B0	未使用的保留空間數	Unused Reserved Block Count
+SmartSanDiskHpVenus	B7	SATA 介面降級執行計數	SATA Interface Downshift Count
+SmartSanDiskHpVenus	B8	終端校驗出錯偵測/校正次數	End to End Error Detection/Correction Count
+SmartSanDiskHpVenus	BB	無法校正的錯誤次數	Uncorrectable Error Count
+SmartSanDiskHpVenus	BC	命令逾時	Command Time Out
+SmartSanDiskHpVenus	BE	氣流溫度	Airflow Temperature
+SmartSanDiskHpVenus	C2	硬碟溫度	Temperature
+SmartSanDiskHpVenus	C4	重定位事件計數	Reallocated Event Count
+SmartSanDiskHpVenus	C7	高速傳輸模式錯誤次數	CRC Error Count
+SmartSanDiskHpVenus	C9	SSD 壽命剩下	SSD Life Left
+SmartSanDiskHpVenus	E6	媒體耗損指標	Media Wearout Indicator
+SmartSanDiskHpVenus	F1	SSD 總寫入量	Total LBAs Written
+SmartSanDiskHpVenus	F2	SSD 總讀取量	Total LBAs Read
+SmartSanDiskHpVenus	F3	NAND 總寫入量	Total NAND Writes
+SmartSanDiskHpVenus	F4	溫度節流狀態	Temperature Throttle Status
+SmartSanDiskHpVenus	F9	TLC NAND GB 寫入	TLC NAND GB Writes
+SmartSanDiskDell	05	已淘汰區塊數	Reassigned Block Count
+SmartSanDiskDell	09	累積通電時間	Power On Hours
+SmartSanDiskDell	0C	磁碟開機次數	Drive Power Cycle Count
+SmartSanDiskDell	AF	程式失敗次數 (最糟情況元件)	Program Fail Count (Worst Case Component)
+SmartSanDiskDell	B0	抹除失敗次數 (最糟情況元件)	Erase Fail Count (Worst Case Component)
+SmartSanDiskDell	B1	平均抹寫次數	Wear Leveling Count
+SmartSanDiskDell	B2	已使用的保留空間數 (最糟情況元件)	Used Reserved Block Count (Worst Case Component)
+SmartSanDiskDell	B3	已使用的保留空間數 (SSD 總計)	Used Reserved Block Count (SSD Total)
+SmartSanDiskDell	B4	剩餘保留空間數 (SSD 總計)	Remaining Reserved Block Count (SSD Total)
+SmartSanDiskDell	B5	程式失敗次數 (SSD 總計)	Program Fail Count (SSD Total)
+SmartSanDiskDell	B6	抹除失敗次數 (SSD 總計)	Erase Fail Count (SSD Total)
+SmartSanDiskDell	BB	無法校正的錯誤次數	Uncorrectable Error Count
+SmartSanDiskDell	C2	硬碟溫度	Temperature
+SmartSanDiskDell	C3	ECC 錯誤率	ECC Rate
+SmartSanDiskDell	C7	高速傳輸模式錯誤次數	CRC Error Count
+SmartSanDiskDell	E6	媒體耗損指標	Media Wearout Indicator
+SmartSanDiskDell	EE	媒體耗損指標 (剩餘週期)	Media Wearout Indicator (Cycles Remaining)
+SmartSanDiskDell	F1	SSD 總寫入量	Total LBAs Written
+SmartSanDiskDell	F2	SSD 總讀取量	Total LBAs Read
+SmartSanDiskLenovo	05	已淘汰區塊數	Reassigned Block Count
+SmartSanDiskLenovo	09	累積通電時間	Power On Hours
+SmartSanDiskLenovo	0C	磁碟開機次數	Drive Power Cycle Count
+SmartSanDiskLenovo	A6	最小 P/E 週期	Minimum P/E Cycles
+SmartSanDiskLenovo	A7	最大損壞區塊/晶粒	Maximum Bad Blocks per Die
+SmartSanDiskLenovo	A8	最大 P/E 週期	Maximum P/E cycles
+SmartSanDiskLenovo	A9	損壞區塊總計	Total Bad Blocks
+SmartSanDiskLenovo	AA	增長的損壞區塊	Grown Bad Blocks
+SmartSanDiskLenovo	AB	程式失敗次數	Program Fail Count
+SmartSanDiskLenovo	AC	抹除失敗次數	Erase Fail Count
+SmartSanDiskLenovo	AD	平均 P/E 週期屬性	Average P/E Cycles Attribute
+SmartSanDiskLenovo	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartSanDiskLenovo	B2	已使用的保留空間數	Used Reserved Block Count
+SmartSanDiskLenovo	B4	剩餘保留空間數	Remaining Reserved Block Count
+SmartSanDiskLenovo	B8	終端校驗出錯偵測/校正次數	End to End Error Detection/Correction Count
+SmartSanDiskLenovo	BB	UECC 計數	UECC Count
+SmartSanDiskLenovo	BC	命令逾時	Command Time Out
+SmartSanDiskLenovo	C2	硬碟溫度	Temperature
+SmartSanDiskLenovo	C7	SATA CRC 錯誤（傳輸錯誤）	SATA CRC Errors
+SmartSanDiskLenovo	D4	SATA PHY 錯誤	SATA PHY Errors
+SmartSanDiskLenovo	E6	媒體耗損指標	Media Wearout Indicator
+SmartSanDiskLenovo	E8	可用的保留空間	Available Reserved Space
+SmartSanDiskLenovo	E9	總計 GB 寫入 NAND	NAND GB Written
+SmartSanDiskLenovo	EA	總計 GB 寫入 NAND (SLC)	NAND GB Written (SLC)
+SmartSanDiskLenovo	F1	總計主機 GB 寫入	Total Host GB Write
+SmartSanDiskLenovo	F2	總計 GB 讀取	Total GB Read
+SmartSanDiskLenovo	F3	節流統計資料	Throttle Statistics
+SmartSanDiskLenovo	F4	溫度節流狀態	Thermal Throttle Status
+SmartSanDiskLenovoHelenVenus	05	已淘汰區塊數	Reassigned Block Count
+SmartSanDiskLenovoHelenVenus	09	累積通電時間	Power On Hours
+SmartSanDiskLenovoHelenVenus	0C	磁碟開機次數	Drive Power Cycle Count
+SmartSanDiskLenovoHelenVenus	A6	最小 P/E 週期	Minimum P/E Cycles
+SmartSanDiskLenovoHelenVenus	A7	最大損壞區塊/晶粒	Maximum Bad Blocks per Die
+SmartSanDiskLenovoHelenVenus	A8	最大 P/E 週期	Maximum P/E cycles
+SmartSanDiskLenovoHelenVenus	A9	損壞區塊總計	Total Bad Blocks
+SmartSanDiskLenovoHelenVenus	AA	增長的損壞區塊	Grown Bad Blocks
+SmartSanDiskLenovoHelenVenus	AB	程式失敗次數	Program Fail Count
+SmartSanDiskLenovoHelenVenus	AC	抹除失敗次數	Erase Fail Count
+SmartSanDiskLenovoHelenVenus	AD	平均 P/E 週期屬性	Average P/E Cycles Attribute
+SmartSanDiskLenovoHelenVenus	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartSanDiskLenovoHelenVenus	B2	已使用的保留空間數	Used Reserved Block Count
+SmartSanDiskLenovoHelenVenus	B4	剩餘保留空間數	Remaining Reserved Block Count
+SmartSanDiskLenovoHelenVenus	B8	終端校驗出錯偵測/校正次數	End to End Error Detection/Correction Count
+SmartSanDiskLenovoHelenVenus	BB	UECC 計數	UECC Count
+SmartSanDiskLenovoHelenVenus	BC	命令逾時	Command Time Out
+SmartSanDiskLenovoHelenVenus	C2	硬碟溫度	Temperature
+SmartSanDiskLenovoHelenVenus	C7	SATA CRC 錯誤（傳輸錯誤）	SATA CRC Errors
+SmartSanDiskLenovoHelenVenus	D4	SATA PHY 錯誤	SATA PHY Errors
+SmartSanDiskLenovoHelenVenus	E8	可用的保留空間	Available Reserved Space
+SmartSanDiskLenovoHelenVenus	E9	媒體耗損指標	Media Wearout Indicator
+SmartSanDiskLenovoHelenVenus	EA	總計 GB 寫入 NAND (SLC)	NAND GB Written (SLC)
+SmartSanDiskLenovoHelenVenus	F1	總計主機 GB 寫入	Total Host GB Write
+SmartSanDiskLenovoHelenVenus	F2	總計 GB 讀取	Total GB Read
+SmartSanDiskLenovoHelenVenus	F3	節流統計資料	Throttle Statistics
+SmartSanDiskLenovoHelenVenus	F4	熱節流狀態	Thermal Throttle Status
+SmartSanDiskLenovoHelenVenus	F9	NAND GB 寫入 (TLC)	NAND GB Written (TLC)
+SmartMicronMU03	01	原始讀取錯誤率	Raw Read Error Rate
+SmartMicronMU03	05	重定位 NAND 區塊計數	Reallocated NAND Block Count
+SmartMicronMU03	09	累積通電時間	Power On Hours Count
+SmartMicronMU03	0C	開機次數	Power Cycle Count
+SmartMicronMU03	AB	程式失敗次數	Program Fail Count
+SmartMicronMU03	AC	抹除失敗次數	Erase Fail Count
+SmartMicronMU03	AD	平均區塊抹除次數	Average Block Erase Count
+SmartMicronMU03	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartMicronMU03	B4	未使用的備用 NAND 區塊	Unused Spare NAND Blocks
+SmartMicronMU03	B5	非 4K 對齊存取	Non-4K Aligned Access
+SmartMicronMU03	B7	SATA 介面降級執行計數	SATA interface Downshift
+SmartMicronMU03	B8	錯誤校正次數	Error Correction Count
+SmartMicronMU03	BB	報告不可修正錯誤	Reported Uncorrectable Errors
+SmartMicronMU03	C2	硬碟溫度	Temperature
+SmartMicronMU03	C4	重新配置事件	Reallocation Event Count
+SmartMicronMU03	C5	等候重定 ECC 計數	Current Pending ECC Count
+SmartMicronMU03	C6	SMART 離線掃描無法校正的錯誤次數	SMART Offline Scan Uncorrectable Error Count
+SmartMicronMU03	C7	UDMA 高速傳輸模式錯誤次數	UDMA CRC Error Count
+SmartMicronMU03	CA	剩餘壽命	Lifetime Remaining
+SmartMicronMU03	CE	寫入錯誤率	Write Error Rate
+SmartMicronMU03	D2	成功 RAIN 復原次數	Successful RAIN Recovery Count
+SmartMicronMU03	F0	主機程式資料頁數	Host Program Page Count
+SmartMicronMU03	F1	SSD 總寫入量	Total LBAs Written
+SmartMicronMU03	F2	SSD 總讀取量	Total LBAs Read
+SmartMicronMU03	F3	程式資料頁數總計	Total Program Page Count
+SmartMicronMU03	F6	累計主機磁區寫入	Cumulative Host Sectors Written
+SmartMicronMU03	F7	主機程式 NAND 資料頁數	Host Program NAND Pages Count
+SmartMicronMU03	F8	FTL 程式 NAND 資料頁數	FTL Program NAND Pages Count
+SmartSanDiskCloud	05	已淘汰區塊數	Retired Block Count
+SmartSanDiskCloud	09	累積通電時間	Power On Hours
+SmartSanDiskCloud	0D	不可修正 ECC 錯誤計數	Count of Uncorrectable ECC Errors
+SmartSanDiskCloud	20	寫入放大乘以100	Write Amplification multiplied by 100
+SmartSanDiskCloud	21	寫入放大	Write Amplification Factor
+SmartSanDiskCloud	AA	保留區塊數量	Reserve Block Count
+SmartSanDiskCloud	AB	程式失敗次數	Program Fail Count
+SmartSanDiskCloud	AC	抹除失敗次數	Erase Fail Count
+SmartSanDiskCloud	AD	平均寫入/抹除次數	Average Write/Erase Count
+SmartSanDiskCloud	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartSanDiskCloud	B2	SSD 壽命剩下 (最多 0.01%)	SSD Life Left (upto 0.01%)
+SmartSanDiskCloud	BF	正常關機次數	Clean Shutdown Count
+SmartSanDiskCloud	C0	未正常關機次數	Unclean Shutdown Count
+SmartSanDiskCloud	C2	溫度	Temperature
+SmartSanDiskCloud	C4	區塊重定位數	Number of Blocks Reallocated
+SmartSanDiskCloud	E6	寫入/抹除次數總計百分比	Percent of Total Write/Erase Count
+SmartSanDiskCloud	E8	剩餘壽命	Spare Blocks Remaining
+SmartSanDiskCloud	E9	總計 Nand 寫入 64GB	Total Nand Writes 64GB
+SmartSanDiskCloud	EB	電容器健康情況	Capacitor Health
+SmartSanDiskCloud	F1	對 SSD 累計寫入 64GB	Total Host Writes 64GB
+SmartSanDiskCloud	F2	對 SSD 累計讀取 64GB	Total Host Reads 64GB
+SmartSanDiskCloud	F4	存留期動態熱能管理機制啟用	Lifetime Thermal Throttle Activations
+SmartSanDiskCloud	F5	磁碟機剩餘壽命百分比	Percent Drive Life Remaining
+SmartSanDiskCloud	FD	剩餘 SPI 測試	SPI Tests Remaining
+SmartSiliconMotionCVC	05	重新分配計數	Re-Assigned Count
+SmartSiliconMotionCVC	09	累積通電時間	Power-On Hours Count
+SmartSiliconMotionCVC	0C	磁碟開機次數	Drive Power Cycle Count
+SmartSiliconMotionCVC	A5	SLC 快取	SLC Cache
+SmartSiliconMotionCVC	AA	增長的損壞區塊數	Grown Bad Block Count
+SmartSiliconMotionCVC	AB	程式失敗次數	Program Fail Count
+SmartSiliconMotionCVC	AC	抹除失敗次數	Erase Fail Count
+SmartSiliconMotionCVC	AD	平均抹除次數	Avg Erase Count
+SmartSiliconMotionCVC	AE	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartSiliconMotionCVC	AF	程式失敗次數 (最壞情況)	Program Fail Count (Worst case)
+SmartSiliconMotionCVC	B7	SATA 連結總速度降低	Total SATA Link Speed Downshift
+SmartSiliconMotionCVC	B8	終端校驗資料出錯已校正	End-to-End Data Errors corrected
+SmartSiliconMotionCVC	BB	無法校正的錯誤	Uncorrectable Errors
+SmartSiliconMotionCVC	BD	最大抹除次數	Max Erase Count
+SmartSiliconMotionCVC	BE	溫度	Temperature
+SmartSiliconMotionCVC	BF	最小抹除次數	Min Erase Count
+SmartSiliconMotionCVC	C3	讀取錯誤率	Read Error Rate
+SmartSiliconMotionCVC	C6	離線掃描無法修正的磁區	Off-Line Scan Uncorrectable Sector Count
+SmartSiliconMotionCVC	C7	SATA CRC 錯誤（傳輸錯誤）次數	SATA CRC Error Count
+SmartSiliconMotionCVC	CA	SSD 壽命剩下	SSD Life Left
+SmartSiliconMotionCVC	E8	備用總數	Total Spare Counts
+SmartSiliconMotionCVC	E9	TLC NAND 寫入	TLC NAND Write
+SmartSiliconMotionCVC	F1	主機寫入	Host Write
+SmartSiliconMotionCVC	F2	主機讀取	Host Read
+SmartSiliconMotionCVC	94	RAID 事件計數	RAID Event Count
+SmartSiliconMotionCVC	95	RAID 無法校正計數	RAID Uncorrectable Count
+SmartSiliconMotionCVC	A7	SSD 保護模式	SSD Protect Mode
+SmartSiliconMotionCVC	93	軟重試事件計數	Soft Retry Event Count
+SmartSiliconMotionCVC	EA	SLC NAND 寫入	SLC NAND Write
+SmartAdataIndustrial	09	累積通電時間	Power-On hours Count
+SmartAdataIndustrial	0C	磁碟開機次數	Drive Power Cycle Count
+SmartAdataIndustrial	A7	SSD 保護模式	SSD Protect Mode
+SmartAdataIndustrial	A8	SATA PHY 錯誤次數	SATA PHY Error Count
+SmartAdataIndustrial	A9	損壞區塊數	Bad Block Count
+SmartAdataIndustrial	AD	抹除次數	Erase Count
+SmartAdataIndustrial	AF	損壞叢集表數	Bad Cluster Table Count
+SmartAdataIndustrial	B4	剩餘備用區塊數	Spare block count left
+SmartAdataIndustrial	C0	未預期的電源中斷次數	Unexpected Power Loss Count
+SmartAdataIndustrial	C2	溫度	Temperature
+SmartAdataIndustrial	E7	SSD 剩餘壽命	SSD life left
+SmartAdataIndustrial	E9	Flash 寫入磁區計數	Flash Write Sector Count
+SmartAdataIndustrial	EA	Flash 讀取磁區計數	Flash Read Sector Count
+SmartAdataIndustrial	F1	寫入磁區計數	Write Sector Count
+SmartAdataIndustrial	F2	讀取磁區計數	Read Sector Count

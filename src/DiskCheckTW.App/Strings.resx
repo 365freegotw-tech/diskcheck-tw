@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="U001" xml:space="preserve">
+    <value>Not detected yet</value>
+  </data>
+  <data name="U002" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U003" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U004" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U005" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U006" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U007" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U008" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U009" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U010" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U011" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U012" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U013" xml:space="preserve">
+    <value>Insufficient data</value>
+  </data>
+  <data name="U014" xml:space="preserve">
+    <value>Select a drive to begin.</value>
+  </data>
+  <data name="U015" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U016" xml:space="preserve">
+    <value>0.0 seconds</value>
+  </data>
+  <data name="U017" xml:space="preserve">
+    <value>Detecting drives…</value>
+  </data>
+  <data name="U018" xml:space="preserve">
+    <value>Run as administrator to access physical drives and SMART data.</value>
+  </data>
+  <data name="U019" xml:space="preserve">
+    <value>No accessible physical drives were found.</value>
+  </data>
+  <data name="U020" xml:space="preserve">
+    <value>Found {0} physical drives.</value>
+  </data>
+  <data name="U021" xml:space="preserve">
+    <value>Detection failed: {0}</value>
+  </data>
+  <data name="U022" xml:space="preserve">
+    <value>Running full read-only scan…</value>
+  </data>
+  <data name="U023" xml:space="preserve">
+    <value>Running quick sample scan…</value>
+  </data>
+  <data name="U024" xml:space="preserve">
+    <value>at least 1,000</value>
+  </data>
+  <data name="U025" xml:space="preserve">
+    <value>Stopped by user</value>
+  </data>
+  <data name="U026" xml:space="preserve">
+    <value>Scan complete: {0} blocks.</value>
+  </data>
+  <data name="U027" xml:space="preserve">
+    <value>Scan failed: {0}</value>
+  </data>
+  <data name="U028" xml:space="preserve">
+    <value>0.0 seconds</value>
+  </data>
+  <data name="U029" xml:space="preserve">
+    <value>{0:0.0} seconds</value>
+  </data>
+  <data name="U030" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U031" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U032" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="U033" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U034" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U035" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U036" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U037" xml:space="preserve">
+    <value>Insufficient data</value>
+  </data>
+  <data name="U038" xml:space="preserve">
+    <value>Select a drive to begin.</value>
+  </data>
+  <data name="U039" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U040" xml:space="preserve">
+    <value>Suggested next check: {0:yyyy-MM-dd}</value>
+  </data>
+  <data name="U041" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U042" xml:space="preserve">
+    <value>{0:N0} hours</value>
+  </data>
+  <data name="U043" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U044" xml:space="preserve">
+    <value>{0:N0} times</value>
+  </data>
+  <data name="U045" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U046" xml:space="preserve">
+    <value>Not applicable (HDD)</value>
+  </data>
+  <data name="U047" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U048" xml:space="preserve">
+    <value>Good</value>
+  </data>
+  <data name="U049" xml:space="preserve">
+    <value>Caution</value>
+  </data>
+  <data name="U050" xml:space="preserve">
+    <value>Danger</value>
+  </data>
+  <data name="U051" xml:space="preserve">
+    <value>Insufficient data</value>
+  </data>
+  <data name="U052" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U053" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U054" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U055" xml:space="preserve">
+    <value>Critical Warning</value>
+  </data>
+  <data name="U056" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="U057" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U058" xml:space="preserve">
+    <value>Available spare</value>
+  </data>
+  <data name="U059" xml:space="preserve">
+    <value>Spare threshold</value>
+  </data>
+  <data name="U060" xml:space="preserve">
+    <value>Life used</value>
+  </data>
+  <data name="U061" xml:space="preserve">
+    <value>Data units read (512,000 bytes each)</value>
+  </data>
+  <data name="U062" xml:space="preserve">
+    <value>Data units written (512,000 bytes each)</value>
+  </data>
+  <data name="U063" xml:space="preserve">
+    <value>Power cycles</value>
+  </data>
+  <data name="U064" xml:space="preserve">
+    <value>Power on time (hours)</value>
+  </data>
+  <data name="U065" xml:space="preserve">
+    <value>Unsafe shutdowns</value>
+  </data>
+  <data name="U066" xml:space="preserve">
+    <value>Media errors</value>
+  </data>
+  <data name="U067" xml:space="preserve">
+    <value>Error log entries</value>
+  </data>
+  <data name="U068" xml:space="preserve">
+    <value>{0:N0} (about {1:0.0} TB)</value>
+  </data>
+  <data name="U069" xml:space="preserve">
+    <value>{0:N0} (about {1:0.0} GB)</value>
+  </data>
+  <data name="U070" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U071" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U072" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U073" xml:space="preserve">
+    <value>Version </value>
+  </data>
+  <data name="U074" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U075" xml:space="preserve">
+    <value>Back up important files first.
+
+</value>
+  </data>
+  <data name="U076" xml:space="preserve">
+    <value>Scanning reads data only and does not change it, but it does put load on the drive. A failing drive may get worse.
+
+Start the scan?</value>
+  </data>
+  <data name="U077" xml:space="preserve">
+    <value>Confirm read-only scan</value>
+  </data>
+  <data name="U078" xml:space="preserve">
+    <value>Save DiskCheck TW report</value>
+  </data>
+  <data name="U079" xml:space="preserve">
+    <value>HTML report (*.html)|*.html</value>
+  </data>
+  <data name="U080" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U081" xml:space="preserve">
+    <value>Saved</value>
+  </data>
+  <data name="U082" xml:space="preserve">
+    <value>Save failed: {0}</value>
+  </data>
+  <data name="U083" xml:space="preserve">
+    <value>Could not open report: {0}</value>
+  </data>
+  <data name="U084" xml:space="preserve">
+    <value>Could not open the official website: {0}</value>
+  </data>
+  <data name="U085" xml:space="preserve">
+    <value>Could not open the license notices: {0}</value>
+  </data>
+  <data name="U086" xml:space="preserve">
+    <value>Next run: not enabled</value>
+  </data>
+  <data name="U087" xml:space="preserve">
+    <value>Last run: no record</value>
+  </data>
+  <data name="U088" xml:space="preserve">
+    <value>Could not read schedule settings: {0}</value>
+  </data>
+  <data name="U089" xml:space="preserve">
+    <value>Enter a valid date and 24 hour time (HH:mm).</value>
+  </data>
+  <data name="U090" xml:space="preserve">
+    <value>Saved and updated the Windows scheduled task.</value>
+  </data>
+  <data name="U091" xml:space="preserve">
+    <value>Disabled and removed the Windows scheduled task.</value>
+  </data>
+  <data name="U092" xml:space="preserve">
+    <value>Save failed: {0}</value>
+  </data>
+  <data name="U093" xml:space="preserve">
+    <value>Next run: {0:yyyy-MM-dd HH:mm}</value>
+  </data>
+  <data name="U094" xml:space="preserve">
+    <value>Next run: disabled</value>
+  </data>
+  <data name="U095" xml:space="preserve">
+    <value>Last run: {0:yyyy-MM-dd HH:mm}  Result: {1}</value>
+  </data>
+  <data name="U096" xml:space="preserve">
+    <value>Last run: no record</value>
+  </data>
+  <data name="U097" xml:space="preserve">
+    <value>DiskCheck TW scheduled check</value>
+  </data>
+  <data name="U098" xml:space="preserve">
+    <value>Could not read schedule settings: {0}</value>
+  </data>
+  <data name="U099" xml:space="preserve">
+    <value>Could not save skipped run: {0}</value>
+  </data>
+  <data name="U100" xml:space="preserve">
+    <value>The scheduled drive check at {0:yyyy-MM-dd HH:mm} did not run. Check now?</value>
+  </data>
+  <data name="U101" xml:space="preserve">
+    <value>Check now</value>
+  </data>
+  <data name="U102" xml:space="preserve">
+    <value>Later (ask at next sign in)</value>
+  </data>
+  <data name="U103" xml:space="preserve">
+    <value>Skip this run</value>
+  </data>
+  <data name="U104" xml:space="preserve">
+    <value>Checking drives…</value>
+  </data>
+  <data name="U105" xml:space="preserve">
+    <value>Detecting physical drives…</value>
+  </data>
+  <data name="U106" xml:space="preserve">
+    <value>Cancel check</value>
+  </data>
+  <data name="U107" xml:space="preserve">
+    <value>Reading SMART: {0}</value>
+  </data>
+  <data name="U108" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="U109" xml:space="preserve">
+    <value>Insufficient data (scan incomplete)</value>
+  </data>
+  <data name="U110" xml:space="preserve">
+    <value>Check canceled. You can try again at your next sign in.</value>
+  </data>
+  <data name="U111" xml:space="preserve">
+    <value>Canceled; {0} drives completed</value>
+  </data>
+  <data name="U112" xml:space="preserve">
+    <value>No readable physical drives</value>
+  </data>
+  <data name="U113" xml:space="preserve">
+    <value>Completed {0} drives; {1}</value>
+  </data>
+  <data name="U114" xml:space="preserve">
+    <value>Check failed: {0}</value>
+  </data>
+  <data name="U115" xml:space="preserve">
+    <value>Scheduled check results</value>
+  </data>
+  <data name="U116" xml:space="preserve">
+    <value>Open DiskCheck TW</value>
+  </data>
+  <data name="U117" xml:space="preserve">
+    <value>Open report folder</value>
+  </data>
+  <data name="U118" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="U119" xml:space="preserve">
+    <value>Operation failed</value>
+  </data>
+  <data name="U120" xml:space="preserve">
+    <value>Could not remove the Windows scheduled task. The schedule was not disabled.</value>
+  </data>
+  <data name="U121" xml:space="preserve">
+    <value>Could not determine the user SID.</value>
+  </data>
+  <data name="U122" xml:space="preserve">
+    <value>Could not create the Windows scheduled task: {0} {1}</value>
+  </data>
+  <data name="U123" xml:space="preserve">
+    <value>Administrator access is required, or the driver denied read-only access</value>
+  </data>
+  <data name="U124" xml:space="preserve">
+    <value>Could not open the physical drive to read SMART data</value>
+  </data>
+  <data name="U125" xml:space="preserve">
+    <value>The NVMe controller or driver did not provide a health log</value>
+  </data>
+  <data name="U126" xml:space="preserve">
+    <value>Administrator access is required, or the driver requires write permission for read-only SMART commands</value>
+  </data>
+  <data name="U127" xml:space="preserve">
+    <value>The driver denied ATA SMART commands, or the device does not support read-only queries</value>
+  </data>
+  <data name="U128" xml:space="preserve">
+    <value>The USB enclosure did not pass through SMART commands or expose a recognizable ATA/NVMe interface</value>
+  </data>
+  <data name="U129" xml:space="preserve">
+    <value>The RAID controller did not expose SMART data for individual drives</value>
+  </data>
+  <data name="U130" xml:space="preserve">
+    <value>This interface does not support a known way to read SMART data</value>
+  </data>
+  <data name="U131" xml:space="preserve">
+    <value>Administrator access is required</value>
+  </data>
+  <data name="U132" xml:space="preserve">
+    <value>SMART read failed: {0}</value>
+  </data>
+  <data name="U133" xml:space="preserve">
+    <value>Could not determine an aligned drive size or sector size.</value>
+  </data>
+  <data name="U134" xml:space="preserve">
+    <value>Access denied: the physical drive could not be opened read-only. The scan did not start.</value>
+  </data>
+  <data name="U135" xml:space="preserve">
+    <value>Could not open the physical drive read-only (Win32 error {0}). The scan did not start.</value>
+  </data>
+  <data name="U136" xml:space="preserve">
+    <value>Could not allocate an aligned read buffer.</value>
+  </data>
+  <data name="U137" xml:space="preserve">
+    <value>The device was removed or could not be read (Win32 error {0}). The scan stopped.</value>
+  </data>
+  <data name="U138" xml:space="preserve">
+    <value>No record</value>
+  </data>
+  <data name="X001" xml:space="preserve">
+    <value>Finding: </value>
+  </data>
+  <data name="X002" xml:space="preserve">
+    <value>Impact: </value>
+  </data>
+  <data name="X003" xml:space="preserve">
+    <value>Advice: </value>
+  </data>
+  <data name="X004" xml:space="preserve">
+    <value>Detect again</value>
+  </data>
+  <data name="X005" xml:space="preserve">
+    <value>Overview</value>
+  </data>
+  <data name="X006" xml:space="preserve">
+    <value>What to do next</value>
+  </data>
+  <data name="X007" xml:space="preserve">
+    <value>Drive information</value>
+  </data>
+  <data name="X008" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="X009" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="X010" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="X011" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="X012" xml:space="preserve">
+    <value>Interface</value>
+  </data>
+  <data name="X013" xml:space="preserve">
+    <value>Serial number</value>
+  </data>
+  <data name="X014" xml:space="preserve">
+    <value>Drive letters</value>
+  </data>
+  <data name="X015" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="X016" xml:space="preserve">
+    <value>Power on time</value>
+  </data>
+  <data name="X017" xml:space="preserve">
+    <value>Power cycles</value>
+  </data>
+  <data name="X018" xml:space="preserve">
+    <value>Life remaining</value>
+  </data>
+  <data name="X019" xml:space="preserve">
+    <value>Health status</value>
+  </data>
+  <data name="X020" xml:space="preserve">
+    <value>Findings and advice</value>
+  </data>
+  <data name="X021" xml:space="preserve">
+    <value>No issues found</value>
+  </data>
+  <data name="X022" xml:space="preserve">
+    <value>SMART details</value>
+  </data>
+  <data name="X023" xml:space="preserve">
+    <value>ID / Field</value>
+  </data>
+  <data name="X024" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="X025" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="X026" xml:space="preserve">
+    <value>Worst</value>
+  </data>
+  <data name="X027" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="X028" xml:space="preserve">
+    <value>Raw value (hex)</value>
+  </data>
+  <data name="X029" xml:space="preserve">
+    <value>Raw value (decimal)</value>
+  </data>
+  <data name="X030" xml:space="preserve">
+    <value>Field name</value>
+  </data>
+  <data name="X031" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="X032" xml:space="preserve">
+    <value>Read-only scan</value>
+  </data>
+  <data name="X033" xml:space="preserve">
+    <value>Read-only block scan</value>
+  </data>
+  <data name="X034" xml:space="preserve">
+    <value>Quick sample</value>
+  </data>
+  <data name="X035" xml:space="preserve">
+    <value>Full read-only scan</value>
+  </data>
+  <data name="X036" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="X037" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="X038" xml:space="preserve">
+    <value>Progress </value>
+  </data>
+  <data name="X039" xml:space="preserve">
+    <value>Scanned </value>
+  </data>
+  <data name="X040" xml:space="preserve">
+    <value>Elapsed </value>
+  </data>
+  <data name="X041" xml:space="preserve">
+    <value>Errors </value>
+  </data>
+  <data name="X042" xml:space="preserve">
+    <value>Slow blocks </value>
+  </data>
+  <data name="X043" xml:space="preserve">
+    <value>Average latency </value>
+  </data>
+  <data name="X044" xml:space="preserve">
+    <value>Maximum latency </value>
+  </data>
+  <data name="X045" xml:space="preserve">
+    <value>Untested</value>
+  </data>
+  <data name="X046" xml:space="preserve">
+    <value>Good</value>
+  </data>
+  <data name="X047" xml:space="preserve">
+    <value>Slow</value>
+  </data>
+  <data name="X048" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="X049" xml:space="preserve">
+    <value>Export report</value>
+  </data>
+  <data name="X050" xml:space="preserve">
+    <value>Export an offline HTML report</value>
+  </data>
+  <data name="X051" xml:space="preserve">
+    <value>Mask serial number (recommended)</value>
+  </data>
+  <data name="X052" xml:space="preserve">
+    <value>Generate report</value>
+  </data>
+  <data name="X053" xml:space="preserve">
+    <value>Open report</value>
+  </data>
+  <data name="X054" xml:space="preserve">
+    <value>Scheduled checks</value>
+  </data>
+  <data name="X055" xml:space="preserve">
+    <value>Scheduled checks</value>
+  </data>
+  <data name="X056" xml:space="preserve">
+    <value>Scheduled checks require the installed version</value>
+  </data>
+  <data name="X057" xml:space="preserve">
+    <value>Enable automatic checks</value>
+  </data>
+  <data name="X058" xml:space="preserve">
+    <value>Check frequency</value>
+  </data>
+  <data name="X059" xml:space="preserve">
+    <value>Every month</value>
+  </data>
+  <data name="X060" xml:space="preserve">
+    <value>Every 3 months</value>
+  </data>
+  <data name="X061" xml:space="preserve">
+    <value>Every 6 months</value>
+  </data>
+  <data name="X062" xml:space="preserve">
+    <value>Start date and time (local)</value>
+  </data>
+  <data name="X063" xml:space="preserve">
+    <value>(24 hour time HH:mm)</value>
+  </data>
+  <data name="X064" xml:space="preserve">
+    <value>Check type</value>
+  </data>
+  <data name="X065" xml:space="preserve">
+    <value>SMART + quick sample</value>
+  </data>
+  <data name="X066" xml:space="preserve">
+    <value>SMART + full read-only scan</value>
+  </data>
+  <data name="X067" xml:space="preserve">
+    <value>A full scan can take hours and puts extra load on the drive. A failing drive may get worse.</value>
+  </data>
+  <data name="X068" xml:space="preserve">
+    <value>Checks all readable physical drives. Missing USB or RAID health data will be noted in the report.</value>
+  </data>
+  <data name="X069" xml:space="preserve">
+    <value>Save schedule</value>
+  </data>
+  <data name="X070" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="X071" xml:space="preserve">
+    <value>Third party license notices are in THIRD_PARTY_NOTICES.md in the installation folder.</value>
+  </data>
+  <data name="X072" xml:space="preserve">
+    <value>Open license notices</value>
+  </data>
+  <data name="X073" xml:space="preserve">
+    <value>Official website</value>
+  </data>
+  <data name="X074" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="X075" xml:space="preserve">
+    <value>Language saved. Restart DiskCheck TW to apply it.</value>
+  </data>
+  <data name="X076" xml:space="preserve">
+    <value>Language</value>
+  </data>
+</root>

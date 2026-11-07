@@ -1,0 +1,208 @@
+<Window x:Class="DiskCheckTW.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:loc="clr-namespace:DiskCheckTW.App"
+        Title="DiskCheck TW" Width="1080" Height="760" MinWidth="800" MinHeight="560"
+        Background="#F5F7FA" FontFamily="Microsoft JhengHei UI,Segoe UI">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#202A36"/>
+        </Style>
+        <Style x:Key="Label" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#5B6876"/>
+            <Setter Property="Margin" Value="0,0,0,4"/>
+        </Style>
+        <Style x:Key="Value" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Margin" Value="0,0,0,16"/>
+        </Style>
+    </Window.Resources>
+    <DockPanel Margin="26">
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,0,0,22">
+            <TextBlock Text="DiskCheck TW" FontSize="28" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,22,0"/>
+            <ComboBox x:Name="DiskSelector" ItemsSource="{Binding Disks}" SelectedItem="{Binding SelectedDisk}"
+                      DisplayMemberPath="Display" Width="540" Height="38" VerticalAlignment="Center" IsEnabled="{Binding CanSelectDisk}"/>
+            <Button Content="{loc:Loc X004}" Click="Refresh_Click" Width="112" Height="38" Margin="12,0,0,0"
+                    IsEnabled="{Binding CanRefresh}"/>
+        </StackPanel>
+        <TextBlock DockPanel.Dock="Top" Text="{Binding Progress}" Foreground="#53657A" Margin="0,0,0,12"/>
+        <TabControl>
+            <TabItem Header="{loc:Loc X005}">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel Margin="18">
+                    <Border Background="White" BorderBrush="{Binding ActionBrush}" BorderThickness="0,0,0,3" Padding="22" CornerRadius="8" Margin="0,0,0,14" Visibility="{Binding ActionVisibility}">
+                        <StackPanel>
+                            <TextBlock Text="{loc:Loc X006}" FontSize="21" FontWeight="SemiBold" Margin="0,0,0,12"/>
+                            <Border Background="{Binding ActionBrush}" CornerRadius="4" Padding="9,4" HorizontalAlignment="Left">
+                                <TextBlock Text="{Binding ActionUrgencyText}" Foreground="{Binding ActionTextBrush}" FontWeight="Bold"/>
+                            </Border>
+                            <TextBlock Text="{Binding ActionHeadline}" FontSize="20" FontWeight="SemiBold" TextWrapping="Wrap" Margin="0,12,0,10"/>
+                            <ItemsControl ItemsSource="{Binding ActionSteps}">
+                                <ItemsControl.ItemTemplate><DataTemplate>
+                                    <Grid Margin="0,5,0,5">
+                                        <Grid.ColumnDefinitions><ColumnDefinition Width="28"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+                                        <TextBlock Text="{Binding Number}" FontWeight="Bold"/>
+                                        <StackPanel Grid.Column="1">
+                                            <TextBlock Text="{Binding Title}" FontWeight="Bold" TextWrapping="Wrap"/>
+                                            <TextBlock Text="{Binding Detail}" TextWrapping="Wrap"/>
+                                        </StackPanel>
+                                    </Grid>
+                                </DataTemplate></ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                            <TextBlock Text="{Binding NextCheckDate}" Visibility="{Binding NextCheckVisibility}" FontWeight="SemiBold" Margin="0,12,0,0"/>
+                        </StackPanel>
+                    </Border>
+                    <Grid>
+                        <Grid.ColumnDefinitions><ColumnDefinition Width="310"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+                        <Border Background="White" Padding="22" CornerRadius="8" Margin="0,0,14,0">
+                            <StackPanel>
+                                <TextBlock Text="{loc:Loc X007}" FontSize="21" FontWeight="SemiBold" Margin="0,0,0,18"/>
+                                <TextBlock Text="{loc:Loc X008}" Style="{StaticResource Label}"/><TextBlock Text="{Binding Model}" Style="{StaticResource Value}" TextWrapping="Wrap"/>
+                                <TextBlock Text="{loc:Loc X009}" Style="{StaticResource Label}"/><TextBlock Text="{Binding Vendor}" Style="{StaticResource Value}"/>
+                                <TextBlock Text="{loc:Loc X010}" Style="{StaticResource Label}"/><TextBlock Text="{Binding Capacity}" Style="{StaticResource Value}"/>
+                                <TextBlock Text="{loc:Loc X011}" Style="{StaticResource Label}"/><TextBlock Text="{Binding Kind}" Style="{StaticResource Value}"/>
+                                <TextBlock Text="{loc:Loc X012}" Style="{StaticResource Label}"/><TextBlock Text="{Binding Bus}" Style="{StaticResource Value}"/>
+                                <TextBlock Text="{loc:Loc X013}" Style="{StaticResource Label}"/><TextBlock Text="{Binding Serial}" Style="{StaticResource Value}"/>
+                                <TextBlock Text="{loc:Loc X014}" Style="{StaticResource Label}"/><TextBlock Text="{Binding Letters}" Style="{StaticResource Value}"/>
+                                <TextBlock Text="{loc:Loc X015}" Style="{StaticResource Label}"/><TextBlock Text="{Binding Temperature}" Style="{StaticResource Value}"/>
+                                <TextBlock Text="{loc:Loc X016}" Style="{StaticResource Label}"/><TextBlock Text="{Binding Hours}" Style="{StaticResource Value}"/>
+                                <TextBlock Text="{loc:Loc X017}" Style="{StaticResource Label}"/><TextBlock Text="{Binding Cycles}" Style="{StaticResource Value}"/>
+                                <TextBlock Text="{loc:Loc X018}" Style="{StaticResource Label}"/><TextBlock Text="{Binding LifeRemaining}" Style="{StaticResource Value}"/>
+                            </StackPanel>
+                        </Border>
+                        <Border Grid.Column="1" Background="White" Padding="24" CornerRadius="8">
+                            <StackPanel>
+                                <TextBlock Text="{loc:Loc X019}" Foreground="#5B6876" FontSize="16"/>
+                                <TextBlock Text="{Binding HealthText}" Foreground="{Binding HealthBrush}" FontSize="42" FontWeight="Bold" Margin="0,8,0,10"/>
+                                <TextBlock Text="{Binding Summary}" FontSize="16" TextWrapping="Wrap" Margin="0,0,0,22"/>
+                                <TextBlock Text="{loc:Loc X020}" FontSize="20" FontWeight="SemiBold" Margin="0,0,0,12"/>
+                                <TextBlock Text="{loc:Loc X021}" Visibility="{Binding NoFindingsVisibility}"/>
+                                <ItemsControl ItemsSource="{Binding Findings}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Border BorderBrush="#E3E8EE" BorderThickness="0,0,0,1" Padding="0,10,0,14">
+                                                <StackPanel>
+                                                    <TextBlock Text="{Binding Title}" FontSize="16" FontWeight="SemiBold" TextWrapping="Wrap"/>
+                                                    <TextBlock TextWrapping="Wrap" Margin="0,5,0,0"><Run Text="{loc:Loc X001}"/><Run Text="{Binding Detail}"/></TextBlock>
+                                                    <TextBlock TextWrapping="Wrap" Margin="0,4,0,0"><Run Text="{loc:Loc X002}"/><Run Text="{Binding Impact}"/></TextBlock>
+                                                    <TextBlock TextWrapping="Wrap" Margin="0,4,0,0"><Run Text="{loc:Loc X003}"/><Run Text="{Binding Advice}"/></TextBlock>
+                                                </StackPanel>
+                                            </Border>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </StackPanel>
+                        </Border>
+                    </Grid>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="{loc:Loc X022}">
+                <Grid Margin="16">
+                    <DataGrid ItemsSource="{Binding SmartRows}" Visibility="{Binding AtaVisibility}" AutoGenerateColumns="False" IsReadOnly="True" CanUserAddRows="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="{loc:Loc X023}" Binding="{Binding Id}" Width="100"/>
+                            <DataGridTextColumn Header="{loc:Loc X024}" Binding="{Binding Name}" Width="*"/>
+                            <DataGridTextColumn Header="{loc:Loc X025}" Binding="{Binding Current}" Width="90"/>
+                            <DataGridTextColumn Header="{loc:Loc X026}" Binding="{Binding Worst}" Width="90"/>
+                            <DataGridTextColumn Header="{loc:Loc X027}" Binding="{Binding Threshold}" Width="90"/>
+                            <DataGridTextColumn Header="{loc:Loc X028}" Binding="{Binding RawHex}" Width="160"/>
+                            <DataGridTextColumn Header="{loc:Loc X029}" Binding="{Binding RawDecimal}" Width="170"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <DataGrid ItemsSource="{Binding NvmeRows}" Visibility="{Binding NvmeVisibility}" AutoGenerateColumns="False" IsReadOnly="True" CanUserAddRows="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="{loc:Loc X030}" Binding="{Binding Name}" Width="*"/>
+                            <DataGridTextColumn Header="{loc:Loc X031}" Binding="{Binding Value}" Width="250"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <TextBlock Text="{Binding SmartUnavailableText}" Visibility="{Binding SmartUnavailableVisibility}" FontSize="16" TextWrapping="Wrap"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="{loc:Loc X032}">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel Margin="24">
+                        <TextBlock Text="{loc:Loc X033}" FontSize="22" FontWeight="SemiBold" Margin="0,0,0,12"/>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,14">
+                            <RadioButton x:Name="QuickMode" Content="{loc:Loc X034}" IsChecked="True" GroupName="ScanMode" Margin="0,0,20,0" VerticalAlignment="Center" IsEnabled="{Binding CanSelectDisk}"/>
+                            <RadioButton Content="{loc:Loc X035}" GroupName="ScanMode" Margin="0,0,20,0" VerticalAlignment="Center" IsEnabled="{Binding CanSelectDisk}"/>
+                            <Button Content="{loc:Loc X036}" Width="90" Height="34" Click="StartScan_Click" IsEnabled="{Binding CanStartScan}"/>
+                            <Button Content="{loc:Loc X037}" Width="90" Height="34" Margin="8,0,0,0" Click="StopScan_Click" IsEnabled="{Binding IsScanning}"/>
+                        </StackPanel>
+                        <WrapPanel Margin="0,0,0,14">
+                            <TextBlock Text="{loc:Loc X038}" FontWeight="SemiBold"/><TextBlock Text="{Binding ScanPercent}" Margin="0,0,20,0"/>
+                            <TextBlock Text="{loc:Loc X039}" FontWeight="SemiBold"/><TextBlock Text="{Binding ScanCapacity}" Margin="0,0,20,0"/>
+                            <TextBlock Text="{loc:Loc X040}" FontWeight="SemiBold"/><TextBlock Text="{Binding ScanElapsed}" Margin="0,0,20,0"/>
+                            <TextBlock Text="{loc:Loc X041}" FontWeight="SemiBold"/><TextBlock Text="{Binding ScanErrors}" Margin="0,0,20,0"/>
+                            <TextBlock Text="{loc:Loc X042}" FontWeight="SemiBold"/><TextBlock Text="{Binding ScanSlow}" Margin="0,0,20,0"/>
+                            <TextBlock Text="{loc:Loc X043}" FontWeight="SemiBold"/><TextBlock Text="{Binding ScanAvg}" Margin="0,0,20,0"/>
+                            <TextBlock Text="{loc:Loc X044}" FontWeight="SemiBold"/><TextBlock Text="{Binding ScanMax}"/>
+                        </WrapPanel>
+                        <Image Source="{Binding ScanGrid}" Width="450" Height="360" Stretch="None" HorizontalAlignment="Left" SnapsToDevicePixels="True"/>
+                        <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                            <Border Background="#B2B9C2" Width="14" Height="14" Margin="0,0,5,0"/><TextBlock Text="{loc:Loc X045}" Margin="0,0,18,0"/>
+                            <Border Background="#33AA67" Width="14" Height="14" Margin="0,0,5,0"/><TextBlock Text="{loc:Loc X046}" Margin="0,0,18,0"/>
+                            <Border Background="#E7B935" Width="14" Height="14" Margin="0,0,5,0"/><TextBlock Text="{loc:Loc X047}" Margin="0,0,18,0"/>
+                            <Border Background="#D24646" Width="14" Height="14" Margin="0,0,5,0"/><TextBlock Text="{loc:Loc X048}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="{loc:Loc X049}">
+                <StackPanel Margin="24" HorizontalAlignment="Left">
+                    <TextBlock Text="{loc:Loc X050}" FontSize="22" FontWeight="SemiBold" Margin="0,0,0,14"/>
+                    <CheckBox x:Name="MaskSerialCheck" Content="{loc:Loc X051}" IsChecked="True" Margin="0,0,0,16"/>
+                    <Button Content="{loc:Loc X052}" Click="ExportReport_Click" IsEnabled="{Binding CanStartScan}" Width="180" Height="40" HorizontalAlignment="Left"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,16,0,0">
+                        <TextBlock x:Name="ExportStatus" VerticalAlignment="Center" Margin="0,0,12,0"/>
+                        <Button x:Name="OpenReportButton" Content="{loc:Loc X053}" Click="OpenReport_Click" Visibility="Collapsed" Width="100" Height="34"/>
+                    </StackPanel>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="{loc:Loc X054}">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel Margin="24" HorizontalAlignment="Left" Width="640">
+                        <TextBlock Text="{loc:Loc X055}" FontSize="22" FontWeight="SemiBold" Margin="0,0,0,14"/>
+                        <TextBlock x:Name="ScheduleInstallNotice" Text="{loc:Loc X056}" Foreground="#B42318" FontSize="16" Visibility="Collapsed" Margin="0,0,0,12"/>
+                        <StackPanel x:Name="ScheduleControls">
+                            <CheckBox x:Name="ScheduleEnabled" Content="{loc:Loc X057}" Margin="0,0,0,16"/>
+                            <TextBlock Text="{loc:Loc X058}" Style="{StaticResource Label}"/>
+                            <ComboBox x:Name="ScheduleFrequency" Width="180" HorizontalAlignment="Left" SelectedIndex="1" Margin="0,0,0,14">
+                                <ComboBoxItem Content="{loc:Loc X059}"/><ComboBoxItem Content="{loc:Loc X060}"/><ComboBoxItem Content="{loc:Loc X061}"/>
+                            </ComboBox>
+                            <TextBlock Text="{loc:Loc X062}" Style="{StaticResource Label}"/>
+                            <StackPanel Orientation="Horizontal" Margin="0,0,0,14">
+                                <DatePicker x:Name="ScheduleDate" Width="160"/>
+                                <TextBox x:Name="ScheduleTime" Text="12:00" Width="70" Margin="10,0,0,0" VerticalContentAlignment="Center"/>
+                                <TextBlock Text="{loc:Loc X063}" VerticalAlignment="Center" Margin="8,0,0,0"/>
+                            </StackPanel>
+                            <TextBlock Text="{loc:Loc X064}" Style="{StaticResource Label}"/>
+                            <ComboBox x:Name="ScheduleMode" Width="260" HorizontalAlignment="Left" SelectedIndex="0" SelectionChanged="ScheduleMode_SelectionChanged" Margin="0,0,0,8">
+                                <ComboBoxItem Content="{loc:Loc X065}"/><ComboBoxItem Content="{loc:Loc X066}"/>
+                            </ComboBox>
+                            <TextBlock x:Name="ScheduleFullWarning" Text="{loc:Loc X067}" Foreground="#B45309" TextWrapping="Wrap" Visibility="Collapsed" Margin="0,0,0,14"/>
+                            <TextBlock Text="{loc:Loc X068}" TextWrapping="Wrap" Margin="0,0,0,14"/>
+                            <Button Content="{loc:Loc X069}" Click="SaveSchedule_Click" Width="150" Height="38" HorizontalAlignment="Left" Margin="0,0,0,14"/>
+                        </StackPanel>
+                        <TextBlock x:Name="ScheduleNext" Margin="0,0,0,6"/>
+                        <TextBlock x:Name="ScheduleLast" Margin="0,0,0,6" TextWrapping="Wrap"/>
+                        <TextBlock x:Name="ScheduleMessage" TextWrapping="Wrap"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="{loc:Loc X070}">
+                <StackPanel Margin="24" HorizontalAlignment="Left">
+                    <TextBlock Text="DiskCheck TW" FontSize="22" FontWeight="SemiBold"/>
+                    <TextBlock x:Name="AboutVersion" Margin="0,8,0,12"/>
+                    <TextBlock Text="{loc:Loc X074}" Margin="0,0,0,4"/>
+                    <ComboBox x:Name="LanguageChoice" SelectionChanged="LanguageChoice_SelectionChanged" Width="170" HorizontalAlignment="Left" Margin="0,0,0,12">
+                        <ComboBoxItem Content="繁體中文"/><ComboBoxItem Content="English"/>
+                    </ComboBox>
+                    <TextBlock Margin="0,0,0,12"><Hyperlink Click="OfficialSite_Click"><Run Text="{loc:Loc X073}"/></Hyperlink></TextBlock>
+                    <TextBlock Text="{loc:Loc X071}" Margin="0,0,0,8"/>
+                    <Button Content="{loc:Loc X072}" Click="OpenNotices_Click" Width="130" HorizontalAlignment="Left"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>

@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="U001" xml:space="preserve">
+    <value>尚未偵測</value>
+  </data>
+  <data name="U002" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U003" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U004" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U005" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U006" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U007" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U008" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U009" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U010" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U011" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U012" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U013" xml:space="preserve">
+    <value>資料不足</value>
+  </data>
+  <data name="U014" xml:space="preserve">
+    <value>尚未選擇硬碟。</value>
+  </data>
+  <data name="U015" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U016" xml:space="preserve">
+    <value>0.0 秒</value>
+  </data>
+  <data name="U017" xml:space="preserve">
+    <value>偵測中…</value>
+  </data>
+  <data name="U018" xml:space="preserve">
+    <value>需要以系統管理員身分執行，才能讀取實體磁碟與 SMART。</value>
+  </data>
+  <data name="U019" xml:space="preserve">
+    <value>未偵測到可存取的實體磁碟。</value>
+  </data>
+  <data name="U020" xml:space="preserve">
+    <value>已偵測 {0} 顆實體磁碟。</value>
+  </data>
+  <data name="U021" xml:space="preserve">
+    <value>偵測失敗：{0}</value>
+  </data>
+  <data name="U022" xml:space="preserve">
+    <value>完整唯讀掃描中…</value>
+  </data>
+  <data name="U023" xml:space="preserve">
+    <value>快速抽樣掃描中…</value>
+  </data>
+  <data name="U024" xml:space="preserve">
+    <value>至少 1,000</value>
+  </data>
+  <data name="U025" xml:space="preserve">
+    <value>使用者手動停止</value>
+  </data>
+  <data name="U026" xml:space="preserve">
+    <value>掃描完成：{0} 格。</value>
+  </data>
+  <data name="U027" xml:space="preserve">
+    <value>掃描失敗：{0}</value>
+  </data>
+  <data name="U028" xml:space="preserve">
+    <value>0.0 秒</value>
+  </data>
+  <data name="U029" xml:space="preserve">
+    <value>{0:0.0} 秒</value>
+  </data>
+  <data name="U030" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U031" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U032" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="U033" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U034" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U035" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U036" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U037" xml:space="preserve">
+    <value>資料不足</value>
+  </data>
+  <data name="U038" xml:space="preserve">
+    <value>尚未選擇硬碟。</value>
+  </data>
+  <data name="U039" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U040" xml:space="preserve">
+    <value>下次建議檢測日：{0:yyyy-MM-dd}</value>
+  </data>
+  <data name="U041" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U042" xml:space="preserve">
+    <value>{0:N0} 小時</value>
+  </data>
+  <data name="U043" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U044" xml:space="preserve">
+    <value>{0:N0} 次</value>
+  </data>
+  <data name="U045" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U046" xml:space="preserve">
+    <value>不適用（HDD）</value>
+  </data>
+  <data name="U047" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U048" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="U049" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="U050" xml:space="preserve">
+    <value>危險</value>
+  </data>
+  <data name="U051" xml:space="preserve">
+    <value>資料不足</value>
+  </data>
+  <data name="U052" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U053" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U054" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U055" xml:space="preserve">
+    <value>嚴重警告 / Critical Warning</value>
+  </data>
+  <data name="U056" xml:space="preserve">
+    <value>溫度</value>
+  </data>
+  <data name="U057" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U058" xml:space="preserve">
+    <value>可用備援空間</value>
+  </data>
+  <data name="U059" xml:space="preserve">
+    <value>備援空間門檻</value>
+  </data>
+  <data name="U060" xml:space="preserve">
+    <value>已使用壽命</value>
+  </data>
+  <data name="U061" xml:space="preserve">
+    <value>讀取資料單位（每單位 512,000 bytes）</value>
+  </data>
+  <data name="U062" xml:space="preserve">
+    <value>寫入資料單位（每單位 512,000 bytes）</value>
+  </data>
+  <data name="U063" xml:space="preserve">
+    <value>開機次數</value>
+  </data>
+  <data name="U064" xml:space="preserve">
+    <value>通電時間（小時）</value>
+  </data>
+  <data name="U065" xml:space="preserve">
+    <value>非預期關機</value>
+  </data>
+  <data name="U066" xml:space="preserve">
+    <value>媒體錯誤</value>
+  </data>
+  <data name="U067" xml:space="preserve">
+    <value>錯誤記錄筆數</value>
+  </data>
+  <data name="U068" xml:space="preserve">
+    <value>{0:N0}（約 {1:0.0} TB）</value>
+  </data>
+  <data name="U069" xml:space="preserve">
+    <value>{0:N0}（約 {1:0.0} GB）</value>
+  </data>
+  <data name="U070" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U071" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U072" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U073" xml:space="preserve">
+    <value>版本 </value>
+  </data>
+  <data name="U074" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U075" xml:space="preserve">
+    <value>請先備份重要資料。
+
+</value>
+  </data>
+  <data name="U076" xml:space="preserve">
+    <value>掃描只會讀取，不會寫入或修改資料，但會增加硬碟負擔；故障中的硬碟可能惡化。
+
+確定開始掃描？</value>
+  </data>
+  <data name="U077" xml:space="preserve">
+    <value>確認唯讀掃描</value>
+  </data>
+  <data name="U078" xml:space="preserve">
+    <value>儲存 DiskCheck TW 報告</value>
+  </data>
+  <data name="U079" xml:space="preserve">
+    <value>HTML 報告 (*.html)|*.html</value>
+  </data>
+  <data name="U080" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U081" xml:space="preserve">
+    <value>已儲存</value>
+  </data>
+  <data name="U082" xml:space="preserve">
+    <value>儲存失敗：{0}</value>
+  </data>
+  <data name="U083" xml:space="preserve">
+    <value>開啟失敗：{0}</value>
+  </data>
+  <data name="U084" xml:space="preserve">
+    <value>無法開啟官方網站：{0}</value>
+  </data>
+  <data name="U085" xml:space="preserve">
+    <value>無法開啟授權聲明：{0}</value>
+  </data>
+  <data name="U086" xml:space="preserve">
+    <value>下次執行時間：尚未啟用</value>
+  </data>
+  <data name="U087" xml:space="preserve">
+    <value>上次執行：尚無記錄</value>
+  </data>
+  <data name="U088" xml:space="preserve">
+    <value>無法讀取排程設定：{0}</value>
+  </data>
+  <data name="U089" xml:space="preserve">
+    <value>請輸入有效的日期與 24 小時制時間（HH:mm）。</value>
+  </data>
+  <data name="U090" xml:space="preserve">
+    <value>已儲存並建立／更新 Windows 工作排程。</value>
+  </data>
+  <data name="U091" xml:space="preserve">
+    <value>已停用並移除 Windows 工作排程。</value>
+  </data>
+  <data name="U092" xml:space="preserve">
+    <value>儲存失敗：{0}</value>
+  </data>
+  <data name="U093" xml:space="preserve">
+    <value>下次執行時間：{0:yyyy-MM-dd HH:mm}</value>
+  </data>
+  <data name="U094" xml:space="preserve">
+    <value>下次執行時間：未啟用</value>
+  </data>
+  <data name="U095" xml:space="preserve">
+    <value>上次執行：{0:yyyy-MM-dd HH:mm}　結果：{1}</value>
+  </data>
+  <data name="U096" xml:space="preserve">
+    <value>上次執行：尚無記錄</value>
+  </data>
+  <data name="U097" xml:space="preserve">
+    <value>DiskCheck TW 排程檢測</value>
+  </data>
+  <data name="U098" xml:space="preserve">
+    <value>無法讀取排程設定：{0}</value>
+  </data>
+  <data name="U099" xml:space="preserve">
+    <value>無法儲存略過結果：{0}</value>
+  </data>
+  <data name="U100" xml:space="preserve">
+    <value>上次排定的硬碟檢測（{0:yyyy-MM-dd HH:mm}）沒有執行，要現在檢測嗎？</value>
+  </data>
+  <data name="U101" xml:space="preserve">
+    <value>立即檢測</value>
+  </data>
+  <data name="U102" xml:space="preserve">
+    <value>稍後（下次開機再問）</value>
+  </data>
+  <data name="U103" xml:space="preserve">
+    <value>略過這次</value>
+  </data>
+  <data name="U104" xml:space="preserve">
+    <value>正在檢測硬碟…</value>
+  </data>
+  <data name="U105" xml:space="preserve">
+    <value>正在偵測實體磁碟…</value>
+  </data>
+  <data name="U106" xml:space="preserve">
+    <value>取消檢測</value>
+  </data>
+  <data name="U107" xml:space="preserve">
+    <value>讀取 SMART：{0}</value>
+  </data>
+  <data name="U108" xml:space="preserve">
+    <value>無法取得</value>
+  </data>
+  <data name="U109" xml:space="preserve">
+    <value>資料不足（掃描未完成）</value>
+  </data>
+  <data name="U110" xml:space="preserve">
+    <value>檢測已取消，可下次登入重試。</value>
+  </data>
+  <data name="U111" xml:space="preserve">
+    <value>已取消；完成 {0} 顆</value>
+  </data>
+  <data name="U112" xml:space="preserve">
+    <value>沒有可讀取的實體磁碟</value>
+  </data>
+  <data name="U113" xml:space="preserve">
+    <value>完成 {0} 顆；{1}</value>
+  </data>
+  <data name="U114" xml:space="preserve">
+    <value>執行失敗：{0}</value>
+  </data>
+  <data name="U115" xml:space="preserve">
+    <value>排程檢測結果</value>
+  </data>
+  <data name="U116" xml:space="preserve">
+    <value>開啟 DiskCheck TW</value>
+  </data>
+  <data name="U117" xml:space="preserve">
+    <value>開啟報告資料夾</value>
+  </data>
+  <data name="U118" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="U119" xml:space="preserve">
+    <value>操作失敗</value>
+  </data>
+  <data name="U120" xml:space="preserve">
+    <value>無法移除 Windows 工作排程，設定未停用。</value>
+  </data>
+  <data name="U121" xml:space="preserve">
+    <value>無法取得使用者 SID。</value>
+  </data>
+  <data name="U122" xml:space="preserve">
+    <value>建立工作排程失敗：{0} {1}</value>
+  </data>
+  <data name="U123" xml:space="preserve">
+    <value>需要系統管理員權限，或驅動程式拒絕唯讀存取</value>
+  </data>
+  <data name="U124" xml:space="preserve">
+    <value>無法開啟實體磁碟讀取 SMART</value>
+  </data>
+  <data name="U125" xml:space="preserve">
+    <value>NVMe 控制器或驅動程式未提供健康記錄</value>
+  </data>
+  <data name="U126" xml:space="preserve">
+    <value>需要系統管理員權限，或驅動程式要求寫入存取權才能傳送唯讀 SMART 指令</value>
+  </data>
+  <data name="U127" xml:space="preserve">
+    <value>ATA SMART 指令遭驅動程式拒絕，或裝置不支援唯讀查詢</value>
+  </data>
+  <data name="U128" xml:space="preserve">
+    <value>USB 外接盒未轉送 SMART 指令，或未提供可辨識的 ATA/NVMe 介面</value>
+  </data>
+  <data name="U129" xml:space="preserve">
+    <value>RAID 控制器未提供個別磁碟的 SMART 資料</value>
+  </data>
+  <data name="U130" xml:space="preserve">
+    <value>此介面未提供支援的 SMART 讀取方式</value>
+  </data>
+  <data name="U131" xml:space="preserve">
+    <value>需要系統管理員權限</value>
+  </data>
+  <data name="U132" xml:space="preserve">
+    <value>SMART 讀取失敗：{0}</value>
+  </data>
+  <data name="U133" xml:space="preserve">
+    <value>無法取得可對齊的磁碟容量或磁區大小。</value>
+  </data>
+  <data name="U134" xml:space="preserve">
+    <value>權限不足：無法以唯讀權限開啟實體磁碟，掃描未開始。</value>
+  </data>
+  <data name="U135" xml:space="preserve">
+    <value>無法以唯讀方式開啟實體磁碟（Win32 錯誤 {0}），掃描未開始。</value>
+  </data>
+  <data name="U136" xml:space="preserve">
+    <value>無法配置對齊的讀取緩衝區。</value>
+  </data>
+  <data name="U137" xml:space="preserve">
+    <value>裝置已移除或無法繼續讀取（Win32 錯誤 {0}），掃描已停止。</value>
+  </data>
+  <data name="U138" xml:space="preserve">
+    <value>無記錄</value>
+  </data>
+  <data name="X001" xml:space="preserve">
+    <value>發現：</value>
+  </data>
+  <data name="X002" xml:space="preserve">
+    <value>影響：</value>
+  </data>
+  <data name="X003" xml:space="preserve">
+    <value>建議：</value>
+  </data>
+  <data name="X004" xml:space="preserve">
+    <value>重新偵測</value>
+  </data>
+  <data name="X005" xml:space="preserve">
+    <value>總覽</value>
+  </data>
+  <data name="X006" xml:space="preserve">
+    <value>建議您接下來這樣做</value>
+  </data>
+  <data name="X007" xml:space="preserve">
+    <value>硬碟資訊</value>
+  </data>
+  <data name="X008" xml:space="preserve">
+    <value>型號</value>
+  </data>
+  <data name="X009" xml:space="preserve">
+    <value>廠牌</value>
+  </data>
+  <data name="X010" xml:space="preserve">
+    <value>容量</value>
+  </data>
+  <data name="X011" xml:space="preserve">
+    <value>類型</value>
+  </data>
+  <data name="X012" xml:space="preserve">
+    <value>介面</value>
+  </data>
+  <data name="X013" xml:space="preserve">
+    <value>序號</value>
+  </data>
+  <data name="X014" xml:space="preserve">
+    <value>代號</value>
+  </data>
+  <data name="X015" xml:space="preserve">
+    <value>溫度</value>
+  </data>
+  <data name="X016" xml:space="preserve">
+    <value>通電時間</value>
+  </data>
+  <data name="X017" xml:space="preserve">
+    <value>開機次數</value>
+  </data>
+  <data name="X018" xml:space="preserve">
+    <value>剩餘壽命</value>
+  </data>
+  <data name="X019" xml:space="preserve">
+    <value>健康狀態</value>
+  </data>
+  <data name="X020" xml:space="preserve">
+    <value>發現與建議</value>
+  </data>
+  <data name="X021" xml:space="preserve">
+    <value>未發現異常項目</value>
+  </data>
+  <data name="X022" xml:space="preserve">
+    <value>SMART 詳細資料</value>
+  </data>
+  <data name="X023" xml:space="preserve">
+    <value>ID／欄位</value>
+  </data>
+  <data name="X024" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="X025" xml:space="preserve">
+    <value>目前</value>
+  </data>
+  <data name="X026" xml:space="preserve">
+    <value>最差</value>
+  </data>
+  <data name="X027" xml:space="preserve">
+    <value>門檻</value>
+  </data>
+  <data name="X028" xml:space="preserve">
+    <value>原始值（十六進位）</value>
+  </data>
+  <data name="X029" xml:space="preserve">
+    <value>原始值（十進位）／值</value>
+  </data>
+  <data name="X030" xml:space="preserve">
+    <value>欄位名稱</value>
+  </data>
+  <data name="X031" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="X032" xml:space="preserve">
+    <value>唯讀掃描</value>
+  </data>
+  <data name="X033" xml:space="preserve">
+    <value>唯讀區塊掃描</value>
+  </data>
+  <data name="X034" xml:space="preserve">
+    <value>快速抽樣</value>
+  </data>
+  <data name="X035" xml:space="preserve">
+    <value>完整唯讀掃描</value>
+  </data>
+  <data name="X036" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="X037" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="X038" xml:space="preserve">
+    <value>進度 </value>
+  </data>
+  <data name="X039" xml:space="preserve">
+    <value>已掃描 </value>
+  </data>
+  <data name="X040" xml:space="preserve">
+    <value>經過 </value>
+  </data>
+  <data name="X041" xml:space="preserve">
+    <value>錯誤 </value>
+  </data>
+  <data name="X042" xml:space="preserve">
+    <value>慢速格 </value>
+  </data>
+  <data name="X043" xml:space="preserve">
+    <value>平均延遲 </value>
+  </data>
+  <data name="X044" xml:space="preserve">
+    <value>最大延遲 </value>
+  </data>
+  <data name="X045" xml:space="preserve">
+    <value>未測</value>
+  </data>
+  <data name="X046" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="X047" xml:space="preserve">
+    <value>慢速</value>
+  </data>
+  <data name="X048" xml:space="preserve">
+    <value>錯誤</value>
+  </data>
+  <data name="X049" xml:space="preserve">
+    <value>匯出報告</value>
+  </data>
+  <data name="X050" xml:space="preserve">
+    <value>匯出離線 HTML 報告</value>
+  </data>
+  <data name="X051" xml:space="preserve">
+    <value>遮罩序號（建議）</value>
+  </data>
+  <data name="X052" xml:space="preserve">
+    <value>一鍵產生報告</value>
+  </data>
+  <data name="X053" xml:space="preserve">
+    <value>開啟報告</value>
+  </data>
+  <data name="X054" xml:space="preserve">
+    <value>排程檢測</value>
+  </data>
+  <data name="X055" xml:space="preserve">
+    <value>排程檢測</value>
+  </data>
+  <data name="X056" xml:space="preserve">
+    <value>排程檢測需使用安裝版</value>
+  </data>
+  <data name="X057" xml:space="preserve">
+    <value>啟用自動檢測</value>
+  </data>
+  <data name="X058" xml:space="preserve">
+    <value>檢測頻率</value>
+  </data>
+  <data name="X059" xml:space="preserve">
+    <value>每月</value>
+  </data>
+  <data name="X060" xml:space="preserve">
+    <value>每 3 個月</value>
+  </data>
+  <data name="X061" xml:space="preserve">
+    <value>每 6 個月</value>
+  </data>
+  <data name="X062" xml:space="preserve">
+    <value>起始日期與時間（本機時間）</value>
+  </data>
+  <data name="X063" xml:space="preserve">
+    <value>（24 小時制 HH:mm）</value>
+  </data>
+  <data name="X064" xml:space="preserve">
+    <value>檢測內容</value>
+  </data>
+  <data name="X065" xml:space="preserve">
+    <value>SMART＋快速抽樣</value>
+  </data>
+  <data name="X066" xml:space="preserve">
+    <value>SMART＋完整唯讀掃描</value>
+  </data>
+  <data name="X067" xml:space="preserve">
+    <value>完整掃描可能耗時數小時，並增加硬碟負擔；故障硬碟可能惡化。</value>
+  </data>
+  <data name="X068" xml:space="preserve">
+    <value>範圍：所有可讀取的實體磁碟；USB／RAID 無法取得的資料會記錄在報告。</value>
+  </data>
+  <data name="X069" xml:space="preserve">
+    <value>儲存排程設定</value>
+  </data>
+  <data name="X070" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="X071" xml:space="preserve">
+    <value>第三方授權聲明位於安裝資料夾的 THIRD_PARTY_NOTICES.md。</value>
+  </data>
+  <data name="X072" xml:space="preserve">
+    <value>開啟授權聲明</value>
+  </data>
+  <data name="X073" xml:space="preserve">
+    <value>官方網站</value>
+  </data>
+  <data name="X074" xml:space="preserve">
+    <value>語言</value>
+  </data>
+  <data name="X075" xml:space="preserve">
+    <value>語言設定已儲存，請重新啟動 DiskCheck TW 後套用。</value>
+  </data>
+  <data name="X076" xml:space="preserve">
+    <value>語言</value>
+  </data>
+</root>

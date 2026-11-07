@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DiskCheckTW.App/DiskCheckTW.App.csproj" />
+    <Project Path="src/DiskCheckTW.Core/DiskCheckTW.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DiskCheckTW.Tests/DiskCheckTW.Tests.csproj" />
+  </Folder>
+</Solution>
