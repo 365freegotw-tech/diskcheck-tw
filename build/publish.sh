@@ -36,26 +36,26 @@ PY
 if [[ "${1:-}" == "--publish-only" ]]; then
   exit 0
 fi
-rm -f publish/DiskCheckTW-0.1.3-win-x64-portable.zip publish/DiskCheckTW-0.1.3-setup.zip
+rm -f publish/DiskCheckTW-0.1.4-win-x64-portable.zip publish/DiskCheckTW-0.1.4-setup.zip
 if command -v zip >/dev/null 2>&1; then
-  (cd publish && zip -qr DiskCheckTW-0.1.3-win-x64-portable.zip DiskCheckTW)
+  (cd publish && zip -qr DiskCheckTW-0.1.4-win-x64-portable.zip DiskCheckTW)
 else
-  (cd publish && python3 -m zipfile -c DiskCheckTW-0.1.3-win-x64-portable.zip DiskCheckTW)
+  (cd publish && python3 -m zipfile -c DiskCheckTW-0.1.4-win-x64-portable.zip DiskCheckTW)
 fi
 
 if command -v makensis >/dev/null 2>&1; then
   if command -v cygpath >/dev/null 2>&1; then
     payload="$(cygpath -w "$PWD/publish/DiskCheckTW")\*"
-    outexe="$(cygpath -w "$PWD/publish/DiskCheckTW-0.1.3-setup.exe")"
+    outexe="$(cygpath -w "$PWD/publish/DiskCheckTW-0.1.4-setup.exe")"
   else
     payload="$PWD/publish/DiskCheckTW/*"
-    outexe="$PWD/publish/DiskCheckTW-0.1.3-setup.exe"
+    outexe="$PWD/publish/DiskCheckTW-0.1.4-setup.exe"
   fi
   makensis "-DPAYLOAD=$payload" "-DOUTEXE=$outexe" build/installer.nsi
   if command -v zip >/dev/null 2>&1; then
-    (cd publish && zip -q DiskCheckTW-0.1.3-setup.zip DiskCheckTW-0.1.3-setup.exe)
+    (cd publish && zip -q DiskCheckTW-0.1.4-setup.zip DiskCheckTW-0.1.4-setup.exe)
   else
-    (cd publish && python3 -m zipfile -c DiskCheckTW-0.1.3-setup.zip DiskCheckTW-0.1.3-setup.exe)
+    (cd publish && python3 -m zipfile -c DiskCheckTW-0.1.4-setup.zip DiskCheckTW-0.1.4-setup.exe)
   fi
 else
   echo "未安裝 NSIS，略過安裝程式"

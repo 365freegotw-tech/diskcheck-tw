@@ -4,7 +4,7 @@ A free, open-source Windows tool that reads drive SMART data and runs read-only 
 
 English | [繁體中文](README.zh-TW.md)
 
-Current version: 0.1.3 · MIT licensed.
+Current version: 0.1.4 · MIT licensed.
 
 ## Features
 

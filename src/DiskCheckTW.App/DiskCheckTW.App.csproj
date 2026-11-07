@@ -15,7 +15,7 @@
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <AssemblyTitle>DiskCheck TW</AssemblyTitle>
-    <Version>0.1.3</Version>
+    <Version>0.1.4</Version>
     <Product>DiskCheck TW</Product>
     <Company>keelungIT</Company>
     <Copyright>Copyright (c) 2026 keelungIT</Copyright>

@@ -8,7 +8,7 @@ Name "DiskCheck TW"
   !define PAYLOAD "../publish/DiskCheckTW/*"
 !endif
 !ifndef OUTEXE
-  !define OUTEXE "../publish/DiskCheckTW-0.1.3-setup.exe"
+  !define OUTEXE "../publish/DiskCheckTW-0.1.4-setup.exe"
 !endif
 OutFile "${OUTEXE}"
 InstallDir "$PROGRAMFILES64\DiskCheck TW"
@@ -39,7 +39,7 @@ Section "DiskCheck TW" SEC_MAIN
   CreateShortCut "$SMPROGRAMS\DiskCheck TW\DiskCheck TW.lnk" "$INSTDIR\DiskCheckTW.App.exe"
   CreateShortCut "$SMPROGRAMS\DiskCheck TW\$(UninstallLink).lnk" "$INSTDIR\Uninstall.exe"
   WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\DiskCheckTW" "DisplayName" "DiskCheck TW"
-  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\DiskCheckTW" "DisplayVersion" "0.1.3"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\DiskCheckTW" "DisplayVersion" "0.1.4"
   WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\DiskCheckTW" "Publisher" "DiskCheck TW"
   WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\DiskCheckTW" "UninstallString" '"$INSTDIR\Uninstall.exe"'
   ${GetSize} "$INSTDIR" "/S=0K" $0 $1 $2
