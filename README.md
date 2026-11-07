@@ -85,9 +85,9 @@ dotnet test tests/DiskCheckTW.Tests
 - `tests/DiskCheckTW.Tests` — xUnit tests.
 - `build/` — packaging scripts and NSIS definitions.
 
-## Code signing policy
+## Code signing and privacy
 
-Free code signing provided by SignPath.io, certificate by SignPath Foundation (application in progress; releases up to v0.1.3 are unsigned). See the [Code signing policy](CODE_SIGNING_POLICY.md) for what is signed, how releases are built, team roles and the privacy policy. Security issues: [SECURITY.md](SECURITY.md).
+GitHub and website downloads are not code signed; the Microsoft Store edition is signed by Microsoft. See the [Code signing policy](CODE_SIGNING_POLICY.md) and the [privacy policy](https://keelungit.com/diskcheck-tw/privacy/). Security issues: [SECURITY.md](SECURITY.md).
 
 ## License
 

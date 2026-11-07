@@ -85,9 +85,9 @@ dotnet test tests/DiskCheckTW.Tests
 - `tests/DiskCheckTW.Tests` — xUnit 測試。
 - `build/` — 打包腳本與 NSIS 定義。
 
-## 程式碼簽章政策（Code signing policy）
+## 程式碼簽章與隱私
 
-Free code signing provided by SignPath.io, certificate by SignPath Foundation（申請中；v0.1.3 以前的版本未簽章）。簽章範圍、建置方式、團隊角色與隱私政策請見 [Code signing policy](CODE_SIGNING_POLICY.md)。安全問題回報請見 [SECURITY.md](SECURITY.md)。
+GitHub 與網站下載的版本未數位簽章；Microsoft Store 版由 Microsoft 簽章。詳見 [Code signing policy](CODE_SIGNING_POLICY.md) 與[隱私權政策](https://keelungit.com/diskcheck-tw/privacy/)。安全問題回報請見 [SECURITY.md](SECURITY.md)。
 
 ## 授權
 
