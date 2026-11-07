@@ -96,7 +96,7 @@ public class EnglishTests
     {
         var en = InCulture("en-US", () => SmartProfiles.NameOf("Smart", 0x05));
         Assert.DoesNotContain(" / ", en);
-        Assert.False(Cjk.IsMatch(en));
+        Assert.DoesNotMatch(Cjk, en);
         Assert.Contains(" / ", InCulture("zh-TW", () => SmartProfiles.NameOf("Smart", 0x05)));
     }
 

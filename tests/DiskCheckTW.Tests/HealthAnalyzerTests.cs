@@ -252,7 +252,7 @@ public class HealthAnalyzerTests
         Assert.Equal(HealthStatus.Normal, d.Status);
         Assert.Equal("正常", d.StatusText);
         Assert.True(HasTitle(d, FindingSeverity.Info, "C7"));
-        Assert.False(d.Findings.Any(f => f.Severity != FindingSeverity.Info));
+        Assert.DoesNotContain(d.Findings, f => f.Severity != FindingSeverity.Info);
     }
 
     [Fact]

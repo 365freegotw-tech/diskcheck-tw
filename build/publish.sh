@@ -41,7 +41,14 @@ else
 fi
 
 if command -v makensis >/dev/null 2>&1; then
-  makensis build/installer.nsi
+  if command -v cygpath >/dev/null 2>&1; then
+    payload="$(cygpath -w "$PWD/publish/DiskCheckTW")\*"
+    outexe="$(cygpath -w "$PWD/publish/DiskCheckTW-0.1.3-setup.exe")"
+  else
+    payload="$PWD/publish/DiskCheckTW/*"
+    outexe="$PWD/publish/DiskCheckTW-0.1.3-setup.exe"
+  fi
+  makensis "-DPAYLOAD=$payload" "-DOUTEXE=$outexe" build/installer.nsi
   if command -v zip >/dev/null 2>&1; then
     (cd publish && zip -q DiskCheckTW-0.1.3-setup.zip DiskCheckTW-0.1.3-setup.exe)
   else

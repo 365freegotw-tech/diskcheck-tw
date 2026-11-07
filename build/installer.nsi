@@ -3,7 +3,14 @@
 !include "FileFunc.nsh"
 
 Name "DiskCheck TW"
-OutFile "../publish/DiskCheckTW-0.1.3-setup.exe"
+; publish.sh 以 -DPAYLOAD / -DOUTEXE 傳入原生格式的絕對路徑（Windows 上 NSIS 對相對路徑加 / 的萬用字元找不到檔案）
+!ifndef PAYLOAD
+  !define PAYLOAD "../publish/DiskCheckTW/*"
+!endif
+!ifndef OUTEXE
+  !define OUTEXE "../publish/DiskCheckTW-0.1.3-setup.exe"
+!endif
+OutFile "${OUTEXE}"
 InstallDir "$PROGRAMFILES64\DiskCheck TW"
 RequestExecutionLevel admin
 SetCompressor /SOLID lzma
@@ -25,7 +32,7 @@ Section "DiskCheck TW" SEC_MAIN
   SectionIn RO
   SetRegView 64
   SetOutPath "$INSTDIR"
-  File /r "../publish/DiskCheckTW/*"
+  File /r "${PAYLOAD}"
   WriteUninstaller "$INSTDIR\Uninstall.exe"
   WriteRegStr HKLM "Software\DiskCheck TW" "InstallDir" "$INSTDIR"
   CreateDirectory "$SMPROGRAMS\DiskCheck TW"
